@@ -75,7 +75,7 @@ function searchChange(q) {
       <div class="side-panel"></div>
       <div class="pagesizer" id="logo"> 
         <div id="header-logo"></div>
-        <p style="align-self:center;margin:0px;padding:0px;">Jump to search field with "/", append q= to pass parameter to the next site. eg. "deepq q=lto"</p>
+        <p style="align-self:center;margin:0px;padding:0px;">Jump to search field with "/", append q= to pass parameter to the next site. eg."kb q=tape" or "deepq q=tape"</p>
       </div>
       <div class="side-panel"></div>
   </div>
