@@ -1,0 +1,66 @@
+[
+  {
+    "catname": "Best Practices",
+    "cattags": ["BP"],
+    "catlinks": [
+      {
+        "title": "Veeam Backup & Replication Best Practices",
+        "link": "https://bp.veeam.com/vbr",
+        "description": "BP guide for Veeam Backup & Replication created by the Solutions Architects"
+      },
+      {
+        "title": "VCSP Best Practices guide",
+        "link": "https://bp.veeam.com/sp",
+        "description": "This guide is intended to provide best practices on the different Veeam-powered services for our Cloud & Service Providers."
+      },
+      {
+        "title":"Veeam Security Best Practices",
+        "link":"https://bp.veeam.com/security",
+        "description":"The Security of an I.T. system is a paramount requirement. No deployment of any hardware or software component can be considered complete without considering its security. Cyber Security is simply something nobody can afford to ignore."
+      },
+      {
+        "title":"Best Practice Guide for Veeam Backup for Microsoft 365",
+        "link":"https://bp.veeam.com/vb365",
+        "description":"This guide is intended to provide bp for Veeam Backup for Microsoft 365"
+      },
+      {
+        "title":"",
+        "link":"",
+        "description":""
+      }
+    ]
+  },{
+    "catname": "Calculator",
+    "catlinks": [
+      {
+        "title": "Simple Calculator",
+        "link": "https://www.veeam.com/calculators/simple/vbr/machines",
+        "description": "Simple Calculator"
+      },
+      {
+        "title": "Scenario Builder",
+        "link": "https://www.veeam.com/calculators/scenario",
+        "description": "Scenario Builder Calculator"
+      },
+      {
+        "title": "VDC",
+        "link": "https://www.veeam.com/calculators/simple/vdc",
+        "description": "VDC Calculator"
+      }
+    ]
+  },{
+   "catname": "my.veeam.com",
+   "catlinks": [
+      {
+        "title": "Downloads",
+        "link": "https://my.veeam.com/my-products",
+        "description": "My product downloads"
+      },
+      {
+        "title": "Support",
+        "link": "https://my.veeam.com/my-cases/",
+        "description": "Manage your support cases"
+      }
+   ]
+  }
+]

@@ -1,0 +1,870 @@
+[
+    {
+        "catname": "Community",
+        "catlinks": [
+            {
+                "link": "https://community.veeam.com/news-56",
+                "title": "Community News",
+                "description": "Community News"
+            },
+            {
+                "link": "https://community.veeam.com/general-information-58",
+                "title": "Community General Information",
+                "description": "Community General Information"
+            },
+            {
+                "link": "https://community.veeam.com/blogs-and-podcasts-57",
+                "title": "Community Blogs and Podcasts",
+                "description": "Community Blogs and Podcasts"
+            },
+            {
+                "link": "https://community.veeam.com/yara-and-script-library-67",
+                "title": "Community YARA and Script Library",
+                "description": "Community YARA and Script Library"
+            },
+            {
+                "link": "https://community.veeam.com/discussion-boards-66",
+                "title": "Community Discussion Boards",
+                "description": "Community Discussion Boards"
+            },
+            {
+                "link": "https://community.veeam.com/veeam-backup-replication-127",
+                "title": "Security Blueprints Veeam Backup & Replication",
+                "description": "Security Blueprints Veeam Backup & Replication"
+            },
+            {
+                "link": "https://community.veeam.com/cloud-backup-128",
+                "title": "Security Blueprints Cloud Backup ",
+                "description": "Security Blueprints Cloud Backup "
+            },
+            {
+                "link": "https://community.veeam.com/monitoring-130",
+                "title": "Security Blueprints Monitoring",
+                "description": "Security Blueprints Monitoring"
+            },
+            {
+                "link": "https://community.veeam.com/saas-131",
+                "title": "Security Blueprints SaaS",
+                "description": "Security Blueprints SaaS"
+            },
+            {
+                "link": "https://community.veeam.com/kasten-132",
+                "title": "Security Blueprints Kasten",
+                "description": "Security Blueprints Kasten"
+            },
+            {
+                "link": "https://community.veeam.com/databases-133",
+                "title": "Security Blueprints Databases",
+                "description": "Security Blueprints Databases"
+            },
+            {
+                "link": "https://community.veeam.com/alliance-vendor-150",
+                "title": "Security Blueprints Alliance Vendor",
+                "description": "Security Blueprints Alliance Vendor"
+            },
+            {
+                "link": "https://community.veeam.com/veeam-data-cloud-182",
+                "title": "Security Blueprints Veeam Data Cloud",
+                "description": "Security Blueprints Veeam Data Cloud"
+            },
+            {
+                "link": "https://community.veeam.com/self-managed-deployment-183",
+                "title": "Veeam University FREE Self-Managed Deployment",
+                "description": "Veeam University FREE Self-Managed Deployment"
+            },
+            {
+                "link": "https://community.veeam.com/veeam-hosted-services-184",
+                "title": "Veeam University FREE Veeam-Hosted Services",
+                "description": "Veeam University FREE Veeam-Hosted Services"
+            },
+            {
+                "link": "https://community.veeam.com/veeam-data-platform-fundamentals-167",
+                "title": "Veeam Technical Specialist Veeam Data Platform Fundamentals",
+                "description": "Veeam Technical Specialist Veeam Data Platform Fundamentals"
+            },
+            {
+                "link": "https://community.veeam.com/saas-protection-168",
+                "title": "Veeam Technical Specialist SaaS Protection",
+                "description": "Veeam Technical Specialist SaaS Protection"
+            },
+            {
+                "link": "https://community.veeam.com/cybersecurity-170",
+                "title": "Veeam Technical Specialist Cybersecurity",
+                "description": "Veeam Technical Specialist Cybersecurity"
+            },
+            {
+                "link": "https://community.veeam.com/public-cloud-171",
+                "title": "Veeam Technical Specialist Public Cloud",
+                "description": "Veeam Technical Specialist Public Cloud"
+            },
+            {
+                "link": "https://community.veeam.com/kubernetes-data-protection-173",
+                "title": "Veeam Technical Specialist Kubernetes Data Protection",
+                "description": "Veeam Technical Specialist Kubernetes Data Protection"
+            },
+            {
+                "link": "https://community.veeam.com/groups/vug-netherlands-27",
+                "title": "VUG Netherlands",
+                "description": "User Group VUG Netherlands"
+            },
+            {
+                "link": "https://community.veeam.com/groups/vug-united-kingdom-53",
+                "title": "VUG United Kingdom",
+                "description": "User Group VUG United Kingdom"
+            },
+            {
+                "link": "https://community.veeam.com/groups/vug-czech-republic-60",
+                "title": "VUG Czech Republic",
+                "description": "User Group VUG Czech Republic"
+            },
+            {
+                "link": "https://community.veeam.com/groups/vug-germany-61",
+                "title": "VUG Germany",
+                "description": "User Group VUG Germany"
+            },
+            {
+                "link": "https://community.veeam.com/groups/vug-canada-62",
+                "title": "VUG Canada",
+                "description": "User Group VUG Canada"
+            },
+            {
+                "link": "https://community.veeam.com/groups/vug-usa-63",
+                "title": "VUG USA",
+                "description": "User Group VUG USA"
+            },
+            {
+                "link": "https://community.veeam.com/groups/vug-brasil-65",
+                "title": "VUG Brasil",
+                "description": "User Group VUG Brasil"
+            },
+            {
+                "link": "https://community.veeam.com/groups/vug-france-72",
+                "title": "VUG France",
+                "description": "User Group VUG France"
+            },
+            {
+                "link": "https://community.veeam.com/groups/vug-denmark-73",
+                "title": "VUG Denmark",
+                "description": "User Group VUG Denmark"
+            },
+            {
+                "link": "https://community.veeam.com/groups/vug-latin-america-75",
+                "title": "VUG Latin America",
+                "description": "User Group VUG Latin America"
+            },
+            {
+                "link": "https://community.veeam.com/groups/vug-australia-and-new-zealand-76",
+                "title": "VUG Australia and New Zealand ",
+                "description": "User Group VUG Australia and New Zealand "
+            },
+            {
+                "link": "https://community.veeam.com/groups/vug-turkey-77",
+                "title": "VUG Turkey",
+                "description": "User Group VUG Turkey"
+            },
+            {
+                "link": "https://community.veeam.com/groups/vug-finland-78",
+                "title": "VUG Finland",
+                "description": "User Group VUG Finland"
+            },
+            {
+                "link": "https://community.veeam.com/groups/vug-austria-79",
+                "title": "VUG Austria",
+                "description": "User Group VUG Austria"
+            },
+            {
+                "link": "https://community.veeam.com/groups/vug-hong-kong-and-macau-81",
+                "title": "VUG Hong Kong and Macau",
+                "description": "User Group VUG Hong Kong and Macau"
+            },
+            {
+                "link": "https://community.veeam.com/groups/vug-south-east-asia-korea-82",
+                "title": "VUG South East Asia & Korea ",
+                "description": "User Group VUG South East Asia & Korea "
+            },
+            {
+                "link": "https://community.veeam.com/groups/vug-italy-84",
+                "title": "VUG Italy",
+                "description": "User Group VUG Italy"
+            },
+            {
+                "link": "https://community.veeam.com/groups/vug-china-85",
+                "title": "VUG China",
+                "description": "User Group VUG China"
+            },
+            {
+                "link": "https://community.veeam.com/groups/vug-leaders-87",
+                "title": "VUG Leaders ",
+                "description": "User Group VUG Leaders "
+            },
+            {
+                "link": "https://community.veeam.com/groups/kubernetes-korner-90",
+                "title": "Kubernetes Korner",
+                "description": "User Group Kubernetes Korner"
+            },
+            {
+                "link": "https://community.veeam.com/groups/vug-south-africa-91",
+                "title": "VUG\u00a0South Africa",
+                "description": "User Group VUG\u00a0South Africa"
+            },
+            {
+                "link": "https://community.veeam.com/groups/veeam-kasten-kubernetes-data-protection-support-92",
+                "title": "Veeam Kasten Kubernetes Data Protection Support",
+                "description": "User Group Veeam Kasten Kubernetes Data Protection Support"
+            },
+            {
+                "link": "https://community.veeam.com/groups/vug-belgium-luxembourg-93",
+                "title": "VUG Belgium & Luxembourg ",
+                "description": "User Group VUG Belgium & Luxembourg "
+            },
+            {
+                "link": "https://community.veeam.com/groups/vug-spain-94",
+                "title": "VUG Spain",
+                "description": "User Group VUG Spain"
+            },
+            {
+                "link": "https://community.veeam.com/groups/cyber-security-space-95",
+                "title": "Cyber Security Space",
+                "description": "User Group Cyber Security Space"
+            },
+            {
+                "link": "https://community.veeam.com/groups/vug-africa-french-speaking-96",
+                "title": "VUG Africa French Speaking ",
+                "description": "User Group VUG Africa French Speaking "
+            },
+            {
+                "link": "https://community.veeam.com/groups/vug-romania-98",
+                "title": "VUG Romania",
+                "description": "User Group VUG Romania"
+            },
+            {
+                "link": "https://community.veeam.com/groups/automation-desk-103",
+                "title": "Automation Desk",
+                "description": "User Group Automation Desk"
+            },
+            {
+                "link": "https://community.veeam.com/groups/vug-switzerland-104",
+                "title": "VUG Switzerland ",
+                "description": "User Group VUG Switzerland "
+            },
+            {
+                "link": "https://community.veeam.com/groups/cloud-city-107",
+                "title": "Cloud City",
+                "description": "User Group Cloud City"
+            },
+            {
+                "link": "https://community.veeam.com/groups/vug-egypt-111",
+                "title": "VUG Egypt",
+                "description": "User Group VUG Egypt"
+            },
+            {
+                "link": "https://community.veeam.com/groups/vug-slovakia-114",
+                "title": "VUG Slovakia",
+                "description": "User Group VUG Slovakia"
+            },
+            {
+                "link": "https://community.veeam.com/groups/women-and-allies-in-tech-115",
+                "title": "Women and Allies In Tech ",
+                "description": "User Group Women and Allies In Tech "
+            },
+            {
+                "link": "https://community.veeam.com/groups/vcsp-uk-i-116",
+                "title": "VCSP UK&I ",
+                "description": "User Group VCSP UK&I "
+            },
+            {
+                "link": "https://community.veeam.com/groups/veeam-hands-on-labs-118",
+                "title": "Veeam Hands-on Labs",
+                "description": "User Group Veeam Hands-on Labs"
+            },
+            {
+                "link": "https://community.veeam.com/groups/uki-technical-partner-advisory-council-tpac-119",
+                "title": " UKI Technical Partner Advisory Council (TPAC)",
+                "description": "User Group  UKI Technical Partner Advisory Council (TPAC)"
+            },
+            {
+                "link": "https://community.veeam.com/groups/vro-heroes-den-120",
+                "title": "VRO Heroes Den",
+                "description": "User Group VRO Heroes Den"
+            },
+            {
+                "link": "https://community.veeam.com/groups/vmce-study-hall-134",
+                "title": "VMCE Study Hall",
+                "description": "User Group VMCE Study Hall"
+            },
+            {
+                "link": "https://community.veeam.com/groups/vmca-study-hall-135",
+                "title": "VMCA Study Hall",
+                "description": "User Group VMCA Study Hall"
+            },
+            {
+                "link": "https://community.veeam.com/groups/veeamon-in-person-group-136",
+                "title": "VeeamON In-Person Group ",
+                "description": "User Group VeeamON In-Person Group "
+            },
+            {
+                "link": "https://community.veeam.com/groups/vcsp-na-148",
+                "title": "VCSP - NA",
+                "description": "User Group VCSP - NA"
+            },
+            {
+                "link": "https://community.veeam.com/groups/vug-india-149",
+                "title": "VUG India",
+                "description": "User Group VUG India"
+            },
+            {
+                "link": "https://community.veeam.com/groups/calculator-commons-151",
+                "title": "Calculator Commons ",
+                "description": "User Group Calculator Commons "
+            },
+            {
+                "link": "https://community.veeam.com/groups/health-check-clinic-152",
+                "title": "Health Check Clinic",
+                "description": "User Group Health Check Clinic"
+            },
+            {
+                "link": "https://community.veeam.com/groups/veeam-customer-advocacy-153",
+                "title": "Veeam Customer Advocacy ",
+                "description": "User Group Veeam Customer Advocacy "
+            },
+            {
+                "link": "https://community.veeam.com/groups/vcsp-cloud-saarc-154",
+                "title": "VCSP Cloud SAARC",
+                "description": "User Group VCSP Cloud SAARC"
+            },
+            {
+                "link": "https://community.veeam.com/groups/veeam-customer-advisory-board-157",
+                "title": "Veeam Customer Advisory Board",
+                "description": "User Group Veeam Customer Advisory Board"
+            },
+            {
+                "link": "https://community.veeam.com/groups/veeam-authorized-education-centers-159",
+                "title": "Veeam Authorized Education Centers",
+                "description": "User Group Veeam Authorized Education Centers"
+            },
+            {
+                "link": "https://community.veeam.com/groups/vug-argentina-160",
+                "title": "VUG Argentina",
+                "description": "User Group VUG Argentina"
+            },
+            {
+                "link": "https://community.veeam.com/groups/vug-ecuador-161",
+                "title": "VUG Ecuador",
+                "description": "User Group VUG Ecuador"
+            },
+            {
+                "link": "https://community.veeam.com/groups/vug-australia-public-sector-180",
+                "title": "VUG Australia Public Sector",
+                "description": "User Group VUG Australia Public Sector"
+            },
+            {
+                "link": "https://community.veeam.com/groups/vug-chile-181",
+                "title": "VUG Chile",
+                "description": "User Group VUG Chile"
+            },
+            {
+                "link": "https://community.veeam.com/groups/veeam-partner-community-germany-188",
+                "title": " Veeam Partner Community Germany",
+                "description": "User Group  Veeam Partner Community Germany"
+            },
+            {
+                "link": "https://archtonic.net/",
+                "title": "Vanguard Blog Muhammad Adel",
+                "description": "Muhammad Adel is a technology advisor with expertise in emerging technologies like IT infrastructure, virtualization, Cloud & Edge Data Infrastructure, and data protection. He has 15+ years of experience in digital transformation, with 10+ years in the FinTech industry. Adel has a Bachelor's degree in Nuclear Engineering and an MBA. He is also an AI/ML professor, National Council for Artificial Intelligence advisor, and regulator contributor to Industry Forums. ITIL, COBIT, EMCCAe, VCP, VSP, VTSP, CCA, SCSA, SCNA, vExpert.",
+                "addlinks": []
+            },
+            {
+                "link": "https://www.wcithipster.com/",
+                "title": "Vanguard Blog Zane Allyn",
+                "description": "Pure Storage Principal Technologist, vExpert, VMUG Leader and Veeam Vanguard. With 20 years in the IT field. First customer, a consultant, managed service provider,  adjunct professor and presales where I focused on backup and recovery.",
+                "addlinks": []
+            },
+            {
+                "link": "https://www.virtualhome.blog/",
+                "title": "Vanguard Falko Banaszak",
+                "description": "Falko is a Field Solutions Architect specializing in Modern Data Protection, based in Germany. Over the past decade, he has developed a strong expertise in virtualization, business continuity and disaster recovery / BCDR. He also has a keen interest in cloud and SaaS technologies and a deep passion for the \u201cstorage world\". Falko is a Veeam Vanguard a Certified Business Continuity Manager and a founder and leader of the German Veeam Usergroup.",
+                "addlinks": [
+                    {
+                        "href": "https://www.xing.com/profile/Falko_Banaszak",
+                        "text": "Xing.com"
+                    },
+                    {
+                        "href": "https://github.com/falkobanaszak",
+                        "text": "GitHub"
+                    }
+                ]
+            },
+            {
+                "link": "https://inyourcloud.fr/",
+                "title": "Vanguard Blog  Nicolas Bonnet",
+                "description": "IT Architect specializing in Veeam and Microsoft Solution. Author at Editions-ENI and Speaker in many French and European events.",
+                "addlinks": []
+            },
+            {
+                "link": "https://www.samuraj-cz.com/",
+                "title": "Vanguard Blog Petr Bou\u0161ka",
+                "description": "Head of IT department in a software development company. System and network engineer with focus on architecture, virtualization, backup and cybersecurity. He has received many certifications from Microsoft, Cisco, Fortinet and VMware. He has been publishing technical articles on the blog Samuraj-cz.com (a popular blog in the Czech Republic) for 20 years.",
+                "addlinks": [
+                    {
+                        "href": "https://www.samuraj-cz.com/",
+                        "text": "Samuraj-cz.com"
+                    },
+                    {
+                        "href": "https://www.facebook.com/samurajczcom/",
+                        "text": "Facebook"
+                    }
+                ]
+            },
+            {
+                "link": "https://geoffburkeblog.com/",
+                "title": "Vanguard Blog Geoff Burke",
+                "description": "Community Manager at Object First with 20 years experience in IT. Deep background in Backup & Replication, focusing on Automation & Kubernetes. Holds VMCE, VMCA, all of the current Kubernetes certifications, KCNA, CKAD, CKA & CKS. Guest instructor at Kasten by Veeam Kubernetes Learning site.",
+                "addlinks": []
+            },
+            {
+                "link": "https://just-virtualization.tech/",
+                "title": "Vanguard Blog Chris Childerhose",
+                "description": "Chris works for ThinkOn as an Enterprise Architect. He has a passion for technology & stays on top of the ever-evolving IT realm. He\u2019s a Veeam Vanguard 8*, Veeam Legend 4*, vExpert 6*, and VMCA/VMCE/VMCE-SP certified. He is also the author of Mastering Veeam Backup & Replication 10/11/12 by Packt Publishing.",
+                "addlinks": []
+            },
+            {
+                "link": "http://www.labbingit.com/",
+                "title": "Vanguard Blog  Justin Farrugia",
+                "description": "Justin has been working in the Australian IT industry for 20 years  He currently works as a consultant with key focus areas in Veeam, VMware and Microsoft technologies.  He currently holds VMCE, VCP-DVC/CMA and MCSE certifications.  Away from work, Justin loves watching sports and has a hobby in flight simulation.",
+                "addlinks": [
+                    {
+                        "href": "https://www.youtube.com/@labbingit",
+                        "text": "YouTube"
+                    }
+                ]
+            },
+            {
+                "link": "http://original-network.com/",
+                "title": "Vanguard Blog Christopher Gl\u00e9mot",
+                "description": "Christopher is the Chief Technologist Officer at Monaco Digital & Monaco Cyber S\u00e9curit\u00e9, responsible for strategy, sales enablement, and technical proposition development. He is passionate about innovation and team motivation, with a strong background in Cyber Security, Cyber Resilience, Hybrid Cloud, Data Management, and Data Protection. As the author behind Original-Network.com , a technology blog focused on Cybersecurity, Data Management, and Hybrid Cloud, Christopher is also a VUG Fr Leader, Veeam Vanguard (9th time in a row), and VMCE since version 7.",
+                "addlinks": [
+                    {
+                        "href": "https://original-network.com/",
+                        "text": "Original-Network.com"
+                    }
+                ]
+            },
+            {
+                "link": "https://benharmer.blog/",
+                "title": "Vanguard Blog Ben Harmer",
+                "description": "Ben is a Technical Architect at Plan B based in New Zealand. He has over 15 years of experience in the IT industry with a strong background in Data Resiliency. He has a passion for data protection, virtualization technologies and automation.",
+                "addlinks": []
+            },
+            {
+                "link": "https://markushartmann.blog/",
+                "title": "Vanguard Blog Markus Hartmann",
+                "description": "Markus is a Senior Consultant at FREICON GmbH & Co. KG and has also been running the small company 4IT GmbH with a business partner since 2021, with a pure focus on consulting in the data center sector. Working as an IT professional since 1999, he has focused on solutions from Veeam & VMware since over 15 years. He holds multiple certifications from Veeam, VMware and DELL. Veeam Certified Architect & Veeam Certified Engineer, VMware Certified Implementation Expert. Proud father of 3 children and he loves to hike with his labrador retriever.",
+                "addlinks": []
+            },
+            {
+                "link": "https://www.fullstackgeek.net/",
+                "title": "Vanguard Blog  Joe Houghes",
+                "description": "Joe is a husband, father, FullStackGeek, and Senior Solutions Architect at Pure Storage. He has 20+ years of experience across industries & verticals focused on automating us out of our IT operations.  He is a co-leader of the Denver PowerShell & VMware User Groups, vExpert, Cisco Champion, Tanzu Vanguard, vBrownBag crew, and was the #1 speaker internationally for VMUG in 2021 and 2022. You can spot him by the bright hat, big grin, and the loud \"Howdy Y'all.\".",
+                "addlinks": []
+            },
+            {
+                "link": "https://blog.workinghardinit.work/",
+                "title": "Vanguard Blog Didier Van Hoye",
+                "description": "Didier is a seasoned Technical Architect and Technology Strategist with expertise in Microsoft technologies in on-premises, hybrid, and cloud solutions. In addition, he is passionate about storage, virtualization & networking in highly available deployments requiring data protection and disaster recovery. For his community activities, he has also been recognized as a Microsoft MVP, a member of the Microsoft Extended Experts Team in Belgium, and a DELL TechCenter Rockstar.",
+                "addlinks": []
+            },
+            {
+                "link": "https://www.koolaid.info/",
+                "title": "Vanguard Jim Jones",
+                "description": "Husband, parent, geek, proud West Virginian. Cloud Architect at 11:11. Certified as a CCNA, VCP-DCV, VMCE, AWS-SAA & once upon a time a MCSE. Honored to be selected as vExpert and Inaugural Veeam Vanguard.",
+                "addlinks": []
+            },
+            {
+                "link": "https://www.checkyourlogs.net/",
+                "title": "Vanguard Blog Dave Kawula",
+                "description": "Dave Kawula is a distinguished IT professional with over 20 years of experience, specializing in Microsoft technologies, virtualization, and cloud solutions. As a Veeam Vanguard and Microsoft Most Valuable Professional (MVP), he is celebrated for his technical expertise, community involvement, and dedication to helping others. A sought-after speaker, author, and consultant, Dave shares his knowledge through conferences, publications, and online forums. His unwavering commitment to the IT community and passion for technology make him a trusted and respected figure in the ever-evolving tech landscape.",
+                "addlinks": []
+            },
+            {
+                "link": "https://kevenaar.name/",
+                "title": "Vanguard Blog Maurice Kevenaar",
+                "description": "Maurice Kevenaar is a System Engineer at INFO located in Amsterdam, NL, Package maintainer and moderator for the Chocolatey Community Repository (CCR), contributor to OSS projects. Creator of Veeam Chocolatey packages and BoxStarter scripts.",
+                "addlinks": [
+                    {
+                        "href": "https://community.chocolatey.org/profiles/mkevenaar",
+                        "text": "Chocolatey"
+                    },
+                    {
+                        "href": "https://github.com/mkevenaar",
+                        "text": "GitHub"
+                    }
+                ]
+            },
+            {
+                "link": "https://en.vmik.net/",
+                "title": "Vanguard Blog Mikhail Kisselyov",
+                "description": "Mikhail is the head of the regional IT infrastructure department at the IT Division of Kazakhtelecom JSC. In addition to managing a team of systems and network engineers, he\u00b4s focused on virtualization, storage, and backups. Holds Nutanix Certified Expert certification. He blogs at https://en.vmik.net and participates in the community programs Nutanix Technology Champion, VMware vExpert, and Veeam Vanguard.",
+                "addlinks": []
+            },
+            {
+                "link": "https://disaster-und-recovery.de/",
+                "title": "Vanguard Blog Lukas Klostermann",
+                "description": "Lukas is a Senior Consultant for Backup & Disaster Recovery based in Germany. He has years of experience in virtualization, business continuity (BCDR) and IT security. Over the past decade he has attended a Certified Ethical Hacking (CEH) class and has a focus on hardened designs and DR strategies according to current security and compliance requirements. He is also a leader of the Veeam Cyber Security Space Usergroup.Outside of Veeam he is a private pilot, aspiring flight instructor and as a focus on music and video games.",
+                "addlinks": [
+                    {
+                        "href": "https://community.veeam.com/members/dynamic-15704",
+                        "text": "G"
+                    },
+                    {
+                        "href": "https://github.com/lukas-kl",
+                        "text": "itHub"
+                    }
+                ]
+            },
+            {
+                "link": "",
+                "title": "Vanguard Blog Dean Lewis",
+                "description": "Senior Technical Marketing Engineer at Isovalent. Enthusiastic about cloud native and data management. Occasionally blogs @veducate.co.uk.",
+                "addlinks": []
+            },
+            {
+                "link": "https://www.technotesanddadjokes.com/",
+                "title": "Vanguard Blog Derek Loseke",
+                "description": "Derek is a Senior Systems Engineer at Kidwell Technologies in Omaha, Nebraska focusing on SMB\u2019s after spending several years as a private cloud service provider.  With over 20 years of IT experience, he is VCP6-DCV and CCNA certified with a focus on Data Protection and Business Continuity, Virtualization, Infrastructure and Cloud Services.  Derek was a Veeam Legend for two years prior to joining the Veeam Vanguard program.",
+                "addlinks": [
+                    {
+                        "href": "https://www.youtube.com/@technotesanddadjokes",
+                        "text": "YouTube"
+                    },
+                    {
+                        "href": "https://www.github.com/derekloseke",
+                        "text": "Github"
+                    }
+                ]
+            },
+            {
+                "link": "https://it2grow.nl/",
+                "title": "Vanguard Blog Jos Maliepaard",
+                "description": "Jos is a consultant working for Nextstep24 in the Netherlands. He fills the days with advice, designing and implementing Data Protection, Business Continuity, and VMware solutions. VMware VCP-DCV, VMCE + VMCA, NL VUG Leader.",
+                "addlinks": []
+            },
+            {
+                "link": "https://vinfrastructure.it/",
+                "title": "Vanguard Blog Andrea Mauro",
+                "description": "IT Architect on virtualization, cloud, storage technologies. VMUG IT Co-Founder and board member. Certifications: VCDX-DCV,VCAP-*,VCP-*, MCSA,MCSE,MCITP,CCA,NPP Accreditation: vExpert 2010-2023, NTC, Vanguard. Blogger on vinfrastructure.it.",
+                "addlinks": []
+            },
+            {
+                "link": "https://jonahmay.net/blog/",
+                "title": "Vanguard Blog Jonah May",
+                "description": "Jonah is a distinguished Product Architect and Engineering Manager at CyberFortress, a Platinum VCSP celebrated for its innovative tech solutions. At CyberFortress, he leverages his extensive expertise to oversee Veeam product offerings and marketing initiatives, supported by industry-recognized certifications including ITIL 4 Foundations, VMCE, and VMCA. As a Veeam Certified Architect and a five-time Veeam Vanguard, Jonah has established himself as a visionary leader in the tech community. Notably, he was an inaugural Object First Ace and is now in his second year in the program, further demonstrating his commitment to excellence. He also spearheads the Texas and Automation Desk Veeam User Groups, serves as an Object First Aces Group Leader, and co-founded the Veeam Community Hackathon. Beyond his professional achievements, Jonah dedicates his time to community service as a Scout leader for Troop 254 where he earned his Eagle Scout as a youth.",
+                "addlinks": [
+                    {
+                        "href": "https://twitter.com/JonahMayRocks",
+                        "text": "B"
+                    },
+                    {
+                        "href": "https://bsky.app/profile/jonahmay.net",
+                        "text": "luesky"
+                    },
+                    {
+                        "href": "https://github.com/JonahMMay",
+                        "text": "GitHub"
+                    }
+                ]
+            },
+            {
+                "link": "https://julien.io/",
+                "title": "Vanguard Blog Julien Mousqueton",
+                "description": "Chief Technologist @ Computacenter with over 20 years experience as solution architect focusing on virtualisation and automation technologies. vExpert since the first date. When I'm not working, you may find me on a rugby field.",
+                "addlinks": []
+            },
+            {
+                "link": "https://tdsn.com.br/",
+                "title": "Vanguard Blog Thiago dos Santos Nunes",
+                "description": "Thiago is a CTO of MGDATA, partner VASP VEEAM working with Fortune 500 companies. With more than 30 certifications such as VMCA, VMCE, MCSE & VCP. He is Data Protection enthusiast, leader of the Brazil Veeam User Group. He is Catholic, in love with his wife.",
+                "addlinks": []
+            },
+            {
+                "link": "https://www.provirtualzone.com/",
+                "title": "Vanguard Blog Luciano Patrao",
+                "description": "Working with Virtualization for more than 15+ years (mainly VMware). vExpert last 8 years. Specialties, Virtualization, Storage, and Backups. Solutions Architect in VMware, Cloud, and Backup / Storage areas. Working for ITQ, a VMware partner, as a Senior Consultant. VCP-DCV, VCAP-DCV Design 2023.",
+                "addlinks": []
+            },
+            {
+                "link": "https://pulia.com.br/",
+                "title": "Vanguard Blog Andre Pulia",
+                "description": "I have been working in the IT industry since 1984 with IBM Mainframe (VM/VSE). Since 2000, I have worked as a technical trainer and consultant for manufacturers Veeam, HPE, Nutanix and VMware, responsible for delivering more than 30 courses, including VMCE and VMCA. I received recognition from Veeam as the best trainer of Americas in 2023.",
+                "addlinks": [
+                    {
+                        "href": "https://www.youtube.com/@andrepulia",
+                        "text": "YouTube"
+                    }
+                ]
+            },
+            {
+                "link": "http://www.snurf.co.uk/",
+                "title": "Vanguard Blog Ian Sanderson",
+                "description": "Product Manager at 11:11. Over 15 years experience in the IT industry with a focus on virtualization, EUC, backups & disaster recovery and security technologies.",
+                "addlinks": []
+            },
+            {
+                "link": "https://explainit.com.br/",
+                "title": "Vanguard Blog Joaquim Santos",
+                "description": "Joaquim is an IT Solutions Architect with over 15 years of experience. He loves hardware, virtualization, and backup. It dedicates every possible effort to promote and ensure the IT communities are continually growing. He is also a blogger, VMUG Leader, vExpert, and Veeam Vanguard.",
+                "addlinks": [
+                    {
+                        "href": "http://t.me/JoaquimSantos",
+                        "text": "T"
+                    },
+                    {
+                        "href": "http://t.me/JoaquimSantos",
+                        "text": "elegram"
+                    }
+                ]
+            },
+            {
+                "link": "https://www.vladan.fr/",
+                "title": "Vanguard Blog Vldan Seget",
+                "description": "IT and Virtualization consultant, owner of vladan.fr - ESX Virtualization - one of the top independent virtualization blogs. VCAP-DCA/DCD, VCP.",
+                "addlinks": [
+                    {
+                        "href": "https://www.facebook.com/ESXVirtualization/",
+                        "text": "Facebook"
+                    }
+                ]
+            },
+            {
+                "link": "https://readysetvirtual.com/",
+                "title": "Vanguard Blog Keiran Shelden",
+                "description": "Keiran is an Infrastructure Engineer with REDD based in Australia. He has over 18 years experience in the IT industry starting out in education through to the Service Provider space. Keiran has a keen interest in backup and virtualization. Keiran is an 11 year vExpert and Veeam Vanguard.",
+                "addlinks": []
+            },
+            {
+                "link": "https://medium.com/@ec.desouza",
+                "title": "Vanguard Blog Elizabeth Souza",
+                "description": "I am an IT infrastructure analyst with over 20 years of experience. I design and manage IT solutions. I have been engaging and sharing knowledge in the IT communities always seeking to motivate more people to participate in these communities. I am VMUG Leader, vExpert, vExpert Cloud Management, Veeam Vanguard and AZ-900 Certified.",
+                "addlinks": []
+            },
+            {
+                "link": "https://petersvirtualworld.de/",
+                "title": "Vanguard Blog Peter Steffan",
+                "description": "Peter is a Systems Engineer working at SVA GmbH based in Germany with over 10 years of experience. He has a strong focus on data backup and recovery, virtualization and storage systems. Veeam VMCE/VMCA, VMware VCP-DCV.",
+                "addlinks": []
+            },
+            {
+                "link": "https://nicostein.com/",
+                "title": "Vanguard Blog Nico Stein",
+                "description": "He is also a VMUG leader (retired), VUG Leader, Cisco Champion, vExpert and Object First Ace.",
+                "addlinks": []
+            },
+            {
+                "link": "https://www.checkyourlogs.net/author/carysun/",
+                "title": "Vanguard Blog Cary Sun",
+                "description": "Cary is a Principal Consultant with strong background in datacenter & deployment solutions, spent over 25 years in planning, design & implementation of network technologies, management & system integration. Holds CISCO CERTIFIED INTERNETWORK EXPERT (CCIE No.4531) from 1999, also a Microsoft MVP.",
+                "addlinks": []
+            },
+            {
+                "link": "https://bcthomas.com/",
+                "title": "Vanguard Blog Ben Thomas",
+                "description": "Ben works for Datacom in New Zealand as a Solutions Advisor with over 11 years experience. He has a passion for automation, data protection, virtualization, and cloud technologies. He is an active member of the community and has been a Microsoft MVP since 2018.",
+                "addlinks": []
+            },
+            {
+                "link": "https://nolabnoparty.com/",
+                "title": "Vanguard Blog Paolo Valsecchi",
+                "description": "System Engineer focusing on Virtualization, VDI and Data Protection. Co-Author, VCP-DCV, VCP-DM, VMCA/VMCE, vExpert, Veeam Vanguard.",
+                "addlinks": [
+                    {
+                        "href": "https://www.youtube.com/@ittechpills",
+                        "text": "YouTube"
+                    }
+                ]
+            },
+            {
+                "link": "https://wuchikin.wordpress.com/",
+                "title": "Vanguard Blog Victor Wu",
+                "description": "Chief Architect | VMCA/VMCE | VCIX-DCV | VxRail Specialist | Author | Blogger | vExpert (2014-2025). With over 16 years of expertise in system infrastructure, I specialize in storage, virtualization, active-active data centers, data protection, and hyper-converged infrastructure (HCI) solutions, among other key areas of focus.",
+                "addlinks": [
+                    {
+                        "href": "https://www.youtube.com/channel/UCaZddUU6Zbldg5crGtLRynw",
+                        "text": "YouTube"
+                    }
+                ]
+            },
+            {
+                "link": "https://penseemti.com.br/",
+                "title": "Vanguard Blog Mateus Wolff",
+                "description": "Mateus is a backup solution architect working with technology since 2011. He is a backup specialist working on Populos. He loves tech communities. So, he is a Veeam Vanguard and former Legend, as well as VUG leader on Brazil. Mateus also blogs regularly about backup, virtualization, data center and security solutions on your own web site and Veeam Community.",
+                "addlinks": []
+            },
+            {
+                "link": "https://homelabpro.xyz/",
+                "title": "MVP Blog Andre Atkinson",
+                "description": "Solution Architect covering ANZ based in Perth, WA, specializing in storage, backups, and automation. Veeam Certified Architect with a focus on Kubernetes and automation for streamlined operations.",
+                "addlinks": []
+            },
+            {
+                "link": "https://github.com/tfewins",
+                "title": "MVP Tyson Fewins",
+                "description": "Tyson Fewins is a Vault Solution Engineer at Veeam Software, based in Ohio. He specializes in Microsoft Azure and AWS cloud technologies, with a strong focus on backup and disaster recovery solutions. Tyson has a proven track record in collaborating with customers and partners to achieve their business objectives by leveraging Veeam's data protection capabilities.",
+                "addlinks": []
+            },
+            {
+                "link": "https://www.sysadminstories.com/",
+                "title": "MVP Blog Razvan Ionescu",
+                "description": "Principal Technical Trainer for EMEA. With over 20 years of IT experience, Razvan has been in different roles from pre-sales to professional services, now returned to his first passion: teaching. In this role he is both sharing the knowledge, as well as creating content for new classes with a bias towards automation and cloud. He holds several IT certifications and he is also a vExpert and VMUG leader.",
+                "addlinks": []
+            },
+            {
+                "link": "http://www.veeamclick.be/",
+                "title": "MVP  Stijn Marivoet",
+                "description": "Stijn is a system engineer based in Belgium, covering Belgium-Luxembourg. He has a strong focus on end-user based problems and therefore also solutions. He loves having an audience and is fan of events. For assisting more partners then he could handle he started to promote his www.veeamclick.be website.",
+                "addlinks": []
+            },
+            {
+                "link": "https://itproland.com.br/",
+                "title": "MVP Blog Wesley Martins",
+                "description": "Wesley has more than 15 years of experience working with IT. He is now part of the Support Team in Veeam, focused on Public Cloud products. He has a blog where he writes about Veeam, VMware and Public Cloud.",
+                "addlinks": []
+            },
+            {
+                "link": "https://www.youtube.com/@TechTalksinthecloud",
+                "title": "MVP Brandon McCoy",
+                "description": "Brandon is a systems engineer, advisor who specializes in educating VCSPs to deliver Veeam-powered Baas/DRaaS offerings. He has been at Veeam for 8 years and is also a content creator with a Veeam how-to channel Quick & Nerdy . As the token rapper for Veeam Software, Brandon opened the 2025 Global Keynote in Las Vegas with a Veeam rap. In his free time, he enjoys martial arts, yoga, and his two brindle Pit bulls. Certifications include VMCA, VCP, and Azure.",
+                "addlinks": [
+                    {
+                        "href": "https://www.youtube.com/@TechTalksinthecloud",
+                        "text": "Youtube"
+                    }
+                ]
+            },
+            {
+                "link": "https://michaelpaul.cloud",
+                "title": "MVP Blog Michael Paul",
+                "description": "Michael is a Solution Engineer supporting Veeam Data Cloud M365 & Entra ID across EMEA. Michael joined Veeam in 2024 after amassing over a decade of experience working with Veeam\u2019s products as an architect, consultant, and service provider. Prior to joining Veeam, Michael co-led the Cloud City thematic Veeam User Group, and the UK Veeam User Group, and still enjoys contributing to the wider community, whether blogging or speaking at events.",
+                "addlinks": []
+            },
+            {
+                "link": "https://www.youtube.com/@arnaud.quenum",
+                "title": "MVP Arnaud Quenum",
+                "description": "A Principal System Engineer and Technical Advisor at Veeam since 2015, Arnaud advises partners and customers across 20+ countries in French-speaking Africa. A specialist in resilient data protection, he helps partners and customers strengthen their data resilience and build effective data protection strategies. With over 15 years of IT experience and a background as a VMware trainer, he focuses on simplifying backup, recovery, and security challenges. Passionate about knowledge sharing, he also creates educational content on Veeam technologies on his YouTube channel: https://www.youtube.com/@arnaud.quenum . Outside of work, he enjoys flight simulation and table tennis.",
+                "addlinks": [
+                    {
+                        "href": "https://www.youtube.com/@arnaud.quenum",
+                        "text": "YouTube"
+                    }
+                ]
+            },
+            {
+                "link": "https://mytechnugget.com/",
+                "title": "MVP Blog Youssef Salem",
+                "description": "Youssef, an Egyptian Advisory Systems Engineer, has been part of the Veeam team in Saudi Arabia for three years. With over fifteen years of experience in the IT industry, he has a robust background in Microsoft products (Exchange, SharePoint, Lync), Virtualization (VMware, Nutanix, Citrix), Databases and networking, Veritas, Commvault, Linux, SAP ERP systems, AI, and DevOps technologies. He is also skilled in hardware systems such as Tapes, Storage, and Servers. Youssef's passion for computers and systems began early, with Doom, SKY, and Prince being his favorite games. He built his first PC at the age of six. He believes IT is a service that helps people improve their lives.  In his leisure time, Youssef enjoys playing video games and cooking with his two daughters.",
+                "addlinks": [
+                    {
+                        "href": "https://github.com/youssefsalemm",
+                        "text": "GitHub"
+                    }
+                ]
+            },
+            {
+                "link": "http://blog.backupnext.cloud/",
+                "title": "MVP Blog Lei Wei",
+                "description": "Technical expert with 20 years of experience in the IT industry, hold several certifications from VMware, AWS and CNCF. VMware vExpert 2020-2023, blogger at blog.backupnext.cloud and book author.",
+                "addlinks": []
+            },
+            {
+                "link": "https://github.com/skitch210",
+                "title": "MVP Marty Williams",
+                "description": "Marty Williams is a Veeam Senior Solution Architect for VCSP with many years of experience in DR from physical x86, AIX, iSeries/AS400. He helps Veeam Cloud & Service Provider (VCSP) partners configure and optimize their Veeam-powered solutions. Prior to Veeam, he was a Cloud and Senior Sales Engineer at a DR and managed hosting Service Provider where he developed cloud service offerings for complex, multi-platform data center Disaster Recovery for their business. Marty currently lives in PA and enjoys playing drums and water sports.",
+                "addlinks": []
+            },
+            {
+                "link": "https://geoffburkeblog.com/",
+                "title": "Veeam Legend Blog Geoff Burke",
+                "description": "First Intake. Community Manager at Object First with 20 years experience in IT. Deep background in Backup & Replication, focusing on Automation & Kubernetes. Holds VMCE, VMCA, all of the current Kubernetes certifications, KCNA, CKAD, CKA & CKS. Guest instructor at Kasten by Veeam Kubernetes Learning site.",
+                "addlinks": [
+                    {
+                        "href": "https://kubecampus.io/kubernetes/instructors/",
+                        "text": "KubeCampus"
+                    }
+                ]
+            },
+            {
+                "link": "https://just-virtualization.tech/",
+                "title": "Veeam Legend Blog Chris Childerhose",
+                "description": "Chris works for ThinkOn as an Enterprise Architect. He has a passion for technology & stays on top of the ever-evolving IT realm. He\u2019s a Veeam Vanguard 8*, Veeam Legend 4*, vExpert 6*, and VMCA/VMCE/VMCE-SP certified. He is also the author of Mastering Veeam Backup & Replication 10/11/12 by Packt Publishing.",
+                "addlinks": []
+            },
+            {
+                "link": "https://www.andanet.cloud/",
+                "title": "Veeam Legend Blog Antonio D'Andrea",
+                "description": "Antonio is a Senior Backup Engineer and has more than 25 years IT experience. Now works to design and implementation of backup and disaster recovery infrastructure. his experience has allowed him to deepen various arguments as virtualization, sysadmin, storage and BC/DR. He is a Veeam Legend and VUG Leader for Italy.",
+                "addlinks": []
+            },
+            {
+                "link": "https://techdirectarchive.com/",
+                "title": "Veeam Legend Blog Christian Eromosele",
+                "description": "Experienced IT Infrastructure Professional and founder of TechDirectArchive! In addition to his passion for sharing knowledge and engaging with the community, he has a significant record of achievement in Technology/Project Delivery, Operations Management, and IT Service Management. He is a Microsoft MVP, Object First Ace, vExpert, and Cisco Champion.",
+                "addlinks": []
+            },
+            {
+                "link": "http://techdirectarchive.com",
+                "title": "Veeam Legend Blog Matheus Giuliano Giovanini",
+                "description": "Second Intake. I\u2019m a Data Protection Specialist at Proativa, in IT since 2017, mainly focusing on backup and recovery with Veeam. I also work with hypervisors and cloud technologies, which helps me create solid and integrated data protection strategies for complex environments. These days, I manage backup operations for big clients across Brazil. I enjoy helping people, learning new things, and sharing knowledge, always looking to contribute to the Veeam Community and keep growing professionally.",
+                "addlinks": [
+                    {
+                        "href": "https://github.com/matheusggiovanini",
+                        "text": "GitHub"
+                    }
+                ]
+            },
+            {
+                "link": "https://www.dipen.co.uk/",
+                "title": "Veeam Legend Blog Dipen Kumar",
+                "description": "First Intake. An IT Infrastructure Engineer with over 10 years experience in the IT Industry. A Veeam Legend currently based in London and the South East of England with a strong focus on Cloud technologies, data backup and recovery, and Security Operations. \"I'm a massive fan of the Veeam Community. There is no other one like it!\".",
+                "addlinks": []
+            },
+            {
+                "link": "https://www.sczepanski.com.br/",
+                "title": "Veeam Legend Blog Jean Sczepanski Peres",
+                "description": "Jean works at by Seven as a Data Protection Architect, supporting pre-sales and technical leadership areas in Santa Catarina, Brazil. Certified in AWS, he also has experience in the FinOps field. He presented successful cases he personally architected and represented VUG Leaders at VeeamON '23 and '24. Fascinated by technology journeys, he is certified in VMCE V9 & V12 and VMCA V12.",
+                "addlinks": [
+                    {
+                        "href": "https://www.youtube.com/@jeansczepanskiperes",
+                        "text": "YouTube"
+                    }
+                ]
+            },
+            {
+                "link": "https://estebanprieto.home.blog/",
+                "title": "Veeam Legend Blog Esteban\u00a0Prieto",
+                "description": "Second Intake. Senior Account Solution Architect at Red Hat, with over 20 years of experience in virtualization, cloud, and digital transformation technologies. Passionate about virtualization.",
+                "addlinks": []
+            },
+            {
+                "link": "https://pulia.com.br/",
+                "title": "Veeam Legend Blog Andre Pulia",
+                "description": "First Intake. I have been working in the IT industry since 1984 with IBM Mainframe (VM/VSE). Since 2000, I have worked as a technical trainer and consultant for manufacturers Veeam, HPE, Nutanix and VMware, responsible for delivering more than 30 courses, including VMCE and VMCA. I received recognition from Veeam as the best trainer of Americas in 2023.",
+                "addlinks": [
+                    {
+                        "href": "https://www.youtube.com/@andrepulia",
+                        "text": "YouTube"
+                    }
+                ]
+            },
+            {
+                "link": "https://blog.tinivelli.com/",
+                "title": "Veeam Legend Blog Alessandro Tinivelli",
+                "description": "System and network administrator since the early days of \"the new economy\" (2000), lover of virtualization and of Veeam since ten years ago. Alessandro like to learn, share and teach. He has has been working in different business. Currently employed as consultant, based in Bologna and Rome, Italy.",
+                "addlinks": []
+            },
+            {
+                "link": "https://www.google.com/search?q=site%3Acommunity.veeam.com",
+                "title": "Deepquery community",
+                "description": "Search directly google in veeam domain by adding q=",
+                "deepquery": "https://www.google.com/search?q=site%3Acommunity.veeam.com+$deepquery$"
+            }
+        ]
+    }
+]

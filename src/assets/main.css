@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+:root {
+  --white: #efefef;
+  --black: #222222;
+  --light-cyan: hsla(187, 100%, 91%, 1);
+  --light-blue: hsla(196, 59%, 75%, 1);
+  --air-force-blue: hsla(208, 30%, 55%, 1);
+  --jungle-green: hsla(141, 31%, 50%, 1);
+  --turf-green: hsla(151, 69%, 26%, 1);
+  --pagesize: 62rem;
+}
+
+:root {
+  --color-background: var(--white);
+  --color-text: var(--black);
+  --blue: var(--air-force-blue);
+  --green: var(--turf-green);
+  --altgreen: var(--jungle-green);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --color-background: var(--black);
+    --color-text: var(--white);
+    --blue: var(--light-blue);
+    --green: var(--jungle-green);
+    --altgreen: var(--turf-green);
+  }
+}
+
+
+body {
+  overflow-y: scroll;
+  padding: 0px;
+  margin: 0px;
+  min-height: 100vh;
+  color: var(--color-text);
+  background: var(--color-background);
+  font-family: Poppins, sans-serif;
+  font-size: 1rem;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+#master {
+  display:flex
+}
+
+h1,h2,h3,h4,h5,h6 {
+  margin: 0px;
+  padding: 0px;
+}
+input {
+  border-radius:0.2rem;
+  margin-top:0.2rem;
+  border: solid 0.15rem var(--green);
+  color: var(--color-text);
+  background: var(--color-background);
+}
+a {
+  color: var(--green);
+}
+body {
+  padding: 0px;
+  margin: 0px;
+  min-height: 100vh;
+  color: var(--color-text);
+  background: var(--color-background);
+  font-family: Poppins, sans-serif;
+  font-size: 1rem;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+h1,h2,h3,h4,h5,h6 {
+  margin: 0px;
+  padding: 0px;
+}
+input {
+  border-radius:0.2rem;
+  margin-top:0.2rem;
+  border: solid 0.15rem var(--green);
+  color: var(--color-text);
+  background: var(--color-background);
+}
+a {
+  color: var(--green);
+}

@@ -1,0 +1,160 @@
+[
+    {
+        "catname": "Knowledge Base",
+        "cattags": [
+            "kb"
+        ],
+        "catlinks": [
+            {
+                "description": "Knowledge Base for Veeam Data Platform - VDPP",
+                "title": "Veeam Data Platform",
+                "link": "https://www.veeam.com/knowledge-base.html?product=VDPP",
+                "deepquery": "https://www.veeam.com/knowledge-base.html?product=VDPP&search=$deepquery$"
+            },
+            {
+                "description": "Knowledge Base for Veeam Backup & Replication - VBR",
+                "title": "Veeam Backup & Replication",
+                "link": "https://www.veeam.com/knowledge-base.html?product=VBR",
+                "deepquery": "https://www.veeam.com/knowledge-base.html?product=VBR&search=$deepquery$"
+            },
+            {
+                "description": "Knowledge Base for Veeam Data Cloud\nfor Microsoft 365 - VDC365",
+                "title": "Veeam Data Cloud\nfor Microsoft 365",
+                "link": "https://www.veeam.com/knowledge-base.html?product=VDC365",
+                "deepquery": "https://www.veeam.com/knowledge-base.html?product=VDC365&search=$deepquery$"
+            },
+            {
+                "description": "Knowledge Base for Veeam Data Cloud for Microsoft Azure - VDCA",
+                "title": "Veeam Data Cloud for Microsoft Azure",
+                "link": "https://www.veeam.com/knowledge-base.html?product=VDCA",
+                "deepquery": "https://www.veeam.com/knowledge-base.html?product=VDCA&search=$deepquery$"
+            },
+            {
+                "description": "Knowledge Base for Veeam Backup for Microsoft 365 - VBO",
+                "title": "Veeam Backup for Microsoft 365",
+                "link": "https://www.veeam.com/knowledge-base.html?product=VBO",
+                "deepquery": "https://www.veeam.com/knowledge-base.html?product=VBO&search=$deepquery$"
+            },
+            {
+                "description": "Knowledge Base for Veeam Backup for Microsoft Entra ID - VBMEID",
+                "title": "Veeam Backup for Microsoft Entra ID",
+                "link": "https://www.veeam.com/knowledge-base.html?product=VBMEID",
+                "deepquery": "https://www.veeam.com/knowledge-base.html?product=VBMEID&search=$deepquery$"
+            },
+            {
+                "description": "Knowledge Base for Veeam Backup for Salesforce - VBSF",
+                "title": "Veeam Backup for Salesforce",
+                "link": "https://www.veeam.com/knowledge-base.html?product=VBSF",
+                "deepquery": "https://www.veeam.com/knowledge-base.html?product=VBSF&search=$deepquery$"
+            },
+            {
+                "description": "Knowledge Base for Veeam ONE - ONE",
+                "title": "Veeam ONE",
+                "link": "https://www.veeam.com/knowledge-base.html?product=ONE",
+                "deepquery": "https://www.veeam.com/knowledge-base.html?product=ONE&search=$deepquery$"
+            },
+            {
+                "description": "Knowledge Base for Veeam Service Provider Console - VAC",
+                "title": "Veeam Service Provider Console",
+                "link": "https://www.veeam.com/knowledge-base.html?product=VAC",
+                "deepquery": "https://www.veeam.com/knowledge-base.html?product=VAC&search=$deepquery$"
+            },
+            {
+                "description": "Knowledge Base for Veeam Agent for Microsoft Windows - VAW",
+                "title": "Veeam Agent for Microsoft Windows",
+                "link": "https://www.veeam.com/knowledge-base.html?product=VAW",
+                "deepquery": "https://www.veeam.com/knowledge-base.html?product=VAW&search=$deepquery$"
+            },
+            {
+                "description": "Knowledge Base for Veeam Agent for Linux - VAL",
+                "title": "Veeam Agent for Linux",
+                "link": "https://www.veeam.com/knowledge-base.html?product=VAL",
+                "deepquery": "https://www.veeam.com/knowledge-base.html?product=VAL&search=$deepquery$"
+            },
+            {
+                "description": "Knowledge Base for Veeam Backup for Nutanix AHV - VAN",
+                "title": "Veeam Backup for Nutanix AHV",
+                "link": "https://www.veeam.com/knowledge-base.html?product=VAN",
+                "deepquery": "https://www.veeam.com/knowledge-base.html?product=VAN&search=$deepquery$"
+            },
+            {
+                "description": "Knowledge Base for Veeam Backup for AWS - VBAWS",
+                "title": "Veeam Backup for AWS",
+                "link": "https://www.veeam.com/knowledge-base.html?product=VBAWS",
+                "deepquery": "https://www.veeam.com/knowledge-base.html?product=VBAWS&search=$deepquery$"
+            },
+            {
+                "description": "Knowledge Base for Veeam Backup for Microsoft Azure - VBMA",
+                "title": "Veeam Backup for Microsoft Azure",
+                "link": "https://www.veeam.com/knowledge-base.html?product=VBMA",
+                "deepquery": "https://www.veeam.com/knowledge-base.html?product=VBMA&search=$deepquery$"
+            },
+            {
+                "description": "Knowledge Base for Veeam Backup for Google Cloud - VBGCP",
+                "title": "Veeam Backup for Google Cloud",
+                "link": "https://www.veeam.com/knowledge-base.html?product=VBGCP",
+                "deepquery": "https://www.veeam.com/knowledge-base.html?product=VBGCP&search=$deepquery$"
+            },
+            {
+                "description": "Knowledge Base for Veeam Backup for Oracle Linux Virtualization Manager and Red Hat Virtualization - VBRHV",
+                "title": "Veeam Backup for Oracle Linux Virtualization Manager and Red Hat Virtualization",
+                "link": "https://www.veeam.com/knowledge-base.html?product=VBRHV",
+                "deepquery": "https://www.veeam.com/knowledge-base.html?product=VBRHV&search=$deepquery$"
+            },
+            {
+                "description": "Knowledge Base for Veeam Management Pack for Microsoft System Center - VMP",
+                "title": "Veeam Management Pack for Microsoft System Center",
+                "link": "https://www.veeam.com/knowledge-base.html?product=VMP",
+                "deepquery": "https://www.veeam.com/knowledge-base.html?product=VMP&search=$deepquery$"
+            },
+            {
+                "description": "Knowledge Base for Veeam Recovery Orchestrator - VAO",
+                "title": "Veeam Recovery Orchestrator",
+                "link": "https://www.veeam.com/knowledge-base.html?product=VAO",
+                "deepquery": "https://www.veeam.com/knowledge-base.html?product=VAO&search=$deepquery$"
+            },
+            {
+                "description": "Knowledge Base for Veeam Agent for Mac - VAM",
+                "title": "Veeam Agent for Mac",
+                "link": "https://www.veeam.com/knowledge-base.html?product=VAM",
+                "deepquery": "https://www.veeam.com/knowledge-base.html?product=VAM&search=$deepquery$"
+            },
+            {
+                "description": "Knowledge Base for Veeam Agent for IBM AIX - VAIX",
+                "title": "Veeam Agent for IBM AIX",
+                "link": "https://www.veeam.com/knowledge-base.html?product=VAIX",
+                "deepquery": "https://www.veeam.com/knowledge-base.html?product=VAIX&search=$deepquery$"
+            },
+            {
+                "description": "Knowledge Base for Veeam Agent for Oracle Solaris - VAOS",
+                "title": "Veeam Agent for Oracle Solaris",
+                "link": "https://www.veeam.com/knowledge-base.html?product=VAOS",
+                "deepquery": "https://www.veeam.com/knowledge-base.html?product=VAOS&search=$deepquery$"
+            },
+            {
+                "description": "Knowledge Base for Veeam Cloud Connect - cloud-connect",
+                "title": "Veeam Cloud Connect",
+                "link": "https://www.veeam.com/knowledge-base.html?product=cloud-connect",
+                "deepquery": "https://www.veeam.com/knowledge-base.html?product=cloud-connect&search=$deepquery$"
+            },
+            {
+                "description": "Knowledge Base for Veeam Kasten for Kubernetes - KASTEN",
+                "title": "Veeam Kasten for Kubernetes",
+                "link": "https://www.veeam.com/knowledge-base.html?product=KASTEN",
+                "deepquery": "https://www.veeam.com/knowledge-base.html?product=KASTEN&search=$deepquery$"
+            },
+            {
+                "description": "Knowledge Base for Veeam Plug-In for Proxmox VE - PRMXVE",
+                "title": "Veeam Plug-In for Proxmox VE",
+                "link": "https://www.veeam.com/knowledge-base.html?product=PRMXVE",
+                "deepquery": "https://www.veeam.com/knowledge-base.html?product=PRMXVE&search=$deepquery$"
+            },
+            {
+                "link": "https://www.google.com/search?q=site%3Aveeam.com+%22KB+ID%22",
+                "title": "Deepquery kb article",
+                "description": "Search directly google in veeam domain by adding q=",
+                "deepquery": "https://www.google.com/search?q=site%3Aveeam.com+%22KB+ID%22+$deepquery$"
+            }
+        ]
+    }
+]

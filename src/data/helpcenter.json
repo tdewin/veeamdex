@@ -1,0 +1,888 @@
+[
+    {
+        "catname": "Helpcenter",
+        "catlinks": [
+            {
+                "link": "https://www.veeam.com/veeam_data_platform_product_overview_ds.pdf",
+                "title": "Product Overview",
+                "description": "Helpcenter link to Product Overview for product Veeam Data Platform Advanced in format pdf of type Datasheets"
+            },
+            {
+                "link": "https://www.veeam.com/veeam_data_platform_essentials_product_overview_ds.pdf",
+                "title": "Product Overview",
+                "description": "Helpcenter link to Product Overview for product Veeam Data Platform Essentials in format pdf of type Datasheets"
+            },
+            {
+                "link": "https://helpcenter.veeam.com/docs/vbr/userguide/overview.html?ver=13",
+                "title": "User Guide",
+                "description": "Helpcenter link to User Guide for product Veeam Backup & Replication in format html of type Product guides"
+            },
+            {
+                "link": "https://www.veeam.com/veeam_backup_13_user_guide_pg.pdf",
+                "title": "User Guide",
+                "description": "Helpcenter link to User Guide for product Veeam Backup & Replication in format pdf of type Product guides"
+            },
+            {
+                "link": "https://helpcenter.veeam.com/docs/vbahv/userguide/",
+                "title": "Veeam Plug-in for Nutanix AHV User Guide",
+                "description": "Helpcenter link to Veeam Plug-in for Nutanix AHV User Guide for product Veeam Backup & Replication in format html of type Product guides"
+            },
+            {
+                "link": "https://www.veeam.com/veeam_plugin_nutanix_ahv_9_user_guide_pg.pdf",
+                "title": "Veeam Plug-in for Nutanix AHV User Guide",
+                "description": "Helpcenter link to Veeam Plug-in for Nutanix AHV User Guide for product Veeam Backup & Replication in format pdf of type Product guides"
+            },
+            {
+                "link": "https://helpcenter.veeam.com/docs/vbproxmoxve/userguide/",
+                "title": "Veeam Plug-in for Proxmox VE User Guide",
+                "description": "Helpcenter link to Veeam Plug-in for Proxmox VE User Guide for product Veeam Backup & Replication in format html of type Product guides"
+            },
+            {
+                "link": "https://www.veeam.com/veeam_plugin_proxmox_ve_3_user_guide_pg.pdf",
+                "title": "Veeam Plug-in for Proxmox VE User Guide",
+                "description": "Helpcenter link to Veeam Plug-in for Proxmox VE User Guide for product Veeam Backup & Replication in format pdf of type Product guides"
+            },
+            {
+                "link": "https://helpcenter.veeam.com/docs/vpsch/userguide/",
+                "title": "Veeam Plug-in for Scale Computing HyperCore User Guide",
+                "description": "Helpcenter link to Veeam Plug-in for Scale Computing HyperCore User Guide for product Veeam Backup & Replication in format html of type Product guides"
+            },
+            {
+                "link": "https://www.veeam.com/veeam_plugin_scale_computing_hypercore_2_user_guide_pg.pdf",
+                "title": "Veeam Plug-in for Scale Computing HyperCore User Guide",
+                "description": "Helpcenter link to Veeam Plug-in for Scale Computing HyperCore User Guide for product Veeam Backup & Replication in format pdf of type Product guides"
+            },
+            {
+                "link": "https://helpcenter.veeam.com/docs/vbr/entraid/overview.html?ver=13",
+                "title": "User Guide for Microsoft Entra ID",
+                "description": "Helpcenter link to User Guide for Microsoft Entra ID for product Veeam Backup & Replication in format html of type Product guides"
+            },
+            {
+                "link": "https://www.veeam.com/veeam_backup_13_entra_id_user_guide_pg.pdf",
+                "title": "User Guide for Microsoft Entra ID",
+                "description": "Helpcenter link to User Guide for Microsoft Entra ID for product Veeam Backup & Replication in format pdf of type Product guides"
+            },
+            {
+                "link": "https://helpcenter.veeam.com/docs/backup/cloud/",
+                "title": "Veeam Cloud Connect Guide",
+                "description": "Helpcenter link to Veeam Cloud Connect Guide for product Veeam Backup & Replication in format html of type Product guides"
+            },
+            {
+                "link": "https://www.veeam.com/veeam_backup_13_cloud_administrator_guide_pg.pdf",
+                "title": "Veeam Cloud Connect Guide",
+                "description": "Helpcenter link to Veeam Cloud Connect Guide for product Veeam Backup & Replication in format pdf of type Product guides"
+            },
+            {
+                "link": "https://helpcenter.veeam.com/docs/vbr/em/",
+                "title": "Veeam Backup Enterprise Manager Guide",
+                "description": "Helpcenter link to Veeam Backup Enterprise Manager Guide for product Veeam Backup & Replication in format html of type Product guides"
+            },
+            {
+                "link": "https://www.veeam.com/veeam_backup_13_enterprise_manager_user_guide_pg.pdf",
+                "title": "Veeam Backup Enterprise Manager Guide",
+                "description": "Helpcenter link to Veeam Backup Enterprise Manager Guide for product Veeam Backup & Replication in format pdf of type Product guides"
+            },
+            {
+                "link": "https://helpcenter.veeam.com/docs/vbr/events/",
+                "title": "Event Reference",
+                "description": "Helpcenter link to Event Reference for product Veeam Backup & Replication in format html of type Product guides"
+            },
+            {
+                "link": "https://helpcenter.veeam.com/docs/vbr/powershell/getting_started.html?ver=13",
+                "title": "Veeam PowerShell Reference",
+                "description": "Helpcenter link to Veeam PowerShell Reference for product Veeam Backup & Replication in format html of type Product guides"
+            },
+            {
+                "link": "https://helpcenter.veeam.com/references/vbahv/9/rest/",
+                "title": "Veeam Plug-in for Nutanix AHV REST API Reference",
+                "description": "Helpcenter link to Veeam Plug-in for Nutanix AHV REST API Reference for product Veeam Backup & Replication in format html of type Product guides"
+            },
+            {
+                "link": "https://helpcenter.veeam.com/docs/vbr/explorers_powershell/",
+                "title": "Veeam Explorers PowerShell Reference",
+                "description": "Helpcenter link to Veeam Explorers PowerShell Reference for product Veeam Backup & Replication in format html of type Product guides"
+            },
+            {
+                "link": "https://helpcenter.veeam.com/references/vbr/13/rest/",
+                "title": "REST API Reference",
+                "description": "Helpcenter link to REST API Reference for product Veeam Backup & Replication in format html of type Product guides"
+            },
+            {
+                "link": "https://helpcenter.veeam.com/docs/vbr/em_rest/overview.html?ver=13",
+                "title": "Veeam Backup Enterprise Manager REST API Reference",
+                "description": "Helpcenter link to Veeam Backup Enterprise Manager REST API Reference for product Veeam Backup & Replication in format html of type Product guides"
+            },
+            {
+                "link": "https://helpcenter.veeam.com/docs/vbr/permissions/installation.html?ver=13",
+                "title": "Permissions for VMware vSphere",
+                "description": "Helpcenter link to Permissions for VMware vSphere for product Veeam Backup & Replication in format html of type Product guides"
+            },
+            {
+                "link": "https://www.veeam.com/veeam_backup_13_permissions_pg.pdf",
+                "title": "Permissions for VMware vSphere",
+                "description": "Helpcenter link to Permissions for VMware vSphere for product Veeam Backup & Replication in format pdf of type Product guides"
+            },
+            {
+                "link": "https://helpcenter.veeam.com/docs/vbr/kasten_integration/overview.html?ver=13",
+                "title": "Veeam Kasten Integration Guide",
+                "description": "Helpcenter link to Veeam Kasten Integration Guide for product Veeam Backup & Replication in format html of type Product guides"
+            },
+            {
+                "link": "https://www.veeam.com/veeam_backup_13_kasten_integration_user_guide_pg.pdf",
+                "title": "Veeam Kasten Integration Guide",
+                "description": "Helpcenter link to Veeam Kasten Integration Guide for product Veeam Backup & Replication in format pdf of type Product guides"
+            },
+            {
+                "link": "https://helpcenter.veeam.com/docs/vbr/recommended_maximums/limitations.html?ver=13",
+                "title": "Recommended Maximums",
+                "description": "Helpcenter link to Recommended Maximums for product Veeam Backup & Replication in format html of type Product guides"
+            },
+            {
+                "link": "https://helpcenter.veeam.com/docs/vbrhv/userguide/",
+                "title": "Veeam Plug-in for Oracle Linux Virtualization Manager and Red Hat Virtualization",
+                "description": "Helpcenter link to Veeam Plug-in for Oracle Linux Virtualization Manager and Red Hat Virtualization for product Veeam Backup & Replication in format html of type Product guides"
+            },
+            {
+                "link": "https://www.veeam.com/veeam_plugin_kvm_7_user_guide_pg.pdf",
+                "title": "Veeam Plug-in for Oracle Linux Virtualization Manager and Red Hat Virtualization",
+                "description": "Helpcenter link to Veeam Plug-in for Oracle Linux Virtualization Manager and Red Hat Virtualization for product Veeam Backup & Replication in format pdf of type Product guides"
+            },
+            {
+                "link": "https://helpcenter.veeam.com/rn/veeam_backup_13_0_1_release_notes.html",
+                "title": "Release Notes",
+                "description": "Helpcenter link to Release Notes for product Veeam Backup & Replication in format html of type Release notes"
+            },
+            {
+                "link": "https://www.veeam.com/veeam_backup_13_whats_new__wn.pdf",
+                "title": "What's New v13",
+                "description": "Helpcenter link to What's New v13 for product Veeam Backup & Replication in format pdf of type What's new"
+            },
+            {
+                "link": "https://www.veeam.com/veeam_backup_13_rest_api_reference_map_ot.pdf",
+                "title": "Veeam Backup & Replication 13.0 REST API Reference Map",
+                "description": "Helpcenter link to Veeam Backup & Replication 13.0 REST API Reference Map for product Veeam Backup & Replication in format pdf of type Other"
+            },
+            {
+                "link": "https://helpcenter.veeam.com/docs/vcsp/refguide/",
+                "title": "Veeam Rental Licensing and Usage Reporting",
+                "description": "Helpcenter link to Veeam Rental Licensing and Usage Reporting for product Veeam Backup & Replication in format html of type Other"
+            },
+            {
+                "link": "https://www.veeam.com/veeam_rental_licensing_usage_reporting_guide_ot.pdf",
+                "title": "Veeam Rental Licensing and Usage Reporting",
+                "description": "Helpcenter link to Veeam Rental Licensing and Usage Reporting for product Veeam Backup & Replication in format pdf of type Other"
+            },
+            {
+                "link": "https://helpcenter.veeam.com/docs/vdc/userguide/",
+                "title": "User Guide",
+                "description": "Helpcenter link to User Guide for product Veeam Data Cloud\nfor Microsoft 365 in format html of type Product guides"
+            },
+            {
+                "link": "https://www.veeam.com/veeam_data_cloud_user_guide_pg.pdf",
+                "title": "User Guide",
+                "description": "Helpcenter link to User Guide for product Veeam Data Cloud\nfor Microsoft 365 in format pdf of type Product guides"
+            },
+            {
+                "link": "https://helpcenter.veeam.com/docs/vdcm365/userguide/",
+                "title": "User Guide (Original Platform)",
+                "description": "Helpcenter link to User Guide (Original Platform) for product Veeam Data Cloud\nfor Microsoft 365 in format html of type Product guides"
+            },
+            {
+                "link": "https://www.veeam.com/veeam_data_cloud_m365_user_guide_pg.pdf",
+                "title": "User Guide (Original Platform)",
+                "description": "Helpcenter link to User Guide (Original Platform) for product Veeam Data Cloud\nfor Microsoft 365 in format pdf of type Product guides"
+            },
+            {
+                "link": "https://helpcenter.veeam.com/docs/vdc/provider/",
+                "title": "Guide for Service Providers",
+                "description": "Helpcenter link to Guide for Service Providers for product Veeam Data Cloud\nfor Microsoft 365 in format html of type Product guides"
+            },
+            {
+                "link": "https://www.veeam.com/veeam_data_cloud_sp_guide_pg.pdf",
+                "title": "Guide for Service Providers",
+                "description": "Helpcenter link to Guide for Service Providers for product Veeam Data Cloud\nfor Microsoft 365 in format pdf of type Product guides"
+            },
+            {
+                "link": "https://helpcenter.veeam.com/docs/vdcm365/provider/",
+                "title": "Guide for Service Providers  (Original Platform)",
+                "description": "Helpcenter link to Guide for Service Providers  (Original Platform) for product Veeam Data Cloud\nfor Microsoft 365 in format html of type Other"
+            },
+            {
+                "link": "https://www.veeam.com/veeam_data_cloud_m365_service_providers_guide_ot.pdf",
+                "title": "Guide for Service Providers  (Original Platform)",
+                "description": "Helpcenter link to Guide for Service Providers  (Original Platform) for product Veeam Data Cloud\nfor Microsoft 365 in format pdf of type Other"
+            },
+            {
+                "link": "https://helpcenter.veeam.com/docs/vim365/userguide/",
+                "title": "Veeam Insights for Microsoft 365 User Guide",
+                "description": "Helpcenter link to Veeam Insights for Microsoft 365 User Guide for product Veeam Data Cloud\nfor Microsoft 365 in format html of type Other"
+            },
+            {
+                "link": "https://www.veeam.com/veeam_insights_m365_user_guide_ot.pdf",
+                "title": "Veeam Insights for Microsoft 365 User Guide",
+                "description": "Helpcenter link to Veeam Insights for Microsoft 365 User Guide for product Veeam Data Cloud\nfor Microsoft 365 in format pdf of type Other"
+            },
+            {
+                "link": "https://helpcenter.veeam.com/docs/vdcazure/userguide/",
+                "title": "User Guide (Original Platform)",
+                "description": "Helpcenter link to User Guide (Original Platform) for product Veeam Data Cloud for Microsoft Azure in format html of type Product guides"
+            },
+            {
+                "link": "https://www.veeam.com/veeam_data_cloud_azure_user_guide_pg.pdf",
+                "title": "User Guide (Original Platform)",
+                "description": "Helpcenter link to User Guide (Original Platform) for product Veeam Data Cloud for Microsoft Azure in format pdf of type Product guides"
+            },
+            {
+                "link": "https://helpcenter.veeam.com/docs/vbo365/guide/index.html",
+                "title": "User Guide",
+                "description": "Helpcenter link to User Guide for product Veeam Backup for Microsoft 365 in format html of type Product guides"
+            },
+            {
+                "link": "https://www.veeam.com/veeam_backup_m365_8_user_guide_pg.pdf",
+                "title": "User Guide",
+                "description": "Helpcenter link to User Guide for product Veeam Backup for Microsoft 365 in format pdf of type Product guides"
+            },
+            {
+                "link": "https://helpcenter.veeam.com/docs/vbo365/explorers/index.html",
+                "title": "Veeam Explorers User Guide",
+                "description": "Helpcenter link to Veeam Explorers User Guide for product Veeam Backup for Microsoft 365 in format html of type Product guides"
+            },
+            {
+                "link": "https://www.veeam.com/veeam_backup_m365_8_explorers_user_guide_pg.pdf",
+                "title": "Veeam Explorers User Guide",
+                "description": "Helpcenter link to Veeam Explorers User Guide for product Veeam Backup for Microsoft 365 in format pdf of type Product guides"
+            },
+            {
+                "link": "https://helpcenter.veeam.com/docs/vbo365/powershell/",
+                "title": "PowerShell Reference",
+                "description": "Helpcenter link to PowerShell Reference for product Veeam Backup for Microsoft 365 in format html of type Product guides"
+            },
+            {
+                "link": "https://helpcenter.veeam.com/docs/vbo365/rest/",
+                "title": "REST API Reference",
+                "description": "Helpcenter link to REST API Reference for product Veeam Backup for Microsoft 365 in format html of type Product guides"
+            },
+            {
+                "link": "https://helpcenter.veeam.com/docs/vbo365/explorers_powershell/",
+                "title": "Veeam Explorers PowerShell Reference",
+                "description": "Helpcenter link to Veeam Explorers PowerShell Reference for product Veeam Backup for Microsoft 365 in format html of type Product guides"
+            },
+            {
+                "link": "https://www.veeam.com/veeam_backup_m365_product_overview_ds.pdf",
+                "title": "Product Overview",
+                "description": "Helpcenter link to Product Overview for product Veeam Backup for Microsoft 365 in format pdf of type Datasheets"
+            },
+            {
+                "link": "https://helpcenter.veeam.com/rn/veeam_backup_m365_8_2_release_notes.html",
+                "title": "Release Notes",
+                "description": "Helpcenter link to Release Notes for product Veeam Backup for Microsoft 365 in format html of type Release notes"
+            },
+            {
+                "link": "https://www.veeam.com/veeam_backup_m365_8_whats_new_wn.pdf",
+                "title": "What's New",
+                "description": "Helpcenter link to What's New for product Veeam Backup for Microsoft 365 in format pdf of type What's new"
+            },
+            {
+                "link": "https://www.veeam.com/veeam_backup_m365_8_rest_api_reference_map_ot.pdf",
+                "title": "REST API Reference Map",
+                "description": "Helpcenter link to REST API Reference Map for product Veeam Backup for Microsoft 365 in format pdf of type Other"
+            },
+            {
+                "link": "https://helpcenter.veeam.com/docs/backup_salesforce/userguide/",
+                "title": "User Guide",
+                "description": "Helpcenter link to User Guide for product Veeam Backup for Salesforce in format html of type Product guides"
+            },
+            {
+                "link": "https://www.veeam.com/veeam_backup_salesforce_3_user_guide_pg.pdf",
+                "title": "User Guide",
+                "description": "Helpcenter link to User Guide for product Veeam Backup for Salesforce in format pdf of type Product guides"
+            },
+            {
+                "link": "https://www.veeam.com/veeam_backup_salesforce_product_overview_ds.pdf",
+                "title": "Product Overview",
+                "description": "Helpcenter link to Product Overview for product Veeam Backup for Salesforce in format pdf of type Datasheets"
+            },
+            {
+                "link": "https://helpcenter.veeam.com/rn/veeam_backup_salesforce_3_1_release_notes.html",
+                "title": "Release Notes",
+                "description": "Helpcenter link to Release Notes for product Veeam Backup for Salesforce in format html of type Release notes"
+            },
+            {
+                "link": "https://www.veeam.com/veeam_backup_salesforce_3_0_whats_new_wn.pdf",
+                "title": "What's New",
+                "description": "Helpcenter link to What's New for product Veeam Backup for Salesforce in format pdf of type What's new"
+            },
+            {
+                "link": "https://helpcenter.veeam.com/docs/one/userguide/",
+                "title": "User Guide",
+                "description": "Helpcenter link to User Guide for product Veeam ONE in format html of type Product guides"
+            },
+            {
+                "link": "https://www.veeam.com/veeam_one_13_0_user_guide_pg.pdf",
+                "title": "User Guide",
+                "description": "Helpcenter link to User Guide for product Veeam ONE in format pdf of type Product guides"
+            },
+            {
+                "link": "https://helpcenter.veeam.com/docs/one/rest/",
+                "title": "REST API Reference",
+                "description": "Helpcenter link to REST API Reference for product Veeam ONE in format html of type Product guides"
+            },
+            {
+                "link": "https://helpcenter.veeam.com/rn/veeam_one_13_0_1_release_notes.html",
+                "title": "Release Notes",
+                "description": "Helpcenter link to Release Notes for product Veeam ONE in format html of type Release notes"
+            },
+            {
+                "link": "https://www.veeam.com/veeam_one_13_whats_new_wn.pdf",
+                "title": "What's New v13",
+                "description": "Helpcenter link to What's New v13 for product Veeam ONE in format pdf of type What's new"
+            },
+            {
+                "link": "https://www.veeam.com/veeam_one_13_0_1_rest_api_reference_map_ot.pdf",
+                "title": " Veeam ONE v13.0.1 REST API Reference Map",
+                "description": "Helpcenter link to  Veeam ONE v13.0.1 REST API Reference Map for product Veeam ONE in format pdf of type Other"
+            },
+            {
+                "link": "https://www.veeam.com/veeam_one_13_rest_api_reference_map_ot.pdf",
+                "title": " Veeam ONE v13 REST API Reference Map",
+                "description": "Helpcenter link to  Veeam ONE v13 REST API Reference Map for product Veeam ONE in format pdf of type Other"
+            },
+            {
+                "link": "https://helpcenter.veeam.com/docs/vac/deployment/",
+                "title": "Deployment Guide",
+                "description": "Helpcenter link to Deployment Guide for product Veeam Service Provider Console in format html of type Product guides"
+            },
+            {
+                "link": "https://www.veeam.com/vspc_9_1_deployment_guide_pg.pdf",
+                "title": "Deployment Guide",
+                "description": "Helpcenter link to Deployment Guide for product Veeam Service Provider Console in format pdf of type Product guides"
+            },
+            {
+                "link": "https://helpcenter.veeam.com/docs/vac/provider_admin/",
+                "title": "Guide for Service Providers",
+                "description": "Helpcenter link to Guide for Service Providers for product Veeam Service Provider Console in format html of type Product guides"
+            },
+            {
+                "link": "https://www.veeam.com/vspc_9_1_guide_for_service_providers_pg.pdf",
+                "title": "Guide for Service Providers",
+                "description": "Helpcenter link to Guide for Service Providers for product Veeam Service Provider Console in format pdf of type Product guides"
+            },
+            {
+                "link": "https://helpcenter.veeam.com/docs/vac/reseller/",
+                "title": "Guide for Resellers",
+                "description": "Helpcenter link to Guide for Resellers for product Veeam Service Provider Console in format html of type Product guides"
+            },
+            {
+                "link": "https://www.veeam.com/vspc_9_1_guide_for_resellers_pg.pdf",
+                "title": "Guide for Resellers",
+                "description": "Helpcenter link to Guide for Resellers for product Veeam Service Provider Console in format pdf of type Product guides"
+            },
+            {
+                "link": "https://helpcenter.veeam.com/docs/vac/provider_user/",
+                "title": "Guide for End Users",
+                "description": "Helpcenter link to Guide for End Users for product Veeam Service Provider Console in format html of type Product guides"
+            },
+            {
+                "link": "https://www.veeam.com/vspc_9_1_guide_for_end_users_pg.pdf",
+                "title": "Guide for End Users",
+                "description": "Helpcenter link to Guide for End Users for product Veeam Service Provider Console in format pdf of type Product guides"
+            },
+            {
+                "link": "https://helpcenter.veeam.com/docs/vac/provider_quick_start/",
+                "title": "Usage Scenarios for Service Providers",
+                "description": "Helpcenter link to Usage Scenarios for Service Providers for product Veeam Service Provider Console in format html of type Product guides"
+            },
+            {
+                "link": "https://www.veeam.com/vspc_9_1_usage_scenarios_for_service_providers_pg.pdf",
+                "title": "Usage Scenarios for Service Providers",
+                "description": "Helpcenter link to Usage Scenarios for Service Providers for product Veeam Service Provider Console in format pdf of type Product guides"
+            },
+            {
+                "link": "https://helpcenter.veeam.com/references/vac/9.1/rest/",
+                "title": "REST API Reference",
+                "description": "Helpcenter link to REST API Reference for product Veeam Service Provider Console in format html of type Product guides"
+            },
+            {
+                "link": "https://helpcenter.veeam.com/rn/vspc_9_1_release_notes.html",
+                "title": "Release Notes",
+                "description": "Helpcenter link to Release Notes for product Veeam Service Provider Console in format html of type Release notes"
+            },
+            {
+                "link": "https://www.veeam.com/veeam_console_9_1_whats_new_wn.pdf",
+                "title": "What's New",
+                "description": "Helpcenter link to What's New for product Veeam Service Provider Console in format pdf of type What's new"
+            },
+            {
+                "link": "https://www.veeam.com/veeam_service_provider_console_9_1_rest_api_reference_map_ot.pdf",
+                "title": "Veeam Service Provider Console v9.1 REST API Reference Map",
+                "description": "Helpcenter link to Veeam Service Provider Console v9.1 REST API Reference Map for product Veeam Service Provider Console in format pdf of type Other"
+            },
+            {
+                "link": "https://helpcenter.veeam.com/docs/agentforwindows/userguide/",
+                "title": "User Guide",
+                "description": "Helpcenter link to User Guide for product Veeam Agent for Microsoft Windows in format html of type Product guides"
+            },
+            {
+                "link": "https://www.veeam.com/veeam_agent_windows_13_user_guide_pg.pdf",
+                "title": "User Guide",
+                "description": "Helpcenter link to User Guide for product Veeam Agent for Microsoft Windows in format pdf of type Product guides"
+            },
+            {
+                "link": "https://helpcenter.veeam.com/docs/agentforwindows/configurator/",
+                "title": "Veeam Agent Configurator Reference",
+                "description": "Helpcenter link to Veeam Agent Configurator Reference for product Veeam Agent for Microsoft Windows in format html of type Product guides"
+            },
+            {
+                "link": "https://www.veeam.com/veeam_agent_configurator_13_reference_pg.pdf",
+                "title": "Veeam Agent Configurator Reference",
+                "description": "Helpcenter link to Veeam Agent Configurator Reference for product Veeam Agent for Microsoft Windows in format pdf of type Product guides"
+            },
+            {
+                "link": "https://helpcenter.veeam.com/docs/agentforlinux/userguide/",
+                "title": "User Guide",
+                "description": "Helpcenter link to User Guide for product Veeam Agent for Linux in format html of type Product guides"
+            },
+            {
+                "link": "https://www.veeam.com/veeam_agent_linux_13_user_guide_pg.pdf",
+                "title": "User Guide",
+                "description": "Helpcenter link to User Guide for product Veeam Agent for Linux in format pdf of type Product guides"
+            },
+            {
+                "link": "https://helpcenter.veeam.com/docs/vbaws/guide/welcome.html",
+                "title": "Veeam Backup for AWS",
+                "description": "Helpcenter link to Veeam Backup for AWS for product Veeam Backup for AWS in format html of type Product guides"
+            },
+            {
+                "link": "https://www.veeam.com/veeam_backup_aws_10_user_guide_pg.pdf",
+                "title": "Veeam Backup for AWS",
+                "description": "Helpcenter link to Veeam Backup for AWS for product Veeam Backup for AWS in format pdf of type Product guides"
+            },
+            {
+                "link": "https://helpcenter.veeam.com/references/vbaws/10/rest/",
+                "title": "REST API Reference",
+                "description": "Helpcenter link to REST API Reference for product Veeam Backup for AWS in format html of type Product guides"
+            },
+            {
+                "link": "https://helpcenter.veeam.com/rn/veeam_backup_aws_10_release_notes.html",
+                "title": "Release Notes",
+                "description": "Helpcenter link to Release Notes for product Veeam Backup for AWS in format html of type Release notes"
+            },
+            {
+                "link": "https://www.veeam.com/veeam_backup_aws_10_rest_api_reference_map_ot.pdf",
+                "title": "Veeam Backup for AWS v10 Reference Map",
+                "description": "Helpcenter link to Veeam Backup for AWS v10 Reference Map for product Veeam Backup for AWS in format pdf of type Other"
+            },
+            {
+                "link": "https://helpcenter.veeam.com/docs/vbazure/guide/overview.html",
+                "title": "User Guide",
+                "description": "Helpcenter link to User Guide for product Veeam Backup for Microsoft Azure in format html of type Product guides"
+            },
+            {
+                "link": "https://www.veeam.com/veeam_backup_azure_8_1_user_guide_pg.pdf",
+                "title": "User Guide",
+                "description": "Helpcenter link to User Guide for product Veeam Backup for Microsoft Azure in format pdf of type Product guides"
+            },
+            {
+                "link": "https://helpcenter.veeam.com/references/vbazure/8.1/rest/",
+                "title": "REST API Reference",
+                "description": "Helpcenter link to REST API Reference for product Veeam Backup for Microsoft Azure in format html of type Product guides"
+            },
+            {
+                "link": "https://helpcenter.veeam.com/rn/veeam_backup_azure_8_1_release_notes.html",
+                "title": "Release Notes",
+                "description": "Helpcenter link to Release Notes for product Veeam Backup for Microsoft Azure in format html of type Release notes"
+            },
+            {
+                "link": "https://www.veeam.com/veeam_backup_azure_8_1_rest_api_reference_map_ot.pdf",
+                "title": "REST API Reference Map",
+                "description": "Helpcenter link to REST API Reference Map for product Veeam Backup for Microsoft Azure in format pdf of type Other"
+            },
+            {
+                "link": "https://helpcenter.veeam.com/docs/vbgc/guide/welcome.html",
+                "title": "User Guide",
+                "description": "Helpcenter link to User Guide for product Veeam Backup for Google Cloud in format html of type Product guides"
+            },
+            {
+                "link": "https://www.veeam.com/veeam_backup_google_7_user_guide_pg.pdf",
+                "title": "User Guide",
+                "description": "Helpcenter link to User Guide for product Veeam Backup for Google Cloud in format pdf of type Product guides"
+            },
+            {
+                "link": "https://helpcenter.veeam.com/docs/vbgc/7/rest/",
+                "title": "REST API Reference",
+                "description": "Helpcenter link to REST API Reference for product Veeam Backup for Google Cloud in format html of type Product guides"
+            },
+            {
+                "link": "https://helpcenter.veeam.com/rn/veeam_backup_google_7_release_notes.html",
+                "title": "Release Notes",
+                "description": "Helpcenter link to Release Notes for product Veeam Backup for Google Cloud in format html of type Release notes"
+            },
+            {
+                "link": "https://www.veeam.com/veeam_backup_google_7_rest_api_reference_map_ot.pdf",
+                "title": "Veeam Backup for Google Cloud v7 REST API Reference Map",
+                "description": "Helpcenter link to Veeam Backup for Google Cloud v7 REST API Reference Map for product Veeam Backup for Google Cloud in format pdf of type Other"
+            },
+            {
+                "link": "https://helpcenter.veeam.com/docs/mp/vmware_guide/architecture_guide.html",
+                "title": "Veeam MP for VMware Architecture Overview Guide",
+                "description": "Helpcenter link to Veeam MP for VMware Architecture Overview Guide for product Veeam Management Pack for Microsoft System Center in format html of type Product guides"
+            },
+            {
+                "link": "https://www.veeam.com/veeam_mp_9a_for_vmware_architecture_overview_pg.pdf",
+                "title": "Veeam MP for VMware Architecture Overview Guide",
+                "description": "Helpcenter link to Veeam MP for VMware Architecture Overview Guide for product Veeam Management Pack for Microsoft System Center in format pdf of type Product guides"
+            },
+            {
+                "link": "https://helpcenter.veeam.com/docs/mp/vmware_guide/installation_guide.html",
+                "title": "Veeam MP for VMware Installation Guide",
+                "description": "Helpcenter link to Veeam MP for VMware Installation Guide for product Veeam Management Pack for Microsoft System Center in format html of type Product guides"
+            },
+            {
+                "link": "https://www.veeam.com/veeam_mp_9a_for_vmware_install_guide_pg.pdf",
+                "title": "Veeam MP for VMware Installation Guide",
+                "description": "Helpcenter link to Veeam MP for VMware Installation Guide for product Veeam Management Pack for Microsoft System Center in format pdf of type Product guides"
+            },
+            {
+                "link": "https://helpcenter.veeam.com/docs/mp/vmware_guide/operations_guide.html",
+                "title": "Veeam MP for VMware Operations Guide",
+                "description": "Helpcenter link to Veeam MP for VMware Operations Guide for product Veeam Management Pack for Microsoft System Center in format html of type Product guides"
+            },
+            {
+                "link": "https://www.veeam.com/veeam_mp_9a_for_vmware_operations_guide_pg.pdf",
+                "title": "Veeam MP for VMware Operations Guide",
+                "description": "Helpcenter link to Veeam MP for VMware Operations Guide for product Veeam Management Pack for Microsoft System Center in format pdf of type Product guides"
+            },
+            {
+                "link": "https://helpcenter.veeam.com/docs/mp/hyperv_guide/",
+                "title": "Veeam MP for Microsoft Hyper-V User Guide",
+                "description": "Helpcenter link to Veeam MP for Microsoft Hyper-V User Guide for product Veeam Management Pack for Microsoft System Center in format html of type Product guides"
+            },
+            {
+                "link": "https://www.veeam.com/veeam_mp_9a_for_hyperv_user_guide_pg.pdf",
+                "title": "Veeam MP for Microsoft Hyper-V User Guide",
+                "description": "Helpcenter link to Veeam MP for Microsoft Hyper-V User Guide for product Veeam Management Pack for Microsoft System Center in format pdf of type Product guides"
+            },
+            {
+                "link": "https://helpcenter.veeam.com/docs/mp/backup_guide/",
+                "title": "MP for Veeam Backup & Replication User Guide",
+                "description": "Helpcenter link to MP for Veeam Backup & Replication User Guide for product Veeam Management Pack for Microsoft System Center in format html of type Product guides"
+            },
+            {
+                "link": "https://www.veeam.com/veeam_mp_9a_for_veeam_backup_user_guide_pg.pdf",
+                "title": "MP for Veeam Backup & Replication User Guide",
+                "description": "Helpcenter link to MP for Veeam Backup & Replication User Guide for product Veeam Management Pack for Microsoft System Center in format pdf of type Product guides"
+            },
+            {
+                "link": "https://helpcenter.veeam.com/docs/mp/vmware_reference/",
+                "title": "Veeam MP for VMware Reference",
+                "description": "Helpcenter link to Veeam MP for VMware Reference for product Veeam Management Pack for Microsoft System Center in format html of type Product guides"
+            },
+            {
+                "link": "https://helpcenter.veeam.com/docs/mp/hyperv_reference/",
+                "title": "Veeam MP for Microsoft Hyper-V Reference",
+                "description": "Helpcenter link to Veeam MP for Microsoft Hyper-V Reference for product Veeam Management Pack for Microsoft System Center in format html of type Product guides"
+            },
+            {
+                "link": "https://helpcenter.veeam.com/docs/mp/backup_reference/",
+                "title": "MP for Veeam Backup & Replication Reference",
+                "description": "Helpcenter link to MP for Veeam Backup & Replication Reference for product Veeam Management Pack for Microsoft System Center in format html of type Product guides"
+            },
+            {
+                "link": "https://helpcenter.veeam.com/docs/mp/kb/",
+                "title": "Veeam MP for VMware Online Knowledge Base",
+                "description": "Helpcenter link to Veeam MP for VMware Online Knowledge Base for product Veeam Management Pack for Microsoft System Center in format html of type Product guides"
+            },
+            {
+                "link": "https://helpcenter.veeam.com/docs/mp/veshell/",
+                "title": "Veeam MP for Microsoft System Center VEShell Reference",
+                "description": "Helpcenter link to Veeam MP for Microsoft System Center VEShell Reference for product Veeam Management Pack for Microsoft System Center in format html of type Product guides"
+            },
+            {
+                "link": "https://helpcenter.veeam.com/docs/mp/reports/",
+                "title": "Veeam MP for Microsoft System Center Report Knowledge",
+                "description": "Helpcenter link to Veeam MP for Microsoft System Center Report Knowledge for product Veeam Management Pack for Microsoft System Center in format html of type Product guides"
+            },
+            {
+                "link": "https://www.veeam.com/veeam_mp_9a_release_notes_rn.pdf",
+                "title": "Release Notes",
+                "description": "Helpcenter link to Release Notes for product Veeam Management Pack for Microsoft System Center in format pdf of type Release notes"
+            },
+            {
+                "link": "https://helpcenter.veeam.com/docs/mp/resource_kit/",
+                "title": "Veeam MP for Microsoft System Center Resource Kit Guide",
+                "description": "Helpcenter link to Veeam MP for Microsoft System Center Resource Kit Guide for product Veeam Management Pack for Microsoft System Center in format html of type Other"
+            },
+            {
+                "link": "https://helpcenter.veeam.com/docs/vro/userguide/deployment_planning_preparation.html",
+                "title": "Deployment Guide",
+                "description": "Helpcenter link to Deployment Guide for product Veeam Recovery Orchestrator in format html of type Product guides"
+            },
+            {
+                "link": "https://www.veeam.com/veeam_orchestrator_13_deployment_guide_pg.pdf",
+                "title": "Deployment Guide",
+                "description": "Helpcenter link to Deployment Guide for product Veeam Recovery Orchestrator in format pdf of type Product guides"
+            },
+            {
+                "link": "https://helpcenter.veeam.com/docs/vro/userguide/configuring_vro.html",
+                "title": "Operations Guide",
+                "description": "Helpcenter link to Operations Guide for product Veeam Recovery Orchestrator in format html of type Product guides"
+            },
+            {
+                "link": "https://www.veeam.com/veeam_orchestrator_13_operations_guide_pg.pdf",
+                "title": "Operations Guide",
+                "description": "Helpcenter link to Operations Guide for product Veeam Recovery Orchestrator in format pdf of type Product guides"
+            },
+            {
+                "link": "https://helpcenter.veeam.com/docs/vro/categorization/",
+                "title": "Group Management Guide",
+                "description": "Helpcenter link to Group Management Guide for product Veeam Recovery Orchestrator in format html of type Product guides"
+            },
+            {
+                "link": "https://www.veeam.com/veeam_orchestrator_13_categorization_guide_pg.pdf",
+                "title": "Group Management Guide",
+                "description": "Helpcenter link to Group Management Guide for product Veeam Recovery Orchestrator in format pdf of type Product guides"
+            },
+            {
+                "link": "https://helpcenter.veeam.com/references/vro/13/rest/",
+                "title": "REST API Reference",
+                "description": "Helpcenter link to REST API Reference for product Veeam Recovery Orchestrator in format html of type Product guides"
+            },
+            {
+                "link": "https://helpcenter.veeam.com/rn/veeam_recovery_orchestrator_13_release_notes.html",
+                "title": "Release Notes",
+                "description": "Helpcenter link to Release Notes for product Veeam Recovery Orchestrator in format html of type Release notes"
+            },
+            {
+                "link": "https://www.veeam.com/veeam_orchestrator_13_whats_new_wn.pdf",
+                "title": "What's New",
+                "description": "Helpcenter link to What's New for product Veeam Recovery Orchestrator in format pdf of type What's new"
+            },
+            {
+                "link": "https://helpcenter.veeam.com/docs/agentformac/userguide/",
+                "title": "User Guide",
+                "description": "Helpcenter link to User Guide for product Veeam Agent for Mac in format html of type Product guides"
+            },
+            {
+                "link": "https://www.veeam.com/veeam_agent_mac_13_user_guide_pg.pdf",
+                "title": "User Guide",
+                "description": "Helpcenter link to User Guide for product Veeam Agent for Mac in format pdf of type Product guides"
+            },
+            {
+                "link": "https://helpcenter.veeam.com/docs/agentforaix/userguide/",
+                "title": "User Guide",
+                "description": "Helpcenter link to User Guide for product Veeam Agent for IBM AIX in format html of type Product guides"
+            },
+            {
+                "link": "https://www.veeam.com/veeam_agent_ibm_aix_13_user_guide_pg.pdf",
+                "title": "User Guide",
+                "description": "Helpcenter link to User Guide for product Veeam Agent for IBM AIX in format pdf of type Product guides"
+            },
+            {
+                "link": "https://helpcenter.veeam.com/docs/agentforsolaris/userguide/",
+                "title": "User Guide",
+                "description": "Helpcenter link to User Guide for product Veeam Agent for Oracle Solaris in format html of type Product guides"
+            },
+            {
+                "link": "https://www.veeam.com/veeam_agent_oracle_solaris_13_user_guide_pg.pdf",
+                "title": "User Guide",
+                "description": "Helpcenter link to User Guide for product Veeam Agent for Oracle Solaris in format pdf of type Product guides"
+            },
+            {
+                "link": "https://helpcenter.veeam.com/archive/vac/9/deployment/",
+                "title": "Deployment Guide",
+                "description": "Helpcenter link to Deployment Guide for product Veeam Service Provider Console for the Enterprise in format html of type Product guides"
+            },
+            {
+                "link": "https://www.veeam.com/vspc_9_deployment_guide_pg.pdf",
+                "title": "Deployment Guide",
+                "description": "Helpcenter link to Deployment Guide for product Veeam Service Provider Console for the Enterprise in format pdf of type Product guides"
+            },
+            {
+                "link": "https://helpcenter.veeam.com/archive/vac/9/provider_admin/",
+                "title": "Guide for Service Providers",
+                "description": "Helpcenter link to Guide for Service Providers for product Veeam Service Provider Console for the Enterprise in format html of type Product guides"
+            },
+            {
+                "link": "https://www.veeam.com/vspc_9_guide_for_service_providers_pg.pdf",
+                "title": "Guide for Service Providers",
+                "description": "Helpcenter link to Guide for Service Providers for product Veeam Service Provider Console for the Enterprise in format pdf of type Product guides"
+            },
+            {
+                "link": "https://helpcenter.veeam.com/archive/vac/9/reseller/",
+                "title": "Guide for Resellers",
+                "description": "Helpcenter link to Guide for Resellers for product Veeam Service Provider Console for the Enterprise in format html of type Product guides"
+            },
+            {
+                "link": "https://www.veeam.com/vspc_9_guide_for_resellers_pg.pdf",
+                "title": "Guide for Resellers",
+                "description": "Helpcenter link to Guide for Resellers for product Veeam Service Provider Console for the Enterprise in format pdf of type Product guides"
+            },
+            {
+                "link": "https://helpcenter.veeam.com/archive/vac/9/provider_user/",
+                "title": "Guide for End Users",
+                "description": "Helpcenter link to Guide for End Users for product Veeam Service Provider Console for the Enterprise in format html of type Product guides"
+            },
+            {
+                "link": "https://www.veeam.com/vspc_9_guide_for_end_users_pg.pdf",
+                "title": "Guide for End Users",
+                "description": "Helpcenter link to Guide for End Users for product Veeam Service Provider Console for the Enterprise in format pdf of type Product guides"
+            },
+            {
+                "link": "https://helpcenter.veeam.com/archive/vac/9/provider_quick_start/",
+                "title": "Usage Scenarios for Service Providers",
+                "description": "Helpcenter link to Usage Scenarios for Service Providers for product Veeam Service Provider Console for the Enterprise in format html of type Product guides"
+            },
+            {
+                "link": "https://www.veeam.com/vspc_9_usage_scenarios_for_service_providers_pg.pdf",
+                "title": "Usage Scenarios for Service Providers",
+                "description": "Helpcenter link to Usage Scenarios for Service Providers for product Veeam Service Provider Console for the Enterprise in format pdf of type Product guides"
+            },
+            {
+                "link": "https://helpcenter.veeam.com/references/vac/9/rest/",
+                "title": "REST API Reference",
+                "description": "Helpcenter link to REST API Reference for product Veeam Service Provider Console for the Enterprise in format html of type Product guides"
+            },
+            {
+                "link": "https://helpcenter.veeam.com/rn/vspc_9_release_notes.html",
+                "title": "Release Notes",
+                "description": "Helpcenter link to Release Notes for product Veeam Service Provider Console for the Enterprise in format html of type Release notes"
+            },
+            {
+                "link": "https://www.veeam.com/veeam_console_9_0_whats_new_wn.pdf",
+                "title": "What's New",
+                "description": "Helpcenter link to What's New for product Veeam Service Provider Console for the Enterprise in format pdf of type What's new"
+            },
+            {
+                "link": "https://helpcenter.veeam.com/docs/nutanixmine/userguide/",
+                "title": "User Guide",
+                "description": "Helpcenter link to User Guide for product Nutanix Mine with Veeam in format html of type Product guides"
+            },
+            {
+                "link": "https://www.veeam.com/veeam_backup_nutanix_mine_4_0_user_guide_pg.pdf",
+                "title": "User Guide",
+                "description": "Helpcenter link to User Guide for product Nutanix Mine with Veeam in format pdf of type Product guides"
+            },
+            {
+                "link": "https://www.veeam.com/nutanix_mine_with_veeam_4_0_release_notes_rn.pdf",
+                "title": "Release Notes",
+                "description": "Helpcenter link to Release Notes for product Nutanix Mine with Veeam in format pdf of type Release notes"
+            },
+            {
+                "link": "https://helpcenter.veeam.com/docs/vdc_salesforce_extension/userguide/welcome.html?ver=1",
+                "title": "User Guide",
+                "description": "Helpcenter link to User Guide for product Veeam Data Cloud Salesforce Extension in format html of type Product guides"
+            },
+            {
+                "link": "https://helpcenter.veeam.com/rn/vdc_salesforce_extension_1_release_notes.html",
+                "title": "Release Notes",
+                "description": "Helpcenter link to Release Notes for product Veeam Data Cloud Salesforce Extension in format html of type Release notes"
+            },
+            {
+                "link": "https://www.veeam.com/veeam_kasten_product_overview_ds.pdf",
+                "title": "Product Overview",
+                "description": "Helpcenter link to Product Overview for product Veeam Kasten for Kubernetes in format pdf of type Datasheets"
+            },
+            {
+                "link": "https://helpcenter.veeam.com/docs/security_plugins_splunk/guide/",
+                "title": "Veeam App for Splunk",
+                "description": "Helpcenter link to Veeam App for Splunk for product Monitoring & Automation Plug-ins in format html of type Product guides"
+            },
+            {
+                "link": "https://www.veeam.com/veeam_app_for_splunk_2_user_guide_pg.pdf",
+                "title": "Veeam App for Splunk",
+                "description": "Helpcenter link to Veeam App for Splunk for product Monitoring & Automation Plug-ins in format pdf of type Product guides"
+            },
+            {
+                "link": "https://helpcenter.veeam.com/docs/security_plugins_xsoar/guide/",
+                "title": "Veeam App for Palo Alto Networks XSOAR",
+                "description": "Helpcenter link to Veeam App for Palo Alto Networks XSOAR for product Monitoring & Automation Plug-ins in format html of type Product guides"
+            },
+            {
+                "link": "https://www.veeam.com/veeam_app_for_palo_alto_networks_xsoar_1_0_user_guide_pg.pdf",
+                "title": "Veeam App for Palo Alto Networks XSOAR",
+                "description": "Helpcenter link to Veeam App for Palo Alto Networks XSOAR for product Monitoring & Automation Plug-ins in format pdf of type Product guides"
+            },
+            {
+                "link": "https://helpcenter.veeam.com/docs/security_plugins_xsiam/guide/",
+                "title": "Veeam App for Palo Alto Networks XSIAM",
+                "description": "Helpcenter link to Veeam App for Palo Alto Networks XSIAM for product Monitoring & Automation Plug-ins in format html of type Product guides"
+            },
+            {
+                "link": "https://www.veeam.com/veeam_app_for_palo_alto_networks_xsiam_1_0_user_guide_pg.pdf",
+                "title": "Veeam App for Palo Alto Networks XSIAM",
+                "description": "Helpcenter link to Veeam App for Palo Alto Networks XSIAM for product Monitoring & Automation Plug-ins in format pdf of type Product guides"
+            },
+            {
+                "link": "https://helpcenter.veeam.com/docs/security_plugins_falcon_logscale/guide/",
+                "title": "Veeam App for CrowdStrike Falcon LogScale",
+                "description": "Helpcenter link to Veeam App for CrowdStrike Falcon LogScale for product Monitoring & Automation Plug-ins in format html of type Product guides"
+            },
+            {
+                "link": "https://www.veeam.com/veeam_app_for_crowdstrike_falcon_logscale_1_0_user_guide_pg.pdf",
+                "title": "Veeam App for CrowdStrike Falcon LogScale",
+                "description": "Helpcenter link to Veeam App for CrowdStrike Falcon LogScale for product Monitoring & Automation Plug-ins in format pdf of type Product guides"
+            },
+            {
+                "link": "https://helpcenter.veeam.com/docs/security_plugins_microsoft_sentinel/guide/",
+                "title": "Veeam App for Microsoft Sentinel",
+                "description": "Helpcenter link to Veeam App for Microsoft Sentinel for product Monitoring & Automation Plug-ins in format html of type Product guides"
+            },
+            {
+                "link": "https://www.veeam.com/veeam_app_for_microsoft_sentinel_1_0_user_guide_pg.pdf",
+                "title": "Veeam App for Microsoft Sentinel",
+                "description": "Helpcenter link to Veeam App for Microsoft Sentinel for product Monitoring & Automation Plug-ins in format pdf of type Product guides"
+            },
+            {
+                "link": "https://www.veeam.com/veeam_backup_9_5_un_air_release_notes_rn.pdf",
+                "title": "Release Notes (U-AIR)",
+                "description": "Helpcenter link to Release Notes (U-AIR) for product Universal Application Item Recovery Wizard (U-AIR) in format pdf of type Release notes"
+            },
+            {
+                "link": "https://helpcenter.veeam.com/docs/task_manager/userguide/",
+                "title": "Veeam Task Manager for Hyper-V",
+                "description": "Helpcenter link to Veeam Task Manager for Hyper-V for product Veeam Task Manager for Hyper-V in format html of type Product guides"
+            },
+            {
+                "link": "https://www.veeam.com/veeam_task_manager_1_0_for_hyper_pg.pdf",
+                "title": "Veeam Task Manager for Hyper-V",
+                "description": "Helpcenter link to Veeam Task Manager for Hyper-V for product Veeam Task Manager for Hyper-V in format pdf of type Product guides"
+            },
+            {
+                "link": "https://www.veeam.com/veeam_task_manager_1_0_release_notes_rn.pdf",
+                "title": "Release Notes",
+                "description": "Helpcenter link to Release Notes for product Veeam Task Manager for Hyper-V in format pdf of type Release notes"
+            },
+            {
+                "link": "https://helpcenter.veeam.com/docs/reportlib/guide/",
+                "title": "User Guide",
+                "description": "Helpcenter link to User Guide for product Veeam Report Library for Microsoft System Center in format html of type Product guides"
+            },
+            {
+                "link": "https://www.veeam.com/veeam_report_library_9_0_user_guide_pg.pdf",
+                "title": "User Guide",
+                "description": "Helpcenter link to User Guide for product Veeam Report Library for Microsoft System Center in format pdf of type Product guides"
+            },
+            {
+                "link": "https://www.veeam.com/veeam_fastscp_azure_1_0_user_guide_pg.pdf",
+                "title": "User Guide",
+                "description": "Helpcenter link to User Guide for product Veeam FastSCP for Microsoft Azure in format pdf of type Product guides"
+            },
+            {
+                "link": "https://www.veeam.com/veeam_fastscp_azure_1_0_release_notes_rn.pdf",
+                "title": "Release Notes",
+                "description": "Helpcenter link to Release Notes for product Veeam FastSCP for Microsoft Azure in format pdf of type Release notes"
+            },
+            {
+                "link": "https://www.veeam.com/veeam_fastscp_3_0_3_release_notes_rn.pdf",
+                "title": "Release notes",
+                "description": "Helpcenter link to Release notes for product Veeam FastSCP in format pdf of type Release notes"
+            },
+            {
+                "link": "https://www.google.com/search?q=site%3Ahelpcenter.veeam.com",
+                "title": "Deepquery helpcenter",
+                "description": "Search directly google in helpcenter domain by adding q=",
+                "deepquery": "https://www.google.com/search?q=site%3Ahelpcenter.veeam.com+$deepquery$"
+            }
+        ]
+    }
+]

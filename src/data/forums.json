@@ -1,0 +1,173 @@
+[
+    {
+        "catname": "Forums",
+        "catlinks": [
+            {
+                "description": "General forum for Veeam Data Cloud",
+                "title": "Veeam Data Cloud",
+                "link": "https://forums.veeam.com/forum73/"
+            },
+            {
+                "description": "Sub forum Microsoft 365 for Veeam Data Cloud",
+                "title": "Microsoft 365",
+                "link": "https://forums.veeam.com/forum74/"
+            },
+            {
+                "description": "Sub forum Microsoft Azure for Veeam Data Cloud",
+                "title": "Microsoft Azure",
+                "link": "https://forums.veeam.com/forum75/"
+            },
+            {
+                "description": "Sub forum Veeam Vault for Veeam Data Cloud",
+                "title": "Veeam Vault",
+                "link": "https://forums.veeam.com/forum76/"
+            },
+            {
+                "description": "Sub forum Salesforce for Veeam Data Cloud",
+                "title": "Salesforce",
+                "link": "https://forums.veeam.com/forum77/"
+            },
+            {
+                "description": "Sub forum Microsoft Entra ID for Veeam Data Cloud",
+                "title": "Microsoft Entra ID",
+                "link": "https://forums.veeam.com/forum78/"
+            },
+            {
+                "description": "General forum for Veeam Backup & Replication",
+                "title": "Veeam Backup & Replication",
+                "link": "https://forums.veeam.com/veeam-backup-replication-f2/"
+            },
+            {
+                "description": "Sub forum VMware vSphere for Veeam Backup & Replication",
+                "title": "VMware vSphere",
+                "link": "https://forums.veeam.com/vmware-vsphere-f24/"
+            },
+            {
+                "description": "Sub forum Microsoft Hyper-V for Veeam Backup & Replication",
+                "title": "Microsoft Hyper-V",
+                "link": "https://forums.veeam.com/microsoft-hyper-v-f25/"
+            },
+            {
+                "description": "Sub forum Nutanix AHV for Veeam Backup & Replication",
+                "title": "Nutanix AHV",
+                "link": "https://forums.veeam.com/forum51/"
+            },
+            {
+                "description": "Sub forum Proxmox VE for Veeam Backup & Replication",
+                "title": "Proxmox VE",
+                "link": "https://forums.veeam.com/forum79/"
+            },
+            {
+                "description": "Sub forum RHV, OLVM, SCHC, XCP-ng, HPE VME for Veeam Backup & Replication",
+                "title": "RHV, OLVM, SCHC, XCP-ng, HPE VME",
+                "link": "https://forums.veeam.com/forum62/"
+            },
+            {
+                "description": "Sub forum Amazon Web Services for Veeam Backup & Replication",
+                "title": "Amazon Web Services",
+                "link": "https://forums.veeam.com/forum55/"
+            },
+            {
+                "description": "Sub forum Microsoft Azure for Veeam Backup & Replication",
+                "title": "Microsoft Azure",
+                "link": "https://forums.veeam.com/forum59/"
+            },
+            {
+                "description": "Sub forum Google Cloud for Veeam Backup & Replication",
+                "title": "Google Cloud",
+                "link": "https://forums.veeam.com/forum61/"
+            },
+            {
+                "description": "Sub forum Applications for Veeam Backup & Replication",
+                "title": "Applications",
+                "link": "https://forums.veeam.com/forum66/"
+            },
+            {
+                "description": "Sub forum Servers & Workstations for Veeam Backup & Replication",
+                "title": "Servers & Workstations",
+                "link": "https://forums.veeam.com/forum49/"
+            },
+            {
+                "description": "Sub forum File Shares and Object Storage for Veeam Backup & Replication",
+                "title": "File Shares and Object Storage",
+                "link": "https://forums.veeam.com/forum57/"
+            },
+            {
+                "description": "Sub forum Object Storage as Backup Target for Veeam Backup & Replication",
+                "title": "Object Storage as Backup Target",
+                "link": "https://forums.veeam.com/forum52/"
+            },
+            {
+                "description": "Sub forum Tape for Veeam Backup & Replication",
+                "title": "Tape",
+                "link": "https://forums.veeam.com/tape-f29/"
+            },
+            {
+                "description": "Sub forum PowerShell for Veeam Backup & Replication",
+                "title": "PowerShell",
+                "link": "https://forums.veeam.com/powershell-f26/"
+            },
+            {
+                "description": "Sub forum REST API for Veeam Backup & Replication",
+                "title": "REST API",
+                "link": "https://forums.veeam.com/restful-api-f30/"
+            },
+            {
+                "description": "General forum for Veeam Agent for Microsoft Windows",
+                "title": "Veeam Agent for Microsoft Windows",
+                "link": "https://forums.veeam.com/veeam-agent-for-windows-f33/"
+            },
+            {
+                "description": "General forum for Veeam Agents for Linux, Mac, AIX & Solaris",
+                "title": "Veeam Agents for Linux, Mac, AIX & Solaris",
+                "link": "https://forums.veeam.com/forum41/"
+            },
+            {
+                "description": "General forum for Veeam Backup for Microsoft 365",
+                "title": "Veeam Backup for Microsoft 365",
+                "link": "https://forums.veeam.com/forum47/"
+            },
+            {
+                "description": "General forum for Veeam Backup for Salesforce",
+                "title": "Veeam Backup for Salesforce",
+                "link": "https://forums.veeam.com/forum65/"
+            },
+            {
+                "description": "General forum for Veeam Recovery Orchestrator",
+                "title": "Veeam Recovery Orchestrator",
+                "link": "https://forums.veeam.com/forum50/"
+            },
+            {
+                "description": "General forum for Veeam ONE",
+                "title": "Veeam ONE",
+                "link": "https://forums.veeam.com/veeam-one-f28/"
+            },
+            {
+                "description": "Sub forum Monitoring for Veeam ONE",
+                "title": "Monitoring",
+                "link": "https://forums.veeam.com/monitoring-f5/"
+            },
+            {
+                "description": "Sub forum Reporting for Veeam ONE",
+                "title": "Reporting",
+                "link": "https://forums.veeam.com/reporting-f6/"
+            },
+            {
+                "description": "Sub forum Business View for Veeam ONE",
+                "title": "Business View",
+                "link": "https://forums.veeam.com/business-view-f13/"
+            },
+            {
+                "description": "General forum for Veeam Management Pack for Microsoft System Center",
+                "title": "Veeam Management Pack for Microsoft System Center",
+                "link": "https://forums.veeam.com/veeam-management-pack-for-microsoft-system-center-f1/"
+            },
+            {
+                "link": "https://www.google.com/search?q=site%3Aforums.veeam.com",
+                "title": "Deepquery forums",
+                "description": "Search directly google in veeam domain by adding q=",
+                "deepquery": "https://www.google.com/search?q=site%3Aforums.veeam.com+$deepquery$"
+            }
+        ]
+    }
+]

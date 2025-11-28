@@ -1,0 +1,12 @@
+[
+  {
+    "catname": "Blogs",
+    "catlinks": [
+      {
+        "title":"From the Architects",
+        "link":"https://fromthearchitect.com",
+        "description":"From the Architects features technical white papers from EMEA Solution Architects"
+      }
+    ]
+  }
+]
