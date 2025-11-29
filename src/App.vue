@@ -104,7 +104,7 @@ function searchChange(q) {
             </template>
           </div>
         </div>
-        <div id="spacer" class="spacer"></div>
+        <div id="bottom-spacer" class="spacer"></div>
       </div>
       <div class="side-panel"></div>
   </main>
@@ -196,6 +196,9 @@ function searchChange(q) {
         }
         #smallgithub {
           display:block !important;
+        }
+        #bottom-spacer {
+          height:11rem;
         }
 }
 .spacer {

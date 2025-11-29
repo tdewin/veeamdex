@@ -63,8 +63,8 @@ const addlinks = computed(() => {
 }
 
 @media screen and (max-width: 600px) {
- a {
-        word-wrap: break-word;
+ a,div {
+  overflow-wrap: break-word;
  }
  .linkdiv {
    max-width: unset;
