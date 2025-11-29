@@ -55,7 +55,7 @@ function smoothScroll(id) {
   cursor: pointer;
 }
 
-@media screen and (max-width: 800px), screen and (max-height: 700px) {
+@media screen and (max-width: 1000px), screen and (max-height: 700px) {
         .linkbardiv {
           border: unset;
           padding-top:0rem !important;
@@ -66,7 +66,8 @@ function smoothScroll(id) {
           color: var(--color-background);
           min-width:unset;
         }
-}       .rnumber {
+       .rnumber {
           display:none;
         }
+}
 </style>

@@ -63,7 +63,7 @@ document.addEventListener("keydown", (event) => {
 }
 
 
-@media screen and (max-width: 800px), screen and (max-height: 700px) {
+@media screen and (max-width: 800px), screen and (max-height: 500px) {
   #search{
     box-sizing: border-box;
     max-width: 100%;

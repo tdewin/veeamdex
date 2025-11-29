@@ -162,7 +162,8 @@ function searchChange(q) {
 #logo  span {
   font-size:3rem;
 }
-@media screen and (max-width: 800px), screen and (max-height: 700px) {
+
+@media screen and (max-width: 800px), screen and (max-height: 500px) {
         #logo {
                 flex-direction: row;
         }
