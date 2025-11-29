@@ -10,13 +10,10 @@
  })
 
 
- function emitChange(ev) {
+function emitChange(ev) {
    emit('changed',ev.target.value);
- }
+}
 
-
-</script>
-<script>
 document.addEventListener("DOMContentLoaded", (event) => {
         const search = document.getElementById("search");
         search.value = "";
@@ -28,9 +25,12 @@ document.addEventListener("keydown", (event) => {
           search.value = "";
           search.focus();
           event.preventDefault();
+          emitChange({target:search});
           return false;
         }
 })
+
+
 </script>
 
 <template>

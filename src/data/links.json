@@ -62,5 +62,22 @@
         "description": "Manage your support cases"
       }
    ]
+  },{
+   "catname": "Search",
+   "cattags": ["=="],
+   "catlinks": [
+      {
+        "title": "Google",
+        "link": "https://google.com",
+        "description": "google simple search",
+        "deepquery":"https://google.com/search?q=$deepquery$"
+      },
+      {
+        "title": "Ecosia",
+        "link": "https://ecosia.com",
+        "description": "ecosia simple search",
+        "deepquery":"https://www.ecosia.org/search?q=$deepquery$"
+      }
+   ]
   }
 ]

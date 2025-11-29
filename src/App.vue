@@ -22,7 +22,8 @@ console.time('buildindex')
 for (const cat of linkDataSource) {
   for (const l of cat.catlinks) {
     let tags = cat.cattags || [];
-    l.index = [...tags,cat.catname,l.title,l.description,l.link].join(" ").split(" ").filter((word) => word.length > 1).join(" ").toLowerCase();
+    let addlinks = (l.addlinks || []).map((m)=> m.text);
+    l.index = [...tags,cat.catname,l.title,l.description,l.link,...addlinks].join(" ").split(" ").filter((word) => word.length > 1).join(" ").toLowerCase();
   }
 }
 console.timeEnd('buildindex')
@@ -96,7 +97,7 @@ function searchChange(q) {
           <div >
             <div><h1>{{cat.catname}}</h1></div>
             <template v-for="link in cat.catlinks">
-                <Link :link="link" :deepquery="deepquery"/>
+                <Link :link="link" :deepquery="deepquery" :searchArr="searchArr"/>
             </template>
           </div>
         </div>

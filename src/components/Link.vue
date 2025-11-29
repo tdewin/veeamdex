@@ -6,12 +6,33 @@
     },
     deepquery: {
       required: true,
+    },
+    searchArr: {
+      required: true,
     }
  })
 
  
 const deepquerycalc = computed(() => {
         return props.link.deepquery.replace("$deepquery$",props.deepquery)
+})
+
+const addlinks = computed(() => {
+        let sublinks = [];
+        if (props.link.addlinks) {
+          for (const al of props.link.addlinks) {
+            let foundone = false;
+            let searchArr= props.searchArr;
+            let l = al.text.toLowerCase();
+            for (let i =0;i < searchArr.length && !foundone;i++) { 
+                  foundone = l.indexOf(searchArr[i]) != -1;
+            }
+            if (foundone) {
+                  sublinks.push(al);
+            } 
+          }
+        }
+        return sublinks;
 })
 
 </script>
@@ -22,6 +43,11 @@ const deepquerycalc = computed(() => {
                 <div>{{link.description}}</div>
                 <a :href="link.link" v-if="!link.deepquery || deepquery == ''">{{link.link}}</a>
                 <a :href="deepquerycalc" v-else>{{deepquerycalc}}</a>
+                <div v-if="addlinks.length > 0">
+                <ul>        
+                        <li v-for="al in addlinks"><a :href="al.href" >{{al.text}}</a></li>
+                </ul>
+                </div>
             </div>
 </template>
 

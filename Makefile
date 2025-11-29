@@ -2,7 +2,7 @@ IMG=vue-build
 MAP=-v ./:/project
 PROJECT=veeamdex
 PROJECTDIR=project
-
+LOCALIP?=127.0.0.1
 .PHONY: dist
 
 most: run
@@ -11,7 +11,7 @@ static: dist statictest
 build:
 	podman build -t $(IMG)  .
 run:
-	podman run -p 5173:5173 --rm -it --name veeamdex --entrypoint sh $(MAP) --workdir /$(PROJECTDIR) $(IMG) -c 'npm run dev -- --host 0.0.0.0'
+	podman run -p $(LOCALIP):5173:5173 --rm -it --name veeamdex --entrypoint sh $(MAP) --workdir /$(PROJECTDIR) $(IMG) -c 'npm run dev -- --host 0.0.0.0'
 dist:
 	mkdir -p docs
 	podman run -p 5173:5173 --rm -it --name veeamdex --entrypoint sh $(MAP) --workdir /$(PROJECTDIR) $(IMG) -c 'npm run build -- --outDir docs'
