@@ -78,7 +78,8 @@ function searchChange(q) {
       <div class="side-panel"></div>
       <div class="pagesizer" id="logo"> 
         <div id="header-logo"></div>
-        <p style="align-self:center;margin:0px;padding:0px;">Jump to search field with "/", append q= to pass parameter to the next site. eg."kb q=tape" or "deepq q=tape"</p>
+        <p style="align-self:center;margin:0px;padding:0px;">Jump to search field with "/", append q= to pass parameter to the next site. eg."kb q=tape" or "deepq q=tape"<br/>
+        <span style="display:none;font-size:0.6rem;" id="smallgithub"><a href="https://github.com/tdewin/veeamdex">github.com/tdewin/veeamdex</a></span></p>
       </div>
       <div class="side-panel"></div>
   </div>
@@ -186,15 +187,15 @@ function searchChange(q) {
         }
         header {
           position:fixed !important;
-          bottom: 1rem;
+          bottom: 0rem;
           top: unset !important;
           padding: 0.1rem !important;
         }
         footer {
-          height: 0.8rem !important;
+          display:none !important;
         }
-        .footer-content {
-          border: 0rem !important;
+        #smallgithub {
+          display:block !important;
         }
 }
 .spacer {
