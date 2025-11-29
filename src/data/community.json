@@ -403,12 +403,8 @@
             {
                 "link": "https://www.samuraj-cz.com/",
                 "title": "Vanguard Blog Petr Bou\u0161ka",
-                "description": "Head of IT department in a software development company. System and network engineer with focus on architecture, virtualization, backup and cybersecurity. He has received many certifications from Microsoft, Cisco, Fortinet and VMware. He has been publishing technical articles on the blog Samuraj-cz.com (a popular blog in the Czech Republic) for 20 years.",
+                "description": "Head of IT department in a software development company. System and network engineer with focus on architecture, virtualization, backup and cybersecurity. He has received many certifications from Microsoft, Cisco, Fortinet and VMware. He has been publishing technical articles on his blog (a popular blog in the Czech Republic) for 20 years.",
                 "addlinks": [
-                    {
-                        "href": "https://www.samuraj-cz.com/",
-                        "text": "Samuraj-cz.com"
-                    },
                     {
                         "href": "https://www.facebook.com/samurajczcom/",
                         "text": "Facebook"
@@ -512,12 +508,8 @@
                 "description": "Lukas is a Senior Consultant for Backup & Disaster Recovery based in Germany. He has years of experience in virtualization, business continuity (BCDR) and IT security. Over the past decade he has attended a Certified Ethical Hacking (CEH) class and has a focus on hardened designs and DR strategies according to current security and compliance requirements. He is also a leader of the Veeam Cyber Security Space Usergroup.Outside of Veeam he is a private pilot, aspiring flight instructor and as a focus on music and video games.",
                 "addlinks": [
                     {
-                        "href": "https://community.veeam.com/members/dynamic-15704",
-                        "text": "G"
-                    },
-                    {
                         "href": "https://github.com/lukas-kl",
-                        "text": "itHub"
+                        "text": "Github"
                     }
                 ]
             },
@@ -559,14 +551,6 @@
                 "title": "Vanguard Blog Jonah May",
                 "description": "Jonah is a distinguished Product Architect and Engineering Manager at CyberFortress, a Platinum VCSP celebrated for its innovative tech solutions. At CyberFortress, he leverages his extensive expertise to oversee Veeam product offerings and marketing initiatives, supported by industry-recognized certifications including ITIL 4 Foundations, VMCE, and VMCA. As a Veeam Certified Architect and a five-time Veeam Vanguard, Jonah has established himself as a visionary leader in the tech community. Notably, he was an inaugural Object First Ace and is now in his second year in the program, further demonstrating his commitment to excellence. He also spearheads the Texas and Automation Desk Veeam User Groups, serves as an Object First Aces Group Leader, and co-founded the Veeam Community Hackathon. Beyond his professional achievements, Jonah dedicates his time to community service as a Scout leader for Troop 254 where he earned his Eagle Scout as a youth.",
                 "addlinks": [
-                    {
-                        "href": "https://twitter.com/JonahMayRocks",
-                        "text": "B"
-                    },
-                    {
-                        "href": "https://bsky.app/profile/jonahmay.net",
-                        "text": "luesky"
-                    },
                     {
                         "href": "https://github.com/JonahMMay",
                         "text": "GitHub"
@@ -615,11 +599,7 @@
                 "addlinks": [
                     {
                         "href": "http://t.me/JoaquimSantos",
-                        "text": "T"
-                    },
-                    {
-                        "href": "http://t.me/JoaquimSantos",
-                        "text": "elegram"
+                        "text": "Telegram"
                     }
                 ]
             },
