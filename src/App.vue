@@ -179,10 +179,22 @@ function searchChange(q) {
           background-position: center;
         }
         .pagesizer {
-          max-width: 96vw;
+          max-width: 95vw;
         }
         .side-panel {
           min-width: unset;
+        }
+        header {
+          position:fixed !important;
+          bottom: 1rem;
+          top: unset !important;
+          padding: 0.1rem !important;
+        }
+        footer {
+          height: 0.8rem !important;
+        }
+        .footer-content {
+          border: 0rem !important;
         }
 }
 .spacer {

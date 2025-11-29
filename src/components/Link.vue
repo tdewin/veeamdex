@@ -52,6 +52,7 @@ const addlinks = computed(() => {
 </template>
 
 <style scoped>
+
 .linkdiv {
  border: 0.10rem dashed var(--altgreen);
  border-radius:0.5rem;
@@ -62,6 +63,9 @@ const addlinks = computed(() => {
 }
 
 @media screen and (max-width: 600px) {
+ a {
+        word-wrap: break-word;
+ }
  .linkdiv {
    max-width: unset;
  }
