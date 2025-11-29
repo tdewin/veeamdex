@@ -9,6 +9,8 @@ import jsonHelpcenter from './data/helpcenter.json'
 import jsonForums from './data/forums.json'
 import jsonKB from './data/kb.json'
 import jsonVeeamhub from './data/veeamhub.json'
+import jsonBP from './data/bp.json'
+
 import { ref } from 'vue'
 import { computed } from 'vue'
 
@@ -16,7 +18,7 @@ const search = ref("");
 const deepquery = ref("");
 const searchArr = ref([]);
 
-let linkDataSource = [...jsonLinkData,...jsonBlogs,...jsonVeeamhub,...jsonCommunity,...jsonKB,...jsonForums,...jsonHelpcenter];
+let linkDataSource = [...jsonBP,...jsonLinkData,...jsonBlogs,...jsonVeeamhub,...jsonCommunity,...jsonKB,...jsonForums,...jsonHelpcenter];
 
 console.time('buildindex')
 for (const cat of linkDataSource) {

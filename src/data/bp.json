@@ -1,0 +1,1170 @@
+[
+    {
+        "catname": "Best Practices",
+        "cattags": "BP",
+        "catlinks": [
+            {
+                "title": "Veeam Backup & Replication Best Practices",
+                "link": "https://bp.veeam.com/vbr",
+                "description": "BP guide for Veeam Backup & Replication created by the Solutions Architects",
+                "addlinks": [
+                    {
+                        "text": "Welcome",
+                        "href": "https://bp.veeam.com/vbr"
+                    },
+                    {
+                        "text": "Assess",
+                        "href": "https://bp.veeam.com/vbr/1_Assessment"
+                    },
+                    {
+                        "text": "Data gathering",
+                        "href": "https://bp.veeam.com/vbr/1_Assessment/A_Data_gathering/Data_gathering.html"
+                    },
+                    {
+                        "text": "SLA definition",
+                        "href": "https://bp.veeam.com/vbr/1_Assessment/A_SLA_Definition/SLA_Definition.html"
+                    },
+                    {
+                        "text": "Infrastructure overview",
+                        "href": "https://bp.veeam.com/vbr/1_Assessment/A_Infra_Overview/infra_overview.html"
+                    },
+                    {
+                        "text": "Design",
+                        "href": "https://bp.veeam.com/vbr/2_Design_Structures"
+                    },
+                    {
+                        "text": "Backup server",
+                        "href": "https://bp.veeam.com/vbr/2_Design_Structures/D_Veeam_Components/D_VBR_server/backup_server.html"
+                    },
+                    {
+                        "text": "VBR Database",
+                        "href": "https://bp.veeam.com/vbr/2_Design_Structures/D_Veeam_Components/D_VBR_DB/database.html"
+                    },
+                    {
+                        "text": "Proxy Design",
+                        "href": "https://bp.veeam.com/vbr/2_Design_Structures/D_Veeam_Components/D_backup_proxies"
+                    },
+                    {
+                        "text": "vSphere Proxy",
+                        "href": "https://bp.veeam.com/vbr/2_Design_Structures/D_Veeam_Components/D_backup_proxies/vmware_proxies.html"
+                    },
+                    {
+                        "text": "Hyper-V Proxy",
+                        "href": "https://bp.veeam.com/vbr/2_Design_Structures/D_Veeam_Components/D_backup_proxies/hyperv_proxies.html"
+                    },
+                    {
+                        "text": "General-Purpose Backup Proxy",
+                        "href": "https://bp.veeam.com/vbr/2_Design_Structures/D_Veeam_Components/D_backup_proxies/general_purpose_proxy.html"
+                    },
+                    {
+                        "text": "Proxmox Workers",
+                        "href": "https://bp.veeam.com/vbr/2_Design_Structures/D_Veeam_Components/D_backup_proxies/proxmox_workers.html"
+                    },
+                    {
+                        "text": "Repository Design",
+                        "href": "https://bp.veeam.com/vbr/2_Design_Structures/D_Veeam_Components/D_backup_repositories"
+                    },
+                    {
+                        "text": "NAS cache repository",
+                        "href": "https://bp.veeam.com/vbr/2_Design_Structures/D_Veeam_Components/D_backup_repositories/nascache.html"
+                    },
+                    {
+                        "text": "Scale-Out Repos",
+                        "href": "https://bp.veeam.com/vbr/2_Design_Structures/D_Veeam_Components/D_backup_repositories/scaleout.html"
+                    },
+                    {
+                        "text": "Repository Storage",
+                        "href": "https://bp.veeam.com/vbr/2_Design_Structures/D_Veeam_Components/D_backup_repositories/repositories%20storage.html"
+                    },
+                    {
+                        "text": "NAS Backup Repository",
+                        "href": "https://bp.veeam.com/vbr/2_Design_Structures/D_Veeam_Components/D_backup_repositories/nasrepo.html"
+                    },
+                    {
+                        "text": "Block Storage",
+                        "href": "https://bp.veeam.com/vbr/2_Design_Structures/D_Veeam_Components/D_backup_repositories/block.html"
+                    },
+                    {
+                        "text": "Dell Data Domain",
+                        "href": "https://bp.veeam.com/vbr/2_Design_Structures/D_Veeam_Components/D_backup_repositories/datadomain.html"
+                    },
+                    {
+                        "text": "Deduplication appliances",
+                        "href": "https://bp.veeam.com/vbr/2_Design_Structures/D_Veeam_Components/D_backup_repositories/deduplication.html"
+                    },
+                    {
+                        "text": "ExaGrid",
+                        "href": "https://bp.veeam.com/vbr/2_Design_Structures/D_Veeam_Components/D_backup_repositories/exagrid.html"
+                    },
+                    {
+                        "text": "StoreOnce",
+                        "href": "https://bp.veeam.com/vbr/2_Design_Structures/D_Veeam_Components/D_backup_repositories/storeonce.html"
+                    },
+                    {
+                        "text": "Gateway Server",
+                        "href": "https://bp.veeam.com/vbr/2_Design_Structures/D_Veeam_Components/D_backup_repositories/gateway.html"
+                    },
+                    {
+                        "text": "Object Repository",
+                        "href": "https://bp.veeam.com/vbr/2_Design_Structures/D_Veeam_Components/D_backup_repositories/object.html"
+                    },
+                    {
+                        "text": "Enterprise Manager",
+                        "href": "https://bp.veeam.com/vbr/2_Design_Structures/D_Veeam_Components/D_Enterprise_Manager/enterprise_manager.html"
+                    },
+                    {
+                        "text": "Tape Server",
+                        "href": "https://bp.veeam.com/vbr/2_Design_Structures/D_Veeam_Components/D_tape_server/tape_server.html"
+                    },
+                    {
+                        "text": "WAN Accelerator",
+                        "href": "https://bp.veeam.com/vbr/2_Design_Structures/D_Veeam_Components/D_Wan_accelerator/WAN_Accelerator.html"
+                    },
+                    {
+                        "text": "Secure",
+                        "href": "https://bp.veeam.com/vbr/2_Design_Structures/D_Security"
+                    },
+                    {
+                        "text": "Ports Finder",
+                        "href": "https://bp.veeam.com/vbr/2_Design_Structures/D_Tools/Ports_finder.html"
+                    },
+                    {
+                        "text": "Enterprise Design",
+                        "href": "https://bp.veeam.com/vbr/2_Design_Structures/D_enterprise_design/enterprise_design.html"
+                    },
+                    {
+                        "text": "SureBackup",
+                        "href": "https://bp.veeam.com/vbr/2_Design_Structures/D_Veeam_Components/D_SureBackup/SureBackup.html"
+                    },
+                    {
+                        "text": "VSE Guide",
+                        "href": "https://bp.veeam.com/vbr/2_Design_Structures/D_VSE_guide"
+                    },
+                    {
+                        "text": "VSE advanced",
+                        "href": "https://bp.veeam.com/vbr/2_Design_Structures/D_VSE_guide/advanced_operations.html"
+                    },
+                    {
+                        "text": "VSE Basic",
+                        "href": "https://bp.veeam.com/vbr/2_Design_Structures/D_VSE_guide/basic_operations.html"
+                    },
+                    {
+                        "text": "Capacity Tier estimation",
+                        "href": "https://bp.veeam.com/vbr/2_Design_Structures/D_VSE_guide/capacity_tier.html"
+                    },
+                    {
+                        "text": "Enterprise Plug-Ins",
+                        "href": "https://bp.veeam.com/vbr/2_Design_Structures/D_Enterprise_Plugins"
+                    },
+                    {
+                        "text": "VBR Plug-Ins Design",
+                        "href": "https://bp.veeam.com/vbr/2_Design_Structures/D_Veeam_Components/D_VBR_Plugins"
+                    },
+                    {
+                        "text": "Azure",
+                        "href": "https://bp.veeam.com/vbr/2_Design_Structures/D_Veeam_Components/D_VBR_Plugins/microsoft_azure.html"
+                    },
+                    {
+                        "text": "Google Cloud",
+                        "href": "https://bp.veeam.com/vbr/2_Design_Structures/D_Veeam_Components/D_VBR_Plugins/google_cloud.html"
+                    },
+                    {
+                        "text": "Build",
+                        "href": "https://bp.veeam.com/vbr/3_Build_structures"
+                    },
+                    {
+                        "text": "Backup server",
+                        "href": "https://bp.veeam.com/vbr/3_Build_structures/B_Veeam_Components/B_VBR_Server/Backup_Server.html"
+                    },
+                    {
+                        "text": "Backup proxies",
+                        "href": "https://bp.veeam.com/vbr/3_Build_structures/B_Veeam_Components/B_backup_proxies"
+                    },
+                    {
+                        "text": "vSphere proxy",
+                        "href": "https://bp.veeam.com/vbr/3_Build_structures/B_Veeam_Components/B_backup_proxies/vmware_proxies.html"
+                    },
+                    {
+                        "text": "Hyper-V proxy",
+                        "href": "https://bp.veeam.com/vbr/3_Build_structures/B_Veeam_Components/B_backup_proxies/hyperv_proxies.html"
+                    },
+                    {
+                        "text": "Unstructured backup proxy",
+                        "href": "https://bp.veeam.com/vbr/3_Build_structures/B_Veeam_Components/B_backup_proxies/unstructured_backup_proxy.html"
+                    },
+                    {
+                        "text": "Backup repositories",
+                        "href": "https://bp.veeam.com/vbr/3_Build_structures/B_Veeam_Components/B_backup_repositories"
+                    },
+                    {
+                        "text": "Block repositories",
+                        "href": "https://bp.veeam.com/vbr/3_Build_structures/B_Veeam_Components/B_backup_repositories/block.html"
+                    },
+                    {
+                        "text": "Scale-Out repositories",
+                        "href": "https://bp.veeam.com/vbr/3_Build_structures/B_Veeam_Components/B_backup_repositories/scaleout.html"
+                    },
+                    {
+                        "text": "Object repositories",
+                        "href": "https://bp.veeam.com/vbr/3_Build_structures/B_Veeam_Components/B_backup_repositories/object.html"
+                    },
+                    {
+                        "text": "NAS repositories",
+                        "href": "https://bp.veeam.com/vbr/3_Build_structures/B_Veeam_Components/B_backup_repositories/nas.html"
+                    },
+                    {
+                        "text": "Deduplication appliances",
+                        "href": "https://bp.veeam.com/vbr/3_Build_structures/B_Veeam_Components/B_backup_repositories/deduplication.html"
+                    },
+                    {
+                        "text": "Dell Data Domain",
+                        "href": "https://bp.veeam.com/vbr/3_Build_structures/B_Veeam_Components/B_backup_repositories/datadomain.html"
+                    },
+                    {
+                        "text": "Exagrid",
+                        "href": "https://bp.veeam.com/vbr/3_Build_structures/B_Veeam_Components/B_backup_repositories/exagrid.html"
+                    },
+                    {
+                        "text": "StoreOnce",
+                        "href": "https://bp.veeam.com/vbr/3_Build_structures/B_Veeam_Components/B_backup_repositories/storeonce.html"
+                    },
+                    {
+                        "text": "Enterprise Manager",
+                        "href": "https://bp.veeam.com/vbr/3_Build_structures/B_Veeam_Components/enterprise_manager.html"
+                    },
+                    {
+                        "text": "Tape",
+                        "href": "https://bp.veeam.com/vbr/3_Build_structures/B_Veeam_Components/tape.html"
+                    },
+                    {
+                        "text": "WAN Accelerators",
+                        "href": "https://bp.veeam.com/vbr/3_Build_structures/B_Veeam_Components/B_wan_accelerators/Wan_Accelerators.html"
+                    },
+                    {
+                        "text": "Other",
+                        "href": "https://bp.veeam.com/vbr/3_Build_structures/B_Other"
+                    },
+                    {
+                        "text": "DNS resolution",
+                        "href": "https://bp.veeam.com/vbr/3_Build_structures/B_Other/dns_resolution.html"
+                    },
+                    {
+                        "text": "Tuning vSphere",
+                        "href": "https://bp.veeam.com/vbr/3_Build_structures/B_Other/vsphere.html"
+                    },
+                    {
+                        "text": "Network rules",
+                        "href": "https://bp.veeam.com/vbr/3_Build_structures/B_Other/network_rules.html"
+                    },
+                    {
+                        "text": "Secure",
+                        "href": "https://bp.veeam.com/vbr/3_Build_structures/b_security.html"
+                    },
+                    {
+                        "text": "Public Cloud Integration",
+                        "href": "https://bp.veeam.com/vbr/3_Build_structures/B_Veeam_Components/B_cloud_integration"
+                    },
+                    {
+                        "text": "Microsoft Azure Integration",
+                        "href": "https://bp.veeam.com/vbr/3_Build_structures/B_Veeam_Components/B_cloud_integration/azure_integration.html"
+                    },
+                    {
+                        "text": "Operate",
+                        "href": "https://bp.veeam.com/vbr/4_Operations"
+                    },
+                    {
+                        "text": "Backup jobs",
+                        "href": "https://bp.veeam.com/vbr/4_Operations/O_Veeam_Jobs/O_backup_jobs"
+                    },
+                    {
+                        "text": "Backup job general",
+                        "href": "https://bp.veeam.com/vbr/4_Operations/O_Veeam_Jobs/O_backup_jobs/backup_job.html"
+                    },
+                    {
+                        "text": "Backup job methods",
+                        "href": "https://bp.veeam.com/vbr/4_Operations/O_Veeam_Jobs/O_backup_jobs/backup_job_methods.html"
+                    },
+                    {
+                        "text": "Backup job storage",
+                        "href": "https://bp.veeam.com/vbr/4_Operations/O_Veeam_Jobs/O_backup_jobs/backup_job_storage.html"
+                    },
+                    {
+                        "text": "Guest processing",
+                        "href": "https://bp.veeam.com/vbr/4_Operations/O_Veeam_Jobs/O_backup_jobs/guest_processing.html"
+                    },
+                    {
+                        "text": "Backup job automation",
+                        "href": "https://bp.veeam.com/vbr/4_Operations/O_Veeam_Jobs/O_backup_jobs/backup_job_automation.html"
+                    },
+                    {
+                        "text": "Backup copy jobs",
+                        "href": "https://bp.veeam.com/vbr/4_Operations/O_Veeam_Jobs/O_backup_copy_jobs/backup_copy_job.html"
+                    },
+                    {
+                        "text": "Replication jobs",
+                        "href": "https://bp.veeam.com/vbr/4_Operations/O_Veeam_Jobs/O_replication_jobs/replication_jobs.html"
+                    },
+                    {
+                        "text": "SureBackup jobs",
+                        "href": "https://bp.veeam.com/vbr/4_Operations/O_Veeam_Jobs/surebackup_jobs"
+                    },
+                    {
+                        "text": "Applications",
+                        "href": "https://bp.veeam.com/vbr/4_Operations/O_Application"
+                    },
+                    {
+                        "text": "Active Directory",
+                        "href": "https://bp.veeam.com/vbr/4_Operations/O_Application/active_directory.html"
+                    },
+                    {
+                        "text": "Microsoft Exchange",
+                        "href": "https://bp.veeam.com/vbr/4_Operations/O_Application/exchange.html"
+                    },
+                    {
+                        "text": "Microsoft SQL Server",
+                        "href": "https://bp.veeam.com/vbr/4_Operations/O_Application/mssql_server.html"
+                    },
+                    {
+                        "text": "Microsoft SharePoint Server",
+                        "href": "https://bp.veeam.com/vbr/4_Operations/O_Application/sharepoint.html"
+                    },
+                    {
+                        "text": "Oracle",
+                        "href": "https://bp.veeam.com/vbr/4_Operations/O_Application/oracle.html"
+                    },
+                    {
+                        "text": "SAP HANA",
+                        "href": "https://bp.veeam.com/vbr/4_Operations/O_Application/sap_hana.html"
+                    },
+                    {
+                        "text": "MySQL",
+                        "href": "https://bp.veeam.com/vbr/4_Operations/O_Application/mysql.html"
+                    },
+                    {
+                        "text": "Secure",
+                        "href": "https://bp.veeam.com/vbr/4_Operations/O_Security"
+                    },
+                    {
+                        "text": "Tape Operations",
+                        "href": "https://bp.veeam.com/vbr/4_Operations/tape.html"
+                    },
+                    {
+                        "text": "Enterprise Manager",
+                        "href": "https://bp.veeam.com/vbr/4_Operations/enterprise_manager.html"
+                    },
+                    {
+                        "text": "WAN Acceleration",
+                        "href": "https://bp.veeam.com/vbr/4_Operations/O_WAN_accelerator/wan_acc.html"
+                    },
+                    {
+                        "text": "Configuration Database",
+                        "href": "https://bp.veeam.com/vbr/4_Operations/database.html"
+                    },
+                    {
+                        "text": "VBR Plug-Ins Ops",
+                        "href": "https://bp.veeam.com/vbr/4_Operations/O_VBR_Plugins"
+                    },
+                    {
+                        "text": "Microsoft Azure",
+                        "href": "https://bp.veeam.com/vbr/4_Operations/O_VBR_Plugins/azure.html"
+                    },
+                    {
+                        "text": "AWS",
+                        "href": "https://bp.veeam.com/vbr/4_Operations/O_VBR_Plugins/aws.html"
+                    },
+                    {
+                        "text": "Google Cloud",
+                        "href": "https://bp.veeam.com/vbr/4_Operations/O_VBR_Plugins/google_cloud.html"
+                    },
+                    {
+                        "text": "Secure",
+                        "href": "https://bp.veeam.com/vbr/Security"
+                    },
+                    {
+                        "text": "Supplemental",
+                        "href": "https://bp.veeam.com/vbr/Support"
+                    },
+                    {
+                        "text": "Initial sizing recommendations",
+                        "href": "https://bp.veeam.com/vbr/Support/configurations"
+                    },
+                    {
+                        "text": "Backup server",
+                        "href": "https://bp.veeam.com/vbr/Support/configurations/backup_server.html"
+                    },
+                    {
+                        "text": "VMware proxy",
+                        "href": "https://bp.veeam.com/vbr/Support/configurations/vmware_proxy.html"
+                    },
+                    {
+                        "text": "CDP proxy",
+                        "href": "https://bp.veeam.com/vbr/Support/configurations/cdp_proxy.html"
+                    },
+                    {
+                        "text": "File proxy",
+                        "href": "https://bp.veeam.com/vbr/Support/configurations/file_proxy.html"
+                    },
+                    {
+                        "text": "VMware vSphere",
+                        "href": "https://bp.veeam.com/vbr/Support/S_Vmware"
+                    },
+                    {
+                        "text": "VMware Backups",
+                        "href": "https://bp.veeam.com/vbr/Support/S_Vmware/backup.html"
+                    },
+                    {
+                        "text": "Instant Recovery",
+                        "href": "https://bp.veeam.com/vbr/Support/S_Vmware/instant_vm_recovery.html"
+                    },
+                    {
+                        "text": "Interaction with vSphere",
+                        "href": "https://bp.veeam.com/vbr/Support/S_Vmware/interaction.html"
+                    },
+                    {
+                        "text": "Storage Integration",
+                        "href": "https://bp.veeam.com/vbr/Support/S_Vmware/storage_integration.html"
+                    },
+                    {
+                        "text": "Replication",
+                        "href": "https://bp.veeam.com/vbr/Support/S_Vmware/replication.html"
+                    },
+                    {
+                        "text": "VirtualMachine Restore",
+                        "href": "https://bp.veeam.com/vbr/Support/S_Vmware/vm_restore.html"
+                    },
+                    {
+                        "text": "Hyper-V",
+                        "href": "https://bp.veeam.com/vbr/Support/S_Hyper-V"
+                    },
+                    {
+                        "text": "Interaction with Hyper-V",
+                        "href": "https://bp.veeam.com/vbr/Support/S_Hyper-V/interaction.html"
+                    },
+                    {
+                        "text": "Backup Modes",
+                        "href": "https://bp.veeam.com/vbr/Support/S_Hyper-V/backupmodes.html"
+                    },
+                    {
+                        "text": "Interaction with Guest OS",
+                        "href": "https://bp.veeam.com/vbr/Support/S_Hyper-V/guestinteraction.html"
+                    },
+                    {
+                        "text": "Instant VM Recovery",
+                        "href": "https://bp.veeam.com/vbr/Support/S_Hyper-V/instantvmrecovery.html"
+                    },
+                    {
+                        "text": "Agents",
+                        "href": "https://bp.veeam.com/vbr/Support/S_Agents"
+                    },
+                    {
+                        "text": "Agent Management",
+                        "href": "https://bp.veeam.com/vbr/Support/S_Agents/agent_mgmt.html"
+                    },
+                    {
+                        "text": "Agent for Microsoft Windows",
+                        "href": "https://bp.veeam.com/vbr/Support/S_Agents/vaw.html"
+                    },
+                    {
+                        "text": "Agent for Linux",
+                        "href": "https://bp.veeam.com/vbr/Support/S_Agents/val.html"
+                    },
+                    {
+                        "text": "Application Details",
+                        "href": "https://bp.veeam.com/vbr/Support/S_Applications"
+                    },
+                    {
+                        "text": "Oracle",
+                        "href": "https://bp.veeam.com/vbr/Support/S_Applications/oracle.html"
+                    },
+                    {
+                        "text": "SAP HANA",
+                        "href": "https://bp.veeam.com/vbr/Support/S_Applications/sap_hana.html"
+                    },
+                    {
+                        "text": "Encryption",
+                        "href": "https://bp.veeam.com/vbr/Support/S_Encryption"
+                    },
+                    {
+                        "text": "Encryption Overview",
+                        "href": "https://bp.veeam.com/vbr/Support/S_Encryption/overview.html"
+                    },
+                    {
+                        "text": "Job Encryption",
+                        "href": "https://bp.veeam.com/vbr/Support/S_Encryption/job.html"
+                    },
+                    {
+                        "text": "Network Transport Encryption",
+                        "href": "https://bp.veeam.com/vbr/Support/S_Encryption/network.html"
+                    },
+                    {
+                        "text": "Backup Repository Encryption",
+                        "href": "https://bp.veeam.com/vbr/Support/S_Encryption/repository.html"
+                    },
+                    {
+                        "text": "Tape Job Encryption",
+                        "href": "https://bp.veeam.com/vbr/Support/S_Encryption/tape.html"
+                    },
+                    {
+                        "text": "About",
+                        "href": "https://bp.veeam.com/vbr/about"
+                    }
+                ]
+            },
+            {
+                "title": "VCSP Best Practices guide",
+                "link": "https://bp.veeam.com/sp",
+                "description": "This guide is intended to provide best practices on the different Veeam-powered services for our Cloud & Service Providers.",
+                "addlinks": [
+                    {
+                        "text": "Welcome",
+                        "href": "https://bp.veeam.com/sp"
+                    },
+                    {
+                        "text": "MSP",
+                        "href": "https://bp.veeam.com/sp/MSP"
+                    },
+                    {
+                        "text": "Design",
+                        "href": "https://bp.veeam.com/sp/MSP/M_Design/design.html"
+                    },
+                    {
+                        "text": "Service Administration",
+                        "href": "https://bp.veeam.com/sp/MSP/M_Design/sa-tools.html"
+                    },
+                    {
+                        "text": "Evaluation",
+                        "href": "https://bp.veeam.com/sp/MSP/M_Design/evaluation.html"
+                    },
+                    {
+                        "text": "Production",
+                        "href": "https://bp.veeam.com/sp/MSP/M_Design/production.html"
+                    },
+                    {
+                        "text": "Scale and HA",
+                        "href": "https://bp.veeam.com/sp/MSP/M_Design/vspc-scale.html"
+                    },
+                    {
+                        "text": "VCC pod",
+                        "href": "https://bp.veeam.com/sp/MSP/M_Design/vcc-pod.html"
+                    },
+                    {
+                        "text": "Build",
+                        "href": "https://bp.veeam.com/sp/MSP/M_Build/build.html"
+                    },
+                    {
+                        "text": "Evaluation",
+                        "href": "https://bp.veeam.com/sp/MSP/M_Build/vspc-eval.html"
+                    },
+                    {
+                        "text": "Production",
+                        "href": "https://bp.veeam.com/sp/MSP/M_Build/production.html"
+                    },
+                    {
+                        "text": "Log files",
+                        "href": "https://bp.veeam.com/sp/MSP/M_Build/logs.html"
+                    },
+                    {
+                        "text": "Scalability tweaks",
+                        "href": "https://bp.veeam.com/sp/MSP/M_Build/scalability-tweaks.html"
+                    },
+                    {
+                        "text": "Operate",
+                        "href": "https://bp.veeam.com/sp/MSP/M_Operate/operate.html"
+                    },
+                    {
+                        "text": "Update the service",
+                        "href": "https://bp.veeam.com/sp/MSP/M_Operate/update.html"
+                    },
+                    {
+                        "text": "Database protection",
+                        "href": "https://bp.veeam.com/sp/MSP/M_Operate/db-protection.html"
+                    },
+                    {
+                        "text": "Convert single-server to distributed deployment",
+                        "href": "https://bp.veeam.com/sp/MSP/M_Operate/vspc-single-to-distributed.html"
+                    },
+                    {
+                        "text": "Convert MSSQL standalone to Always On",
+                        "href": "https://bp.veeam.com/sp/MSP/M_Operate/mssql-scale.html"
+                    },
+                    {
+                        "text": "Secure",
+                        "href": "https://bp.veeam.com/sp/MSP/M_Secure/secure.html"
+                    },
+                    {
+                        "text": "Authentication and authorization",
+                        "href": "https://bp.veeam.com/sp/MSP/M_Secure/vspc-aa.html"
+                    },
+                    {
+                        "text": "Security Zones",
+                        "href": "https://bp.veeam.com/sp/MSP/M_Secure/security-zones.html"
+                    },
+                    {
+                        "text": "Off-Site Backup",
+                        "href": "https://bp.veeam.com/sp/Offsite_Backup"
+                    },
+                    {
+                        "text": "Design",
+                        "href": "https://bp.veeam.com/sp/Offsite_Backup/O_Design/design.html"
+                    },
+                    {
+                        "text": "Build",
+                        "href": "https://bp.veeam.com/sp/Offsite_Backup/O_Build/build.html"
+                    },
+                    {
+                        "text": "Cloud Gateways",
+                        "href": "https://bp.veeam.com/sp/Offsite_Backup/O_Build/cloud-gateways.html"
+                    },
+                    {
+                        "text": "VCC v12 POD sizing",
+                        "href": "https://bp.veeam.com/sp/Offsite_Backup/O_Build/repository.html"
+                    },
+                    {
+                        "text": "POD sizing v12.3",
+                        "href": "https://bp.veeam.com/sp/Offsite_Backup/O_Build/pod-sizing.html"
+                    },
+                    {
+                        "text": "Operate",
+                        "href": "https://bp.veeam.com/sp/Offsite_Backup/O_Operate/operate.html"
+                    },
+                    {
+                        "text": "High Availability",
+                        "href": "https://bp.veeam.com/sp/Offsite_Backup/O_Operate/ha.html"
+                    },
+                    {
+                        "text": "Exit strategy for Tenant data",
+                        "href": "https://bp.veeam.com/sp/Offsite_Backup/O_Operate/exit_strategy.html"
+                    },
+                    {
+                        "text": "DRaaS",
+                        "href": "https://bp.veeam.com/sp/DRaaS"
+                    },
+                    {
+                        "text": "Design",
+                        "href": "https://bp.veeam.com/sp/DRaaS/D_Design/design.html"
+                    },
+                    {
+                        "text": "Build",
+                        "href": "https://bp.veeam.com/sp/DRaaS/D_Build/build.html"
+                    },
+                    {
+                        "text": "Operate",
+                        "href": "https://bp.veeam.com/sp/DRaaS/D_Operate/operate.html"
+                    },
+                    {
+                        "text": "SP Data Protection",
+                        "href": "https://bp.veeam.com/sp/SP"
+                    },
+                    {
+                        "text": "Design",
+                        "href": "https://bp.veeam.com/sp/SP/S_Design/design.html"
+                    },
+                    {
+                        "text": "Backend Scalability",
+                        "href": "https://bp.veeam.com/sp/SP/S_Design/backend_scalability.html"
+                    },
+                    {
+                        "text": "Frontend Scalability",
+                        "href": "https://bp.veeam.com/sp/SP/S_Design/frontend_scalability.html"
+                    },
+                    {
+                        "text": "Veeam Backup Enterprise Manager",
+                        "href": "https://bp.veeam.com/sp/SP/S_Design/enterprise_manager.html"
+                    },
+                    {
+                        "text": "Veeam Service Provider Console",
+                        "href": "https://bp.veeam.com/sp/SP/S_Design/service_provider_console.html"
+                    },
+                    {
+                        "text": "Proxy Modes",
+                        "href": "https://bp.veeam.com/sp/SP/S_Design/proxy_modes.html"
+                    },
+                    {
+                        "text": "Repository Types",
+                        "href": "https://bp.veeam.com/sp/SP/S_Design/repository_types.html"
+                    },
+                    {
+                        "text": "Application-Consistent Backup and Restore",
+                        "href": "https://bp.veeam.com/sp/SP/S_Design/application_aware.html"
+                    },
+                    {
+                        "text": "Agent Management",
+                        "href": "https://bp.veeam.com/sp/SP/S_Design/agent_management.html"
+                    },
+                    {
+                        "text": "Build",
+                        "href": "https://bp.veeam.com/sp/SP/S_Build/build.html"
+                    },
+                    {
+                        "text": "Tenants Backup Copy",
+                        "href": "https://bp.veeam.com/sp/SP/S_Build/backup_copy.html"
+                    },
+                    {
+                        "text": "Files and Items Restore",
+                        "href": "https://bp.veeam.com/sp/SP/S_Build/files_and_items_restore.html"
+                    },
+                    {
+                        "text": "VCD Plug-in",
+                        "href": "https://bp.veeam.com/sp/SP/S_Build/clouddirector_plugin.html"
+                    },
+                    {
+                        "text": "Operate",
+                        "href": "https://bp.veeam.com/sp/SP/S_Operate/operate.html"
+                    },
+                    {
+                        "text": "Files and Items Restore",
+                        "href": "https://bp.veeam.com/sp/SP/S_Operate/files_and_items_restore.html"
+                    },
+                    {
+                        "text": "Monitoring - Multi-tenancy",
+                        "href": "https://bp.veeam.com/sp/SP/S_Operate/monitoring_multitenancy.html"
+                    },
+                    {
+                        "text": "Monitoring - Dashboards",
+                        "href": "https://bp.veeam.com/sp/SP/S_Operate/monitoring_dashboards.html"
+                    },
+                    {
+                        "text": "Monitoring - Reports",
+                        "href": "https://bp.veeam.com/sp/SP/S_Operate/monitoring_reports.html"
+                    },
+                    {
+                        "text": "Monitoring - Reports Pack",
+                        "href": "https://bp.veeam.com/sp/SP/S_Operate/monitoring_reports_pack.html"
+                    },
+                    {
+                        "text": "Billing - General",
+                        "href": "https://bp.veeam.com/sp/SP/S_Operate/billing_general.html"
+                    },
+                    {
+                        "text": "Billing - Storage",
+                        "href": "https://bp.veeam.com/sp/SP/S_Operate/billing_cloud_director.html"
+                    },
+                    {
+                        "text": "Billing - VSPC",
+                        "href": "https://bp.veeam.com/sp/SP/S_Operate/billing_vspc_api.html"
+                    },
+                    {
+                        "text": "SaaS Data Protection",
+                        "href": "https://bp.veeam.com/sp/SaaS_Main"
+                    },
+                    {
+                        "text": "Microsoft Entra ID",
+                        "href": "https://bp.veeam.com/sp/SaaS_EntraID"
+                    },
+                    {
+                        "text": "Design",
+                        "href": "https://bp.veeam.com/sp/SaaS_EntraID/Design/design.html"
+                    },
+                    {
+                        "text": "Build",
+                        "href": "https://bp.veeam.com/sp/SaaS_EntraID/Build/build.html"
+                    },
+                    {
+                        "text": "Microsoft 365",
+                        "href": "https://bp.veeam.com/sp/SaaS"
+                    },
+                    {
+                        "text": "Design",
+                        "href": "https://bp.veeam.com/sp/SaaS/S_Design/design.html"
+                    },
+                    {
+                        "text": "Blueprint",
+                        "href": "https://bp.veeam.com/sp/SaaS/S_Design/blueprint.html"
+                    },
+                    {
+                        "text": "Multi-tenant",
+                        "href": "https://bp.veeam.com/sp/SaaS/S_Design/multi-tenant.html"
+                    },
+                    {
+                        "text": "Pod",
+                        "href": "https://bp.veeam.com/sp/SaaS/S_Design/pod.html"
+                    },
+                    {
+                        "text": "Networking",
+                        "href": "https://bp.veeam.com/sp/SaaS/S_Design/networking.html"
+                    },
+                    {
+                        "text": "Backup Storage",
+                        "href": "https://bp.veeam.com/sp/SaaS/S_Design/backup-storage.html"
+                    },
+                    {
+                        "text": "Service Protection",
+                        "href": "https://bp.veeam.com/sp/SaaS/S_Design/service-protection.html"
+                    },
+                    {
+                        "text": "Build",
+                        "href": "https://bp.veeam.com/sp/SaaS/S_Build/build.html"
+                    },
+                    {
+                        "text": "Components",
+                        "href": "https://bp.veeam.com/sp/SaaS/S_Build/components.html"
+                    },
+                    {
+                        "text": "Controller",
+                        "href": "https://bp.veeam.com/sp/SaaS/S_Build/controller.html"
+                    },
+                    {
+                        "text": "NATS",
+                        "href": "https://bp.veeam.com/sp/SaaS/S_Build/nats.html"
+                    },
+                    {
+                        "text": "Database",
+                        "href": "https://bp.veeam.com/sp/SaaS/S_Build/database.html"
+                    },
+                    {
+                        "text": "Proxy",
+                        "href": "https://bp.veeam.com/sp/SaaS/S_Build/proxy.html"
+                    },
+                    {
+                        "text": "Repository",
+                        "href": "https://bp.veeam.com/sp/SaaS/S_Build/repo.html"
+                    },
+                    {
+                        "text": "API/Portal",
+                        "href": "https://bp.veeam.com/sp/SaaS/S_Build/api-portal.html"
+                    },
+                    {
+                        "text": "Veeam Explorers",
+                        "href": "https://bp.veeam.com/sp/SaaS/S_Build/explorers.html"
+                    },
+                    {
+                        "text": "Logs",
+                        "href": "https://bp.veeam.com/sp/SaaS/S_Build/logs.html"
+                    },
+                    {
+                        "text": "Organization Config",
+                        "href": "https://bp.veeam.com/sp/SaaS/S_Build/org-config.html"
+                    },
+                    {
+                        "text": "Job Config",
+                        "href": "https://bp.veeam.com/sp/SaaS/S_Build/job-config.html"
+                    },
+                    {
+                        "text": "Operate",
+                        "href": "https://bp.veeam.com/sp/SaaS/S_Operate/operate.html"
+                    },
+                    {
+                        "text": "Update the service",
+                        "href": "https://bp.veeam.com/sp/SaaS/S_Operate/update.html"
+                    },
+                    {
+                        "text": "Secure",
+                        "href": "https://bp.veeam.com/sp/SaaS/Secure/secure.html"
+                    },
+                    {
+                        "text": "Public Cloud",
+                        "href": "https://bp.veeam.com/sp/Pcloud"
+                    },
+                    {
+                        "text": "Design",
+                        "href": "https://bp.veeam.com/sp/Pcloud/P_Design/design.html"
+                    },
+                    {
+                        "text": "Overview",
+                        "href": "https://bp.veeam.com/sp/Pcloud/P_Design/design_overview.html"
+                    },
+                    {
+                        "text": "Pod Architecture",
+                        "href": "https://bp.veeam.com/sp/Pcloud/P_Design/design_pod.html"
+                    },
+                    {
+                        "text": "Build",
+                        "href": "https://bp.veeam.com/sp/Pcloud/P_Build/build.html"
+                    },
+                    {
+                        "text": "Build for AWS",
+                        "href": "https://bp.veeam.com/sp/Pcloud/P_Build/build_aws.html"
+                    },
+                    {
+                        "text": "Build for Azure",
+                        "href": "https://bp.veeam.com/sp/Pcloud/P_Build/build_azure.html"
+                    },
+                    {
+                        "text": "Build for Google",
+                        "href": "https://bp.veeam.com/sp/Pcloud/P_Build/build_GCP.html"
+                    },
+                    {
+                        "text": "Operate",
+                        "href": "https://bp.veeam.com/sp/Pcloud/P_Operate/operate.html"
+                    },
+                    {
+                        "text": "Update the service",
+                        "href": "https://bp.veeam.com/sp/Pcloud/P_Operate/operate_update.html"
+                    },
+                    {
+                        "text": "Self-service",
+                        "href": "https://bp.veeam.com/sp/Pcloud/P_Operate/operate_selfservice.html"
+                    },
+                    {
+                        "text": "About",
+                        "href": "https://bp.veeam.com/sp/about"
+                    }
+                ]
+            },
+            {
+                "title": "Veeam Security Best Practices",
+                "link": "https://bp.veeam.com/security",
+                "description": "The Security of an I.T. system is a paramount requirement. No deployment of any hardware or software component can be considered complete without considering its security. Cyber Security is simply something nobody can afford to ignore.",
+                "addlinks": [
+                    {
+                        "text": "Introduction",
+                        "href": "https://bp.veeam.com/security"
+                    },
+                    {
+                        "text": "Assessment",
+                        "href": "https://bp.veeam.com/security/Assessment"
+                    },
+                    {
+                        "text": "Design and Implementation",
+                        "href": "https://bp.veeam.com/security/Design-and-implementation"
+                    },
+                    {
+                        "text": "Secure by Design",
+                        "href": "https://bp.veeam.com/security/Design-and-implementation/Secure_by_Design.html"
+                    },
+                    {
+                        "text": "Protect",
+                        "href": "https://bp.veeam.com/security/Design-and-implementation/Protect.html"
+                    },
+                    {
+                        "text": "Threat detection",
+                        "href": "https://bp.veeam.com/security/Design-and-implementation/Threat_detection.html"
+                    },
+                    {
+                        "text": "Recovery Strategy",
+                        "href": "https://bp.veeam.com/security/Design-and-implementation/Recovery_Strategy.html"
+                    },
+                    {
+                        "text": "Physical security",
+                        "href": "https://bp.veeam.com/security/Design-and-implementation/Physical_security.html"
+                    },
+                    {
+                        "text": "Roles and Users",
+                        "href": "https://bp.veeam.com/security/Design-and-implementation/Roles_And_Users.html"
+                    },
+                    {
+                        "text": "Authentication protocols",
+                        "href": "https://bp.veeam.com/security/Design-and-implementation/Authentication_protocols.html"
+                    },
+                    {
+                        "text": "Encryption",
+                        "href": "https://bp.veeam.com/security/Design-and-implementation/Encryption.html"
+                    },
+                    {
+                        "text": "Hardening",
+                        "href": "https://bp.veeam.com/security/Design-and-implementation/Hardening"
+                    },
+                    {
+                        "text": "Segmentation",
+                        "href": "https://bp.veeam.com/security/Design-and-implementation/Hardening/Segmentation.html"
+                    },
+                    {
+                        "text": "Attack surface reduction",
+                        "href": "https://bp.veeam.com/security/Design-and-implementation/Hardening/Attack_surface_reduction.html"
+                    },
+                    {
+                        "text": "Workgroup or Domain ?",
+                        "href": "https://bp.veeam.com/security/Design-and-implementation/Hardening/Workgroup_or_Domain.html"
+                    },
+                    {
+                        "text": "Repository Specifics",
+                        "href": "https://bp.veeam.com/security/Design-and-implementation/Hardening/Repo_specifics.html"
+                    },
+                    {
+                        "text": "WORM Storage with Veeam Hardened Repository",
+                        "href": "https://bp.veeam.com/security/Design-and-implementation/Hardening/WORM_Storage_with_Veeam_Hardened_Repository.html"
+                    },
+                    {
+                        "text": "Application Processing",
+                        "href": "https://bp.veeam.com/security/Design-and-implementation/Application_Aware_Processing.html"
+                    },
+                    {
+                        "text": "NIST Cybersecurity Framework Alignment",
+                        "href": "https://bp.veeam.com/security/NIST-CSF-Alignment"
+                    },
+                    {
+                        "text": "Privacy Policy",
+                        "href": "https://bp.veeam.com/security/privacy"
+                    }
+                ]
+            },
+            {
+                "title": "Best Practice Guide for Veeam Backup for Microsoft 365",
+                "link": "https://bp.veeam.com/vb365",
+                "description": "This guide is intended to provide bp for Veeam Backup for Microsoft 365",
+                "addlinks": [
+                    {
+                        "text": "Home",
+                        "href": "https://bp.veeam.com/vb365"
+                    },
+                    {
+                        "text": "Design",
+                        "href": "https://bp.veeam.com/vb365/guide/design"
+                    },
+                    {
+                        "text": "Hardening",
+                        "href": "https://bp.veeam.com/vb365/guide/design/hardening"
+                    },
+                    {
+                        "text": "Segmentation",
+                        "href": "https://bp.veeam.com/vb365/guide/design/hardening/Segmentation.html"
+                    },
+                    {
+                        "text": "Attack surface reduction",
+                        "href": "https://bp.veeam.com/vb365/guide/design/hardening/Attack_surface_reduction.html"
+                    },
+                    {
+                        "text": "Workgroup or Domain ?",
+                        "href": "https://bp.veeam.com/vb365/guide/design/hardening/Workgroup_or_Domain.html"
+                    },
+                    {
+                        "text": "Repository Specifics",
+                        "href": "https://bp.veeam.com/vb365/guide/design/hardening/Repo_specifics.html"
+                    },
+                    {
+                        "text": "Roles and Users",
+                        "href": "https://bp.veeam.com/vb365/guide/design/hardening/Roles_And_Users.html"
+                    },
+                    {
+                        "text": "Secure by design",
+                        "href": "https://bp.veeam.com/vb365/guide/design/secure_by_design.html"
+                    },
+                    {
+                        "text": "Placement",
+                        "href": "https://bp.veeam.com/vb365/guide/design/placement.html"
+                    },
+                    {
+                        "text": "3-2-1 Rule",
+                        "href": "https://bp.veeam.com/vb365/guide/design/3-2-1.html"
+                    },
+                    {
+                        "text": "Sizing",
+                        "href": "https://bp.veeam.com/vb365/guide/design/sizing"
+                    },
+                    {
+                        "text": "PostgreSQL Database Server",
+                        "href": "https://bp.veeam.com/vb365/guide/design/sizing/postgresql.html"
+                    },
+                    {
+                        "text": "NATS Server",
+                        "href": "https://bp.veeam.com/vb365/guide/design/sizing/nats.html"
+                    },
+                    {
+                        "text": "Proxy Server",
+                        "href": "https://bp.veeam.com/vb365/guide/design/sizing/proxy.html"
+                    },
+                    {
+                        "text": "Disk Repository",
+                        "href": "https://bp.veeam.com/vb365/guide/design/sizing/diskrepo.html"
+                    },
+                    {
+                        "text": "Object Storage",
+                        "href": "https://bp.veeam.com/vb365/guide/design/sizing/objectstorage.html"
+                    },
+                    {
+                        "text": "Configuration Maximums",
+                        "href": "https://bp.veeam.com/vb365/guide/design/maxconfig.html"
+                    },
+                    {
+                        "text": "Networking",
+                        "href": "https://bp.veeam.com/vb365/guide/design/networking.html"
+                    },
+                    {
+                        "text": "Job Design",
+                        "href": "https://bp.veeam.com/vb365/guide/design/jobdesign.html"
+                    },
+                    {
+                        "text": "Protect the backup server",
+                        "href": "https://bp.veeam.com/vb365/guide/design/vb365_with_vbr.html"
+                    },
+                    {
+                        "text": "Build & Configure",
+                        "href": "https://bp.veeam.com/vb365/guide/buildconfig"
+                    },
+                    {
+                        "text": "Physical Security",
+                        "href": "https://bp.veeam.com/vb365/guide/buildconfig/Physical_security.html"
+                    },
+                    {
+                        "text": "Proxy",
+                        "href": "https://bp.veeam.com/vb365/guide/buildconfig/proxy.html"
+                    },
+                    {
+                        "text": "PostgreSQL Database Server",
+                        "href": "https://bp.veeam.com/vb365/guide/buildconfig/postgresql.html"
+                    },
+                    {
+                        "text": "NATS Server",
+                        "href": "https://bp.veeam.com/vb365/guide/buildconfig/nats.html"
+                    },
+                    {
+                        "text": "Authentication",
+                        "href": "https://bp.veeam.com/vb365/guide/buildconfig/authentication.html"
+                    },
+                    {
+                        "text": "Repository",
+                        "href": "https://bp.veeam.com/vb365/guide/buildconfig/repository"
+                    },
+                    {
+                        "text": "Object Storage",
+                        "href": "https://bp.veeam.com/vb365/guide/buildconfig/repository/objectstorage.html"
+                    },
+                    {
+                        "text": "Disk Repository",
+                        "href": "https://bp.veeam.com/vb365/guide/buildconfig/repository/disk.html"
+                    },
+                    {
+                        "text": "Operate",
+                        "href": "https://bp.veeam.com/vb365/guide/operate"
+                    },
+                    {
+                        "text": "Organization Config",
+                        "href": "https://bp.veeam.com/vb365/guide/operate/orgconfig.html"
+                    },
+                    {
+                        "text": "Auditing",
+                        "href": "https://bp.veeam.com/vb365/guide/operate/auditing.html"
+                    },
+                    {
+                        "text": "M365 Throttling",
+                        "href": "https://bp.veeam.com/vb365/guide/operate/throttling.html"
+                    },
+                    {
+                        "text": "Common Issues",
+                        "href": "https://bp.veeam.com/vb365/guide/operate/common_issues.html"
+                    },
+                    {
+                        "text": "Supplemental",
+                        "href": "https://bp.veeam.com/vb365/guide/supplemental"
+                    },
+                    {
+                        "text": "Data flows",
+                        "href": "https://bp.veeam.com/vb365/guide/supplemental/dataflow.html"
+                    },
+                    {
+                        "text": "Exchange",
+                        "href": "https://bp.veeam.com/vb365/guide/supplemental/exchange.html"
+                    },
+                    {
+                        "text": "Networking",
+                        "href": "https://bp.veeam.com/vb365/guide/supplemental/networking.html"
+                    },
+                    {
+                        "text": "Security",
+                        "href": "https://bp.veeam.com/vb365/guide/supplemental/security.html"
+                    },
+                    {
+                        "text": "About",
+                        "href": "https://bp.veeam.com/vb365/about"
+                    }
+                ]
+            },
+            {
+                "link": "https://www.google.com/search?q=site%3Abp.veeam.com",
+                "title": "Deepquery bp",
+                "description": "Search directly google in bp domain by adding q=",
+                "deepquery": "https://www.google.com/search?q=site%3Abp.veeam.com+$deepquery$"
+            }
+        ]
+    }
+]
