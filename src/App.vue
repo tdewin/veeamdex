@@ -161,6 +161,30 @@ function searchChange(q) {
 #logo  span {
   font-size:3rem;
 }
+@media screen and (max-width: 600px) {
+        #logo {
+                flex-direction: row;
+        }
+        #logo p {
+          display: inline-block;
+          min-width: 10rem;
+          flex-grow:4;
+        }
+        #logo #header-logo {
+          display: inline-block;
+          flex-grow:1;
+          width:6rem;
+          height:unset;
+          aspect-ratio: 1 / 1; 
+          background-position: center;
+        }
+        .pagesizer {
+          max-width: 96vw;
+        }
+        .side-panel {
+          min-width: unset;
+        }
+}
 .spacer {
   display: block;
   min-height: 3rem;

@@ -60,6 +60,14 @@ const addlinks = computed(() => {
  padding-left:0.5rem;
  max-width: var(--pagesize);
 }
+
+@media screen and (max-width: 600px) {
+ .linkdiv {
+   max-width: unset;
+ }
+
+}
+
 .linkdiv > a {
   font-size:0.8rem;
 

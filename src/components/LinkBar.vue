@@ -54,4 +54,19 @@ function smoothScroll(id) {
   text-align:center;
   cursor: pointer;
 }
+
+@media screen and (max-width: 600px) {
+        .linkbardiv {
+          border: unset;
+          padding-top:0rem !important;
+          padding-bottom:0rem !important;
+          padding-left: 0.2rem !important;
+          padding-right: 0.2rem !important;
+          background-color: var(--green);
+          color: var(--color-background);
+          min-width:unset;
+        }
+}       .rnumber {
+          display:none;
+        }
 </style>
