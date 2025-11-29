@@ -11,6 +11,14 @@ export default defineConfig({
     vue(),
     vueDevTools(),
   ],
+  build: {
+   rollupOptions: {
+        output: {
+                entryFileNames: "assets/veeamdex.js",
+                assetFileNames: "assets/veeamdex[extname]"
+        }
+   }
+  },
   resolve: {
     alias: {
       '@': fileURLToPath(new URL('./src', import.meta.url))
