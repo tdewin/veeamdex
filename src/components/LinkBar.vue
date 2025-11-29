@@ -55,7 +55,7 @@ function smoothScroll(id) {
   cursor: pointer;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 800px), screen and (max-height: 700px) {
         .linkbardiv {
           border: unset;
           padding-top:0rem !important;

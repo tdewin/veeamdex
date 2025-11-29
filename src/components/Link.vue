@@ -62,7 +62,7 @@ const addlinks = computed(() => {
  max-width: var(--pagesize);
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 800px), screen and (max-height: 700px) {
  a,div {
   overflow-wrap: break-word;
  }

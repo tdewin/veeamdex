@@ -59,5 +59,14 @@ document.addEventListener("keydown", (event) => {
   flex-grow:10;
   max-height:2rem;
   font-size: 1.5rem;
+
+}
+
+
+@media screen and (max-width: 800px), screen and (max-height: 700px) {
+  #search{
+    box-sizing: border-box;
+    max-width: 100%;
+  }
 }
 </style>

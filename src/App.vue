@@ -31,7 +31,7 @@ for (const cat of linkDataSource) {
 console.timeEnd('buildindex')
 
 const linkData = computed(() => {
-        if (searchArr.value.length > 0) {
+        if (searchArr.value.length > 0 || deepquery.value != "") {
                 var filtered = []
                 for (const cat of linkDataSource) {
                        var links = []
@@ -40,9 +40,9 @@ const linkData = computed(() => {
                           for (let i =0;i < searchArr.value.length && allfound;i++) { 
                                 allfound = l.index.indexOf(searchArr.value[i]) != -1;
                           }
-                          if (allfound) {
+                          if (allfound && (deepquery.value == "" || l.deepquery)) {
                                 links.push(l);
-                          } 
+                          }  
                        }
                        const recat = {"catname":cat.catname,"catlinks":links}
                        if (links.length > 0 ) {
@@ -162,19 +162,20 @@ function searchChange(q) {
 #logo  span {
   font-size:3rem;
 }
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 800px), screen and (max-height: 700px) {
         #logo {
                 flex-direction: row;
         }
         #logo p {
           display: inline-block;
           min-width: 10rem;
-          flex-grow:4;
+          flex-grow:10;
         }
         #logo #header-logo {
           display: inline-block;
           flex-grow:1;
-          width:6rem;
+          min-width:8rem;
+          max-width:12rem;
           height:unset;
           aspect-ratio: 1 / 1; 
           background-position: center;

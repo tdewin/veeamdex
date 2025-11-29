@@ -43,6 +43,12 @@
         "deepquery":"https://google.com/search?q=$deepquery$"
       },
       {
+        "title": "Bing",
+        "link": "https://bing.com",
+        "description": "bing simple search",
+        "deepquery":"https://bing.com/search?q=$deepquery$"
+      },
+      {
         "title": "Ecosia",
         "link": "https://ecosia.com",
         "description": "ecosia simple search",
