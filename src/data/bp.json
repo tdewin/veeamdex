@@ -1160,6 +1160,36 @@
                 ]
             },
             {
+                "link": "https://veeamcookbook.com/vbr/",
+                "title": "Cookbook for VBR",
+                "description": "Cookbook for VBR. This is a collection of recipes to complete one task in the product during PoC or evaluation"
+            },
+            {
+                "link": "https://veeamcookbook.com/vba/",
+                "title": "Cookbook for VBA",
+                "description": "Cookbook for VBA. This is a collection of recipes to complete one task in the product during PoC or evaluation"
+            },
+            {
+                "link": "https://veeamcookbook.com/vbgcp/",
+                "title": "Cookbook for VBGCP",
+                "description": "Cookbook for VBGCP. This is a collection of recipes to complete one task in the product during PoC or evaluation"
+            },
+            {
+                "link": "https://veeamcookbook.com/vb365/",
+                "title": "Cookbook for VB365",
+                "description": "Cookbook for VB365. This is a collection of recipes to complete one task in the product during PoC or evaluation"
+            },
+            {
+                "link": "https://veeamcookbook.com/vbrman/",
+                "title": "Cookbook for Veeam Oracle RMAN Plugin",
+                "description": "Cookbook for Veeam Oracle RMAN Plugin. This is a collection of recipes to complete one task in the product during PoC or evaluation"
+            },
+            {
+                "link": "https://veeamcookbook.com/vbaix/",
+                "title": "Cookbook for Veeam Agent for IBM AIX v4.0",
+                "description": "Cookbook for Veeam Agent for IBM AIX v4.0. This is a collection of recipes to complete one task in the product during PoC or evaluation"
+            },
+            {
                 "link": "https://www.google.com/search?q=site%3Abp.veeam.com",
                 "title": "Deepquery bp",
                 "description": "Search directly google in bp domain by adding q=",

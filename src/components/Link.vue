@@ -83,7 +83,18 @@ text-align: center;
  .linkdiv {
    max-width: unset;
  }
-
+ .fasti {
+    min-width:unset;
+    padding-left:0.2rem;
+    padding-right:0.2rem;
+    border: unset;
+    border-radius:0;
+    text-align:left;
+    margin-right:0.25rem;
+ }
+ .fasti::after {
+	 content: ".";
+ }
 }
 
 .linkdiv > a {

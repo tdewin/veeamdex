@@ -30,9 +30,11 @@ for (const cat of linkDataSource) {
   }
 }
 console.timeEnd('buildindex')
-
+let linkCache = []
 const linkData = computed(() => {
         let dssrc = linkDataSource
+	linkCache = []
+
         //if (searchArr.value.length > 0 || deepquery.value != "") {
                 var filtered = []
                 let fasti=1;        
@@ -47,6 +49,7 @@ const linkData = computed(() => {
                           if (allfound && (deepquery.value == "" || l.deepquery)) {
                                 l["fasti"] = fasti++;
                                 links.push(l);
+				linkCache.push(l);
                           }
                           
                        }
@@ -86,14 +89,11 @@ function fastkey() {
       }
       goto = defsearch;
     } else {
-      if (linkData.value.length > 0) {
-	let first = linkData.value[0];
-	if (first.catlinks.length > 0) {
-	  goto = first.catlinks[0].link;
+      if (linkCache.length > 0) {
+	  goto = linkCache[0].link;
 	  if (deepquery.value != "" && firstl.deepquery) {
 	    goto = firstl.deepquery.replace("$deepquery$",deepquery.value);
 	  }
-	}
       }
     }
     if (goto !="") {
@@ -102,10 +102,25 @@ function fastkey() {
   }
 }
 
+function fastcode(nm) {
+	let i = nm - 1;
+	if (i >=0 && i < linkCache.length) {
+	  	let goto = linkCache[i].link;
+      		window.location.href = goto;
+	}
+}
+
+
 document.addEventListener("DOMContentLoaded", (event) => {
   document.addEventListener("keydown", (e) => {
     if (e.key == "Enter") {
-      fastkey()
+	fastkey()
+    } else if (e.code.startsWith("Digit") && e.ctrlKey) {
+    	fastcode(parseInt(e.code.replace("Digit","")));
+    } else if (e.code.startsWith("Numpad") && e.ctrlKey) {
+    	fastcode(parseInt(e.code.replace("Numpad","")));
+    } else {
+    	console.log(e);
     }
   });
 });

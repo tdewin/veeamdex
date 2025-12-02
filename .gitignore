@@ -2,3 +2,4 @@ node_modules/
 docs/ico.py
 docs/Makefile
 .DS_Store
+*.swp

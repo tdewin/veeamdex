@@ -192,7 +192,33 @@ class TocParser(HTMLParser):
         pass
 
 
+class LinkParser(HTMLParser):
+    def __init__(self):
+        super().__init__()
+        self.text = []
+        self.links = []
+        self.iscookbook = False
+        self.seen = {}
 
+    def handle_data(self, data):
+        if self.iscookbook:
+                self.text.append(data)
+
+    def handle_starttag(self, tag, attrs):
+        attrs_dict = dict(attrs)
+        self.iscookbook = False
+        if tag == "a" and "href" in attrs_dict:
+               href = attrs_dict.get("href")
+               if "https://veeamcookbook.com/" in href and not href in self.seen:
+                self.iscookbook = True
+                self.seen[href] = True
+                self.links.append({"link":href,"title":"","description":""}) 
+
+    def handle_endtag(self, tag):
+        if tag == "a" and self.iscookbook and len(self.links) >0:
+               self.links[-1]["title"] = "".join(self.text)
+               self.links[-1]["description"] = "".join(self.text)+". This is a collection of recipes to complete one task in the product during PoC or evaluation"
+               self.text = []
 
 def main():
   generated = "bp.json"
@@ -243,6 +269,15 @@ def main():
               for c in p["children"]:
                 addlinks.append({"text":c["title"],"href":c["href"]})
         bp["addlinks"] = addlinks
+
+  url = "https://veeamcookbook.com"
+  cache = ".bp.cookbook.cache"
+  download_if_missing(url,cache)
+  with open(cache, "r", encoding="utf-8") as f: 
+    parser = LinkParser()
+    parser.feed(f.read())
+    for l in parser.links:
+        links.append(l)
   
   links.append({"link":"https://www.google.com/search?q=site%3Abp.veeam.com",
     "title": "Deepquery bp",
