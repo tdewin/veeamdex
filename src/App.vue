@@ -19,7 +19,7 @@ const search = ref("");
 const deepquery = ref("");
 const searchArr = ref([]);
 
-let linkDataSource = [...jsonBP,...jsonLinkData,...jsonBlogs,...jsonVeeamhub,...jsonCommunity,...jsonKB,...jsonForums,...jsonHelpcenter];
+let linkDataSource = [...jsonBP,...jsonLinkData,...jsonHelpcenter,...jsonKB,...jsonForums,...jsonVeeamhub,...jsonBlogs,...jsonCommunity];
 
 console.time('buildindex')
 for (const cat of linkDataSource) {

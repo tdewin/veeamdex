@@ -6,6 +6,21 @@
         "title":"From the Architects",
         "link":"https://fromthearchitect.com",
         "description":"From the Architects features technical white papers from EMEA Solution Architects"
+      },
+      {
+        "title":"Virtual to the core",
+        "link":"https://www.virtualtothecore.com",
+        "description":"Luca Dell’Oca , the author of virtualtothecore.com."
+      },
+      {
+        "title":"Jorge De La Cruz",
+        "link":"https://jorgedelacruz.uk",
+        "description":"Resident Veeam ONE PM / Grafana Expert"
+      },
+      {
+        "title":"vZilla",
+        "link":"https://vzilla.co.uk/michaelcade",
+        "description":"Welcome to the vZilla site. I as Michael Cade have been running this site now for the last few years, in different guises and different positions at various different companies. My interests from a technology point of view are really anything around the Data Centre arena.My current focus is around evangelizing all things Kubernetes and Cloud-Native technologies, everyone is new here and it is my goal to share my learning journey"
       }
     ]
   }
