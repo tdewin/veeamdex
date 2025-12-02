@@ -278,7 +278,8 @@ def main():
     parser.feed(f.read())
     for l in parser.links:
         links.append(l)
-  
+
+  links.append({"link":"https://vccbook.io","title":"Veeam Cloud Connect 12 Reference Architecture","description":"Luca Dell’Oca is Principal EMEA Cloud Architect for Veeam Software. At Veeam, Luca works with the biggest service providers and telecommunication companies to help them use at full potential the Veeam technologies developed for Cloud and Service Providers. Luca is the author of this Veeam Cloud Connect book, co-author of the Veeam Service Provider Best Practices, and a multitude of technical resources related to service providers and cloud technologies."})
   links.append({"link":"https://www.google.com/search?q=site%3Abp.veeam.com",
     "title": "Deepquery bp",
     "description": "Search directly google in bp domain by adding q=",
