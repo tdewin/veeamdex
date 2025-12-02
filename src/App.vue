@@ -2,6 +2,7 @@
 import Search from './components/Search.vue'
 import Link from './components/Link.vue'
 import LinkBar from './components/LinkBar.vue'
+import Redirect from './components/Redirect.vue'
 import jsonLinkData from './data/links.json'
 import jsonBlogs from './data/blogs.json'
 import jsonCommunity from './data/community.json'
@@ -31,8 +32,10 @@ for (const cat of linkDataSource) {
 console.timeEnd('buildindex')
 
 const linkData = computed(() => {
-        if (searchArr.value.length > 0 || deepquery.value != "") {
+        let dssrc = linkDataSource
+        //if (searchArr.value.length > 0 || deepquery.value != "") {
                 var filtered = []
+                let fasti=1;        
                 for (const cat of linkDataSource) {
                        var links = []
                        for (const l of cat.catlinks) {
@@ -40,9 +43,12 @@ const linkData = computed(() => {
                           for (let i =0;i < searchArr.value.length && allfound;i++) { 
                                 allfound = l.index.indexOf(searchArr.value[i]) != -1;
                           }
+                          
                           if (allfound && (deepquery.value == "" || l.deepquery)) {
+                                l["fasti"] = fasti++;
                                 links.push(l);
-                          }  
+                          }
+                          
                        }
                        const recat = {"catname":cat.catname,"catlinks":links}
                        if (links.length > 0 ) {
@@ -50,10 +56,9 @@ const linkData = computed(() => {
                        }
 
                 }
-                return filtered;
-        } else {
-                return linkDataSource
-        }
+                dssrc = filtered;
+        //} 
+        return dssrc
 });
 
 function searchChange(q) {
@@ -68,17 +73,51 @@ function searchChange(q) {
   searchArr.value = splitq
 }
 
+function fastkey() {
+  let q = search.value;
+  if (q != "") {
+    let goto = ""
+    if (q[0] == "@") {
+      let defsearch = `https://google.com/search?q=${encodeURI(q)}`
+      const ds = localStorage.getItem("defaultSearch");
+      if (ds != null && ds != "") {
+        console.log(ds);
+	defsearch = ds.replace("$query$",encodeURI(q));
+      }
+      goto = defsearch;
+    } else {
+      if (linkData.value.length > 0) {
+	let first = linkData.value[0];
+	if (first.catlinks.length > 0) {
+	  goto = first.catlinks[0].link;
+	  if (deepquery.value != "" && firstl.deepquery) {
+	    goto = firstl.deepquery.replace("$deepquery$",deepquery.value);
+	  }
+	}
+      }
+    }
+    if (goto !="") {
+      window.location.href = goto;
+    }
+  }
+}
+
+document.addEventListener("DOMContentLoaded", (event) => {
+  document.addEventListener("keydown", (e) => {
+    if (e.key == "Enter") {
+      fastkey()
+    }
+  });
+});
 </script>
 
-<script>
-</script>
 
 <template>
   <div class="centerpage">
       <div class="side-panel"></div>
       <div class="pagesizer" id="logo"> 
         <div id="header-logo"></div>
-        <p style="align-self:center;margin:0px;padding:0px;">Jump to search field with "/", append q= to pass parameter to the next site. eg."kb q=tape" or "deepq q=tape"<br/>
+        <p style="align-self:center;margin:0px;padding:0px;">Jump to search field with "/", append q= to pass parameter to the next site. eg."kb q=tape" or "deepq q=tape". Use "@veeam.com" + enter to just google veeam.com (or any other keywords)<br/>
         <span style="display:none;font-size:0.6rem;" id="smallgithub"><a href="https://github.com/tdewin/veeamdex">github.com/tdewin/veeamdex</a></span></p>
       </div>
       <div class="side-panel"></div>
@@ -116,6 +155,7 @@ function searchChange(q) {
 </div>
       <div class="side-panel"></div>
   </footer>
+  <Redirect :linkData="linkData" displayRedirect="0" />
 </template>
 
 <style scoped>
@@ -126,7 +166,7 @@ function searchChange(q) {
 .pagesizer {
   display:flex;
   max-width: var(--pagesize);
-  flex-grow:50;
+  flex-grow:200;
   flex-direction: column;
 }
 
@@ -192,6 +232,9 @@ function searchChange(q) {
           bottom: 0rem;
           top: unset !important;
           padding: 0.1rem !important;
+        }
+        #topnav {
+                flex-direction: column-reverse;
         }
         footer {
           display:none !important;

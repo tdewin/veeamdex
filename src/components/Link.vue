@@ -39,7 +39,9 @@ const addlinks = computed(() => {
 
 <template>
             <div class="linkdiv" v-if="link.link != ''">
-                <div class="linktitle">{{link.title}}</div>
+                <div class="linktitle"> 
+                        <div class="fasti" v-if="link.fasti">{{link.fasti}}</div>{{link.title}}
+                </div>
                 <div>{{link.description}}</div>
                 <a :href="link.link" v-if="!link.deepquery || deepquery == ''">{{link.link}}</a>
                 <a :href="deepquerycalc" v-else>{{deepquerycalc}}</a>
@@ -60,6 +62,18 @@ const addlinks = computed(() => {
  padding:0.5rem;
  padding-left:0.5rem;
  max-width: var(--pagesize);
+ position: relative;
+}
+
+.fasti {
+display: inline-block;
+min-width: 3rem;
+height: 1.8rem;
+font-size: 1.2rem;
+border: 0.15rem solid var(--altgreen);
+border-radius: 1rem;
+margin-right: 0.5rem;
+text-align: center;
 }
 
 @media screen and (max-width: 800px), screen and (max-height: 500px) {
