@@ -1,7 +1,13 @@
 [
   {
-    "catname": "Calculator",
+    "catname": "Tools",
+    "cattags": ["calculator"],
     "catlinks": [
+      {
+        "title": "Magic Ports",
+        "link": "https://magicports.veeambp.com",
+        "description": "Ever wanted to map a Veeam host to another Veeam host in the most secure way. Use the Port mapper to connect your hosts and services. Understand the relationships, required inbound and outbound ports required and close any not required to harden your solution."
+      },
       {
         "title": "Simple Calculator",
         "link": "https://www.veeam.com/calculators/simple/vbr/machines",
