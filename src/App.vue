@@ -75,13 +75,13 @@ function searchChange(q) {
 
 function fastkey() {
   let q = search.value;
-  if (q != "") {
+  if (q != "" && q.length > 1) {
     let goto = ""
     if (q[0] == "@") {
+      q = q.substring(1)
       let defsearch = `https://google.com/search?q=${encodeURI(q)}`
       const ds = localStorage.getItem("defaultSearch");
       if (ds != null && ds != "") {
-        console.log(ds);
 	defsearch = ds.replace("$query$",encodeURI(q));
       }
       goto = defsearch;
