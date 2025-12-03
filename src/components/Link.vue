@@ -38,7 +38,7 @@ const addlinks = computed(() => {
 </script>
 
 <template>
-            <div class="linkdiv" v-if="link.link != ''">
+            <div :class="'linkdiv'+' '+(link.fasti==1?'active':'')" v-if="link.link != ''">
                 <div class="linktitle"> 
                         <div class="fasti" v-if="link.fasti">{{link.fasti}}</div>{{link.title}}
                 </div>
@@ -63,6 +63,10 @@ const addlinks = computed(() => {
  padding-left:0.5rem;
  max-width: var(--pagesize);
  position: relative;
+}
+
+.active {
+ border: 0.15rem solid var(--green);
 }
 
 .fasti {

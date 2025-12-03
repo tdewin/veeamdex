@@ -94,7 +94,7 @@ class TocParser(HTMLParser):
         self.in_target_ul = False
         self.target_ul_depth = 0  # nesting depth from the target <ul>
         self.base_url=""
-
+        self.tocclass = 'page-toc__search-links' 
         # Stack of containers for nested structure
         # When we enter a <ul> under the target, push a list (children of that level)
         # When we enter a <li>, push an item dict
@@ -113,7 +113,7 @@ class TocParser(HTMLParser):
         if tag == 'ul':
             class_attr = attrs_dict.get('class', '')
             # Entering the target UL?
-            if not self.in_target_ul and 'page-toc__search-links' in class_attr.split():
+            if not self.in_target_ul and self.tocclass in class_attr.split():
                 self.in_target_ul = True
                 self.target_ul_depth = 1
                 # Top-level children list
@@ -138,7 +138,7 @@ class TocParser(HTMLParser):
         elif tag == 'a' and self.in_target_ul:
             # We only care about anchors within LIs
             self.current_a = {
-                "href": ("/".join([self.base_url,attrs_dict.get('href')])),
+                "href": ("/".join([self.base_url,attrs_dict.get('href').lstrip("/")])),
                 "title": ""
             }
             self.capture_text_for_a = True
@@ -267,9 +267,45 @@ def main():
                         print("duplicate",v)
                 saw[v] = True
 
+  cachep = ".kasten.latest.$ind$.cache"
+  kastenstart = "https://docs.kasten.io/latest/"
+  url = kastenstart
+  cache = cachep.replace("$ind$","_start")
+  download_if_missing(url,cache)
+
+  addlinks = []
+  seen = {"kastenstart":True}
+  with Path(cache).open("r", encoding="utf-8") as f:  
+    parser = TocParser()
+    parser.tocclass = "theme-doc-sidebar-menu"
+    parser.base_url = "https://docs.kasten.io"
+    parser.feed(f.read())
+    for kat in parser.result:
+      t=kat["title"]
+      h=kat["href"].rstrip("/")
+      addlinks.append({"text":t,"href":h})
+      seen[kat["href"]] = True
+      n=h.rsplit("/",1)[1]
+      cache = cachep.replace("$ind$",n)
+      download_if_missing(kat["href"],cache)
+      with Path(cache).open("r", encoding="utf-8") as d:
+        subparser = TocParser()  
+        subparser.tocclass = "theme-doc-sidebar-menu"
+        subparser.base_url = "https://docs.kasten.io"
+        subparser.feed(d.read())
+        for s in subparser.result:
+          if len(s["children"]) > 0:
+           for cld in s["children"]:
+            if not cld["href"] in seen:
+              t=cld["title"]
+              h=cld["href"].rstrip("/")
+              addlinks.append({"text":t,"href":h})
+              seen[cld["href"]] = True
+              n=h.rsplit("/",1)[1]
 
 
-
+  links.append({"link":kastenstart,"title":"Kasten Helpcenter","description":"Kasten documentation for Kubernetes / Openshift backup and DR",
+        "addlinks":addlinks})
 
   links.append({"link":"https://www.google.com/search?q=site%3Ahelpcenter.veeam.com",
     "title": "Deepquery helpcenter",

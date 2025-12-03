@@ -1160,6 +1160,57 @@
                 ]
             },
             {
+                "title": "Veeam Recovery Orchestrator Knowledge Base",
+                "link": "https://bp.veeam.com/vro",
+                "description": "This guide is intended to provide information and best practices for Veeam Recovery Orchestrator. It is not meant as a full documentation or detailed explanation of the features. Please refer to the Veeam Help Center for these kinds of documents.",
+                "addlinks": [
+                    {
+                        "text": "VRO Knowledge Base",
+                        "href": "https://bp.veeam.com/vro"
+                    },
+                    {
+                        "text": "Clean Room best practices",
+                        "href": "https://bp.veeam.com/vro/cleanroom/CleanRoom.html"
+                    },
+                    {
+                        "text": "Run scripts and perform actions using \"dummy\" plans",
+                        "href": "https://bp.veeam.com/vro/dummyrecoveryplan/Dummy%20Recovery%20Plan.html"
+                    },
+                    {
+                        "text": "Performing replication with VRO",
+                        "href": "https://bp.veeam.com/vro/embeddedreplication/ReplicationEmbedded.html"
+                    },
+                    {
+                        "text": "Creating a Master Plan",
+                        "href": "https://bp.veeam.com/vro/masterplan/MasterPlan.html"
+                    },
+                    {
+                        "text": "Sizing recommendations",
+                        "href": "https://bp.veeam.com/vro/sizing/Sizing.html"
+                    },
+                    {
+                        "text": "vSphere tags for jobs and recovery locations",
+                        "href": "https://bp.veeam.com/vro/vmtags/TagsJobsRecoveryLocation.html"
+                    },
+                    {
+                        "text": "VRO Malware Scan",
+                        "href": "https://bp.veeam.com/vro/vro_malware_scan/vro_malware_scan.html"
+                    },
+                    {
+                        "text": "Scripts and Snippets",
+                        "href": "https://bp.veeam.com/vro/scripts/scripts.html"
+                    },
+                    {
+                        "text": "About",
+                        "href": "https://bp.veeam.com/vro/about.html"
+                    },
+                    {
+                        "text": "Privacy Policy",
+                        "href": "https://bp.veeam.com/vro/privacy"
+                    }
+                ]
+            },
+            {
                 "link": "https://veeamcookbook.com/vbr/",
                 "title": "Cookbook for VBR",
                 "description": "Cookbook for VBR. This is a collection of recipes to complete one task in the product during PoC or evaluation"

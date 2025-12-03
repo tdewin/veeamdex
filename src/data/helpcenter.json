@@ -38196,6 +38196,285 @@
                 "addlinks": []
             },
             {
+                "link": "https://docs.kasten.io/latest/",
+                "title": "Kasten Helpcenter",
+                "description": "Kasten documentation for Kubernetes / Openshift backup and DR",
+                "addlinks": [
+                    {
+                        "text": "Overview",
+                        "href": "https://docs.kasten.io/latest"
+                    },
+                    {
+                        "text": "Installing Veeam Kasten",
+                        "href": "https://docs.kasten.io/latest/install"
+                    },
+                    {
+                        "text": "Installing Requirements",
+                        "href": "https://docs.kasten.io/latest/install/requirements"
+                    },
+                    {
+                        "text": "Installing Veeam Kasten on Kubernetes",
+                        "href": "https://docs.kasten.io/latest/install/install"
+                    },
+                    {
+                        "text": "Storage Integration",
+                        "href": "https://docs.kasten.io/latest/install/storage"
+                    },
+                    {
+                        "text": "Generic Storage Backup and Restore",
+                        "href": "https://docs.kasten.io/latest/install/generic"
+                    },
+                    {
+                        "text": "Restricted Use of Generic Storage Backup",
+                        "href": "https://docs.kasten.io/latest/install/gvs_restricted"
+                    },
+                    {
+                        "text": "Shareable Volume Backup and Restore",
+                        "href": "https://docs.kasten.io/latest/install/shareable-volume"
+                    },
+                    {
+                        "text": "Air-Gapped Install",
+                        "href": "https://docs.kasten.io/latest/install/offline"
+                    },
+                    {
+                        "text": "Installing Kasten in FIPS mode",
+                        "href": "https://docs.kasten.io/latest/install/fips"
+                    },
+                    {
+                        "text": "Installing Veeam Kasten with Iron Bank Images",
+                        "href": "https://docs.kasten.io/latest/install/ironbank"
+                    },
+                    {
+                        "text": "Installing Veeam Kasten with Google Workload Identity Federation",
+                        "href": "https://docs.kasten.io/latest/install/gwif"
+                    },
+                    {
+                        "text": "Advanced Install Options",
+                        "href": "https://docs.kasten.io/latest/install/advanced"
+                    },
+                    {
+                        "text": "Configuring Veeam Kasten Encryption",
+                        "href": "https://docs.kasten.io/latest/install/configure"
+                    },
+                    {
+                        "text": "Upgrading Veeam Kasten",
+                        "href": "https://docs.kasten.io/latest/install/upgrade"
+                    },
+                    {
+                        "text": "Production Deployment Checklist",
+                        "href": "https://docs.kasten.io/latest/install/checklist"
+                    },
+                    {
+                        "text": "Accessing Veeam Kasten",
+                        "href": "https://docs.kasten.io/latest/access"
+                    },
+                    {
+                        "text": "Dashboard Access",
+                        "href": "https://docs.kasten.io/latest/access/dashboard"
+                    },
+                    {
+                        "text": "Authentication",
+                        "href": "https://docs.kasten.io/latest/access/authentication"
+                    },
+                    {
+                        "text": "Authorization",
+                        "href": "https://docs.kasten.io/latest/access/authorization"
+                    },
+                    {
+                        "text": "Veeam Kasten RBAC",
+                        "href": "https://docs.kasten.io/latest/access/rbac"
+                    },
+                    {
+                        "text": "Veeam Kasten RBAC Dashboard",
+                        "href": "https://docs.kasten.io/latest/access/rbac_ui"
+                    },
+                    {
+                        "text": "Using Veeam Kasten",
+                        "href": "https://docs.kasten.io/latest/usage/usage"
+                    },
+                    {
+                        "text": "Dashboard Overview",
+                        "href": "https://docs.kasten.io/latest/usage/overview"
+                    },
+                    {
+                        "text": "Location Configuration",
+                        "href": "https://docs.kasten.io/latest/usage/configuration"
+                    },
+                    {
+                        "text": "Protecting Applications",
+                        "href": "https://docs.kasten.io/latest/usage/protect"
+                    },
+                    {
+                        "text": "Restoring Applications",
+                        "href": "https://docs.kasten.io/latest/usage/restore"
+                    },
+                    {
+                        "text": "Cluster-Scoped Resources",
+                        "href": "https://docs.kasten.io/latest/usage/clusterscoped"
+                    },
+                    {
+                        "text": "Application-Scoped Policies",
+                        "href": "https://docs.kasten.io/latest/usage/app_scoped_policies"
+                    },
+                    {
+                        "text": "Migrating Applications",
+                        "href": "https://docs.kasten.io/latest/usage/migration"
+                    },
+                    {
+                        "text": "Immutable Backups Workflow",
+                        "href": "https://docs.kasten.io/latest/usage/immutable"
+                    },
+                    {
+                        "text": "Blueprints",
+                        "href": "https://docs.kasten.io/latest/usage/blueprints"
+                    },
+                    {
+                        "text": "Blueprint Bindings",
+                        "href": "https://docs.kasten.io/latest/usage/blueprint_bindings"
+                    },
+                    {
+                        "text": "Transform Sets",
+                        "href": "https://docs.kasten.io/latest/usage/transformsets"
+                    },
+                    {
+                        "text": "Protecting VMs on Kubernetes",
+                        "href": "https://docs.kasten.io/latest/usage/vm_protection"
+                    },
+                    {
+                        "text": "Protecting SUSE Virtualization (Harvester) VMs and Images",
+                        "href": "https://docs.kasten.io/latest/usage/harvester_protection"
+                    },
+                    {
+                        "text": "SUSE Virtualization (Harvester) VM Backup and Restore Support Limitations",
+                        "href": "https://docs.kasten.io/latest/usage/harvester_limitations"
+                    },
+                    {
+                        "text": "Protecting OpenShift ImageStreams",
+                        "href": "https://docs.kasten.io/latest/usage/openshift_imagestreams"
+                    },
+                    {
+                        "text": "Operating Veeam Kasten",
+                        "href": "https://docs.kasten.io/latest/install/operating/operating"
+                    },
+                    {
+                        "text": "Veeam Kasten Disaster Recovery",
+                        "href": "https://docs.kasten.io/latest/operating/dr"
+                    },
+                    {
+                        "text": "Passkey Management",
+                        "href": "https://docs.kasten.io/latest/operating/passkey"
+                    },
+                    {
+                        "text": "API and Command Line",
+                        "href": "https://docs.kasten.io/latest/api/cli"
+                    },
+                    {
+                        "text": "Monitoring",
+                        "href": "https://docs.kasten.io/latest/operating/monitoring"
+                    },
+                    {
+                        "text": "Auditing Veeam Kasten",
+                        "href": "https://docs.kasten.io/latest/operating/audit"
+                    },
+                    {
+                        "text": "Integrating Security Information and Event Management (SIEM) Systems",
+                        "href": "https://docs.kasten.io/latest/operating/siem"
+                    },
+                    {
+                        "text": "Reporting",
+                        "href": "https://docs.kasten.io/latest/operating/reporting"
+                    },
+                    {
+                        "text": "Garbage Collector",
+                        "href": "https://docs.kasten.io/latest/operating/garbagecollector"
+                    },
+                    {
+                        "text": "Resource Requirements",
+                        "href": "https://docs.kasten.io/latest/operating/footprint"
+                    },
+                    {
+                        "text": "Security Requirements",
+                        "href": "https://docs.kasten.io/latest/operating/security_requirements"
+                    },
+                    {
+                        "text": "Support and Troubleshooting",
+                        "href": "https://docs.kasten.io/latest/operating/support"
+                    },
+                    {
+                        "text": "Uninstalling Veeam Kasten",
+                        "href": "https://docs.kasten.io/latest/operating/uninstall"
+                    },
+                    {
+                        "text": "Veeam Kasten Tools",
+                        "href": "https://docs.kasten.io/latest/operating/k10tools"
+                    },
+                    {
+                        "text": "Extending Veeam Kasten with Kanister",
+                        "href": "https://docs.kasten.io/latest/kanister/kanister"
+                    },
+                    {
+                        "text": "Kanister-Enabled Applications",
+                        "href": "https://docs.kasten.io/latest/kanister/testing"
+                    },
+                    {
+                        "text": "Kanister Project Resources",
+                        "href": "https://docs.kasten.io/latest/kanister/resources"
+                    },
+                    {
+                        "text": "Kanister Execution Hooks",
+                        "href": "https://docs.kasten.io/latest/kanister/hooks"
+                    },
+                    {
+                        "text": "Kanister Pod Override",
+                        "href": "https://docs.kasten.io/latest/kanister/override"
+                    },
+                    {
+                        "text": "Veeam Kasten Multi-Cluster Manager",
+                        "href": "https://docs.kasten.io/latest/multicluster"
+                    },
+                    {
+                        "text": "Concepts",
+                        "href": "https://docs.kasten.io/latest/multicluster/concepts"
+                    },
+                    {
+                        "text": "Getting Started",
+                        "href": "https://docs.kasten.io/latest/multicluster/getting_started"
+                    },
+                    {
+                        "text": "How-Tos",
+                        "href": "https://docs.kasten.io/latest/multicluster/how-tos"
+                    },
+                    {
+                        "text": "References",
+                        "href": "https://docs.kasten.io/latest/multicluster/reference"
+                    },
+                    {
+                        "text": "Known Limitations",
+                        "href": "https://docs.kasten.io/latest/multicluster/known_limitations"
+                    },
+                    {
+                        "text": "Upgrading",
+                        "href": "https://docs.kasten.io/latest/multicluster/upgrading"
+                    },
+                    {
+                        "text": "Restrictions",
+                        "href": "https://docs.kasten.io/latest/restrictions"
+                    },
+                    {
+                        "text": "References",
+                        "href": "https://docs.kasten.io/latest/references/references"
+                    },
+                    {
+                        "text": "Veeam Kasten Best Practices",
+                        "href": "https://docs.kasten.io/latest/references/best-practices"
+                    },
+                    {
+                        "text": "Release Notes",
+                        "href": "https://docs.kasten.io/latest/releasenotes"
+                    }
+                ]
+            },
+            {
                 "link": "https://www.google.com/search?q=site%3Ahelpcenter.veeam.com",
                 "title": "Deepquery helpcenter",
                 "description": "Search directly google in helpcenter domain by adding q=",

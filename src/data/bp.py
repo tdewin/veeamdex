@@ -245,6 +245,11 @@ def main():
         "title":"Best Practice Guide for Veeam Backup for Microsoft 365",
         "link":"https://bp.veeam.com/vb365",
         "description":"This guide is intended to provide bp for Veeam Backup for Microsoft 365"
+      },
+      {
+        "title":"Veeam Recovery Orchestrator Knowledge Base",
+        "link":"https://bp.veeam.com/vro",
+        "description":"This guide is intended to provide information and best practices for Veeam Recovery Orchestrator. It is not meant as a full documentation or detailed explanation of the features. Please refer to the Veeam Help Center for these kinds of documents."
       }] 
 
 
